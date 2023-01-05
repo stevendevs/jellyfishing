@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.jellyfishing.core.mixin.forge",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+  ],
+  "mixins": [
+    "FireBlockAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

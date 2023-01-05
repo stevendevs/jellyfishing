@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jellyfishing",
+  "version": "${version}",
+  "name": "Jellyfishing",
+  "description": "SpongeBob Mod :)",
+  "authors": [
+    "StevenPlayzz",
+    "JustoPlayzz",
+    "BlueDuck"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/jellyfishing",
+    "sources": "https://github.com/stevendevs/jellyfishing"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/jellyfishing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jellyfishing.core.fabric.JellyfishingFabric"
+    ]
+  },
+  "mixins": [
+    "jellyfishing.mixins.json",
+    "jellyfishing-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.2.43"
+  }
+}

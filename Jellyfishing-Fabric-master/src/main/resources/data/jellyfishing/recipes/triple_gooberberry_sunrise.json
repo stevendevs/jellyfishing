@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "%^%",
+    "^#^",
+    " $ "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sweet_berries"
+    },
+    "$": {
+      "item": "minecraft:milk_bucket"
+    },
+    "^": {
+      "tag": "forge:fruits"
+    },
+    "%": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "jellyfishing:triple_gooberberry_sunrise"
+  }
+}

@@ -1,0 +1,35 @@
+package blueduck.jellyfishing.features;
+
+import blueduck.jellyfishing.registry.JellyfishingBlocks;
+import com.mojang.serialization.Codec;
+import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.Heightmap;
+import net.minecraft.world.gen.ProbabilityConfig;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.util.FeatureContext;
+
+public class PineapplePlantFeature extends Feature<ProbabilityConfig> {
+    public PineapplePlantFeature(Codec<ProbabilityConfig> configCodec) {
+        super(configCodec);
+    }
+
+    @Override
+    public boolean generate(FeatureContext<ProbabilityConfig> context) {
+        var probabilityGen = 0;
+
+        for(var probabilityZero = 0; probabilityZero < context.getConfig().probability; ++probabilityZero) {
+            var random1 = context.getRandom().nextInt(8) - context.getRandom().nextInt(8);
+            var random2 = context.getRandom().nextInt(8) - context.getRandom().nextInt(8);
+            var topY = context.getWorld().getTopY(Heightmap.Type.WORLD_SURFACE_WG, context.getOrigin().getX() + random1, context.getOrigin().getZ() + random2);
+            var blockpos = new BlockPos(context.getOrigin().getX() + random1, topY, context.getOrigin().getZ() + random2);
+            var blockstate = JellyfishingBlocks.PINEAPPLE_PLANT.getDefaultState().with(Properties.AGE_3, context.getRandom().nextInt(2) + 2);
+            if (blockstate.canPlaceAt(context.getWorld(), blockpos)) {
+                context.getWorld().setBlockState(blockpos, blockstate, 2);
+                ++probabilityGen;
+            }
+        }
+
+        return probabilityGen > 0;
+    }
+}

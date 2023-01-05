@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jellyfishing:blue_jellyfish_jelly"
+    },
+    {
+      "tag": "forge:bread"
+    }
+  ],
+  "result": {
+    "item": "jellyfishing:blue_jellyfish_jelly_sandwich"
+  }
+}

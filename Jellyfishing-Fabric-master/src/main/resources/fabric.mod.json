@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+
+  "id": "jellyfishing",
+  "version": "${version}",
+  "license": "Code:MIT, Art:ARR",
+
+  "name": "Jellyfishing",
+  "icon": "assets/jellyfishing/icon.png",
+  "description": "Jellyfishing adds jellyfishing and related items to the game, it is inspired by Spongebob and aims to be similar in mechanics to vanilla",
+
+  "authors": [
+    "BlueDuckMods(team)",
+    "JustinPlayzz",
+    "StevenPlayzz",
+    "BlueDuck"
+  ],
+  "contributors": [
+    "Coda1552",
+    "SaikoChan",
+    "Chikorita Lover",
+    "codysquirtle",
+    "Evo_934",
+    "Nary",
+    "Bold Muddy",
+    "Amgelo563",
+    "kazmurenko",
+    "WhirlingWinds",
+    "TurtwigX",
+    "UserAnimated"
+  ],
+
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/jellyfishing-fabric",
+    "sources": "https://github.com/BlueDuckYT/Jellyfishing-Fabric",
+    "issues": "https://github.com/BlueDuckYT/Jellyfishing-Fabric/issues"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "blueduck.jellyfishing.Jellyfishing"
+    ],
+    "client": [
+      "blueduck.jellyfishing.client.JellyfishingClient"
+    ]
+  },
+  "mixins": [
+    "jellyfishing.mixins.json"
+  ],
+  "accessWidener" : "jellyfishing.accesswidener",
+
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.18",
+    "fabricloader": ">=0.12.12",
+    "fabric": "*"
+  }
+}

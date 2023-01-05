@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "jellyfishing"
+version = "${version}"
+displayName = "Jellyfishing"
+authors = "StevenPlayzz, JustoPlayzz, BlueDuck"
+description = '''
+SpongeBob Mod :)
+'''
+#logoFile = ""
+
+[[dependencies.jellyfishing]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jellyfishing]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jellyfishing]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.2.43,)"
+ordering = "AFTER"
+side = "BOTH"
