@@ -9,6 +9,7 @@ import com.jellyfishing.common.item.KelpShakeItem;
 import com.jellyfishing.common.item.SpatulaItem;
 import com.jellyfishing.common.item.SuitMaterial;
 import com.jellyfishing.core.Jellyfishing;
+import com.jellyfishing.core.config.JellyfishingConfig;
 import dev.architectury.core.item.ArchitecturyRecordItem;
 import dev.architectury.core.item.ArchitecturySpawnEggItem;
 import dev.architectury.registry.registries.DeferredRegister;
@@ -23,7 +24,9 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Tiers;
 
+@SuppressWarnings({ "unused"})
 public class JellyfishingItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.ITEM);
 

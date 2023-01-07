@@ -7,6 +7,14 @@
     "client.HumanoidArmorLayerMixin"
   ],
   "mixins": [
+    "BaseSpawnerMixin",
+    "FluidBlockMixin",
+    "PistonHandlerMixin",
+    "PlayerMixin",
+    "StructurePoolsMixin",
+    "access.DamageSourceAccess",
+    "access.StructurePoolAccess",
+    "access.VillagerAccess"
   ],
   "injectors": {
     "defaultRequire": 1

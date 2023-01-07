@@ -35,6 +35,7 @@ import net.minecraft.world.level.material.MaterialColor;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
+@SuppressWarnings({ "unused"})
 public class JellyfishingBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.BLOCK);
 

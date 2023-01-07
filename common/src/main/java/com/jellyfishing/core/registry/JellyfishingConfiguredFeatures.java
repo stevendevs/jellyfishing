@@ -1,15 +1,17 @@
 package com.jellyfishing.core.registry;
 
-import blueduck.jellyfishing.JellyfishingMod;
 import blueduck.jellyfishing.blocks.PineapplePlant;
 import com.google.common.collect.ImmutableSet;
+import com.jellyfishing.core.Jellyfishing;
 import net.minecraft.block.Blocks;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
 
 public class JellyfishingConfiguredFeatures {
 
@@ -22,12 +24,12 @@ public class JellyfishingConfiguredFeatures {
 
     public static void registerConfiguredFeatures() {
         Registry<ConfiguredFeature<?, ?>> registry = WorldGenRegistries.CONFIGURED_FEATURE;
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "coral_plant"), CONFIGURED_CORAL_PLANT);
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "tube_plant"), CONFIGURED_TUBE_PLANT);
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "seanut_bush"), CONFIGURED_SEANUT_BUSH);
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "pineapple_plant"), CONFIGURED_PINEAPPLE_PLANT);
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "pineapple_patch"), CONFIGURED_PINEAPPLE_PLANT_PATCH);
-        Registry.register(registry, new ResourceLocation(JellyfishingMod.MODID, "coralstone_replacement"), CONFIGURED_CORALSTONE_REPLACEMENT);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "coral_plant"), CONFIGURED_CORAL_PLANT);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "tube_plant"), CONFIGURED_TUBE_PLANT);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "seanut_bush"), CONFIGURED_SEANUT_BUSH);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "pineapple_plant"), CONFIGURED_PINEAPPLE_PLANT);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "pineapple_patch"), CONFIGURED_PINEAPPLE_PLANT_PATCH);
+        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "coralstone_replacement"), CONFIGURED_CORALSTONE_REPLACEMENT);
     }
 
 }

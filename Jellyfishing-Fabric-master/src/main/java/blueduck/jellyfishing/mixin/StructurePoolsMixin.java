@@ -30,7 +30,7 @@ public class StructurePoolsMixin {
     }
 
     private static void addToPool(Identifier targetPool, StructurePool pool, Identifier elementId, StructurePool.Projection projection, int weight) {
-        if (targetPool.equals(pool.getId())) {
+        if (targetPool.equals(pool.getName())) {
             var element = StructurePoolElement.ofProcessedLegacySingle(elementId.toString(), StructureProcessorLists.EMPTY).apply(projection);
             for (int i = 0; i < weight; i++) {
                 ((StructurePoolAccess)pool).getElements().add(element);

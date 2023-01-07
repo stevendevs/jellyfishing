@@ -20,10 +20,10 @@ import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeat
 public class JellyfishingFeatures {
     public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.FEATURE);
 
-    public static final RegistryObject<Feature<ProbabilityConfig>> CORAL_PLANT_FEATURE = FEATURES.register("coral_plant_feature", () -> new CoralPlantFeature(ProbabilityConfig.CODEC));
-    public static final RegistryObject<Feature<ProbabilityConfig>> TUBE_PLANT_FEATURE = FEATURES.register("tube_plant_feature", () ->new TubePlantFeature(ProbabilityConfig.CODEC));
-    public static final RegistryObject<Feature<ProbabilityConfig>> SEANUT_BUSH_FEATURE = FEATURES.register("seanut_bush_feature", () -> new SeanutBushFeature(ProbabilityConfig.CODEC));
-    public static final RegistryObject<Feature<ProbabilityConfig>> PINEAPPLE_PLANT_FEATURE = FEATURES.register("pineapple_plant_feature", () -> new PineapplePlantFeature(ProbabilityConfig.CODEC));
+    public static final RegistrySupplier<Feature<ProbabilityFeatureConfiguration>> CORAL_PLANT_FEATURE = FEATURES.register("coral_plant_feature", () -> new CoralPlantFeature(ProbabilityFeatureConfiguration.CODEC));
+    public static final RegistrySupplier<Feature<ProbabilityFeatureConfiguration>> TUBE_PLANT_FEATURE = FEATURES.register("tube_plant_feature", () ->new TubePlantFeature(ProbabilityFeatureConfiguration.CODEC));
+    public static final RegistrySupplier<Feature<ProbabilityFeatureConfiguration>> SEANUT_BUSH_FEATURE = FEATURES.register("seanut_bush_feature", () -> new SeanutBushFeature(ProbabilityFeatureConfiguration.CODEC));
+    public static final RegistrySupplier<Feature<ProbabilityFeatureConfiguration>> PINEAPPLE_PLANT_FEATURE = FEATURES.register("pineapple_plant_feature", () -> new PineapplePlantFeature(ProbabilityFeatureConfiguration.CODEC));
 
 
     public static void registerConfiguredFeatures() {
@@ -33,7 +33,7 @@ public class JellyfishingFeatures {
         register("coralstone_replacement", Feature.ORE.register(new OreConfiguration(OreConfiguration.Predicates.NATURAL_STONE, JellyfishingBlocks.CORALSTONE.get().getDefaultState(), 100)).range(300).square().count(50));
     }
 
-    private static <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature) {
-        return Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation(JellyfishingMod.MODID, name), feature);
+    private static <FC extends FeatureConfiguration> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature) {
+        return Registry.registerForHolder(BuiltInRegistries.FEATURE, new ResourceLocation(Jellyfishing.MOD_ID, name), feature);
     }
 }
