@@ -1,61 +1,52 @@
 package com.jellyfishing.common.item;
 
 import net.minecraft.advancements.CriteriaTriggers;
-import net.minecraft.client.renderer.EffectInstance;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.item.*;
-import net.minecraft.potion.Effect;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.PotionUtils;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.stats.Stats;
-import net.minecraft.world.World;
-
-import net.minecraft.item.Item.Properties;
 import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.level.Level;
 
-import java.util.logging.Level;
+import java.util.Objects;
 
 public class KelpShakeItem extends Item {
-
     public KelpShakeItem(Properties properties) {
-        super(properties.maxStackSize(16));
+        super(properties);
     }
 
     @Override
-    public UseAnim getUseAnim(ItemStack stack) {
+    public UseAnim getUseAnimation(ItemStack stack) {
         return UseAnim.DRINK;
     }
 
-    public ItemStack onItemUseFinish(ItemStack stack, Level worldIn, LivingEntity entityLiving) {
-        Player playerentity = entityLiving instanceof Player ? (Player)entityLiving : null;
-        if (playerentity instanceof ServerPlayer) {
-            CriteriaTriggers.CONSUME_ITEM.trigger((ServerPlayer)playerentity, stack);
+    @Override
+    public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {
+        Player player = livingEntity instanceof Player ? (Player)livingEntity : null;
+        if (player instanceof ServerPlayer serverPlayer) {
+            CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, stack);
         }
-        if (playerentity != null) {
-            playerentity.addStat(Stats.ITEM_USED.get(this));
-            if (!playerentity.abilities.isCreativeMode) {
+        if (player != null) {
+            player.awardStat(Stats.ITEM_USED.get(this));
+            if (!player.isCreative()) {
                 stack.shrink(1);
             }
-            playerentity.addEffect(new EffectInstance(MobEffect.byId(9), 200, 4));
-            playerentity.addEffect(new EffectInstance(MobEffect.byId(1), 160, 0));
+            player.addEffect(new MobEffectInstance(Objects.requireNonNull(MobEffect.byId(9)), 200, 4));
+            player.addEffect(new MobEffectInstance(Objects.requireNonNull(MobEffect.byId(1)), 160, 0));
         }
 
-        if (playerentity == null || !playerentity.abilities.isCreativeMode) {
+        if (player == null || !player.isCreative()) {
             if (stack.isEmpty()) {
                 return new ItemStack(Items.GLASS_BOTTLE);
             }
 
-            if (playerentity != null) {
-                playerentity.inventory.addItemStackToInventory(new ItemStack(Items.GLASS_BOTTLE));
+            if (player != null) {
+                player.getInventory().add(new ItemStack(Items.GLASS_BOTTLE));
             }
         }
 

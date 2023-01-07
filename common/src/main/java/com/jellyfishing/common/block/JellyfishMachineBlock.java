@@ -1,28 +1,24 @@
 package com.jellyfishing.common.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.state.IntegerProperty;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.IBlockReader;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.BaseEntityBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import org.jetbrains.annotations.Nullable;
 
-import net.minecraft.block.AbstractBlock.Properties;
+//TODO
+public class JellyfishMachineBlock extends BaseEntityBlock {
+    public static final IntegerProperty LEVEL = BlockStateProperties.LEVEL_CAULDRON;
 
-public class JellyfishMachineBlock extends Block {
-
-    public static final IntegerProperty LEVEL = BlockStateProperties.LEVEL_0_3;
-
-    public JellyfishMachineBlock(Properties properties) {
+    protected JellyfishMachineBlock(Properties properties) {
         super(properties);
     }
 
+    @Nullable
     @Override
-    public boolean hasTileEntity(BlockState state) {
-        return true;
-    }
-
-    public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return null;//JellyfishingTileEntities.JELLYFISH_MACHINE.get().create();
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return null; //JellyfishingTileEntities.JELLYFISH_MACHINE.create();
     }
 }

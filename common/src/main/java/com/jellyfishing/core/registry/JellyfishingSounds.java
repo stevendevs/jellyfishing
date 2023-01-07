@@ -3,19 +3,27 @@ package com.jellyfishing.core.registry;
 import com.jellyfishing.core.Jellyfishing;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.level.block.SoundType;
 
 public class JellyfishingSounds {
-    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Jellyfishing.MOD_ID, Registry.SOUND_EVENT_REGISTRY);
+    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.SOUND_EVENT);
 
-    public static final RegistrySupplier<SoundEvent> STING = SOUNDS.register("sting", () -> new SoundEvent(new ResourceLocation("jellyfishing", "entity.jellyfish.sting")));
+    public static final RegistrySupplier<SoundEvent> STING = create("entity.jellyfish.sting");
 
-    public static final RegistrySupplier<SoundEvent> JELLYFISH_FIELDS = SOUNDS.register("jellyfish_fields", () -> new SoundEvent(new ResourceLocation("jellyfishing", "music.jellyfishfields")));
-    public static final RegistrySupplier<SoundEvent> BACKGROUND_MUSIC = SOUNDS.register("background_music", () -> new SoundEvent(new ResourceLocation("jellyfishing", "music.general")));
+    public static final RegistrySupplier<SoundEvent> JELLYFISH_FIELDS = create("music.jellyfishfields");
+    public static final Holder.Reference<SoundEvent> BACKGROUND_MUSIC = createForHolder("music.general");
 
-    public static final SoundType CARPETED_WOOD = new SoundType(1.0F, 1.0F, SoundEvents.WOOD_BREAK, SoundEvents.WOOL_STEP, SoundEvents.WOOD_PLACE, SoundEvents.WOOD_HIT, SoundEvents.WOOL_FALL);
+    public static RegistrySupplier<SoundEvent> create(String id) {
+        return SOUNDS.register(id, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Jellyfishing.MOD_ID, id)));
+    }
+
+    private static Holder.Reference<SoundEvent> createForHolder(String id) {
+        ResourceLocation location = Jellyfishing.id(id);
+        return Registry.registerForHolder(BuiltInRegistries.SOUND_EVENT, location, SoundEvent.createVariableRangeEvent(location));
+    }
 }

@@ -1,9 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Minecraft Client (:fabric)" type="Application" factoryName="Application">
-    
     <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime" />
-    <module name="architectury-example-mod.fabric.main" />
-    <option name="PROGRAM_PARAMETERS" value="" />
+    <module name="jellyfishing.fabric.main" />
     <option name="VM_PARAMETERS" value="-Dfabric.dli.config=E:\Users\Steve\IdeaProjects\jellyfishing\fabric\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient -Darchitectury.main.class=E:\Users\Steve\IdeaProjects\jellyfishing\fabric\.gradle\architectury\.main_class -Darchitectury.runtime.transformer=E:\Users\Steve\IdeaProjects\jellyfishing\fabric\.gradle\architectury\.transforms -Darchitectury.properties=E:\Users\Steve\IdeaProjects\jellyfishing\fabric\.gradle\architectury\.properties -Djdk.attach.allowAttachSelf=true -javaagent:E:\Users\Steve\IdeaProjects\jellyfishing\.gradle\architectury\architectury-transformer-agent.jar" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fabric/run/" />
     <method v="2">

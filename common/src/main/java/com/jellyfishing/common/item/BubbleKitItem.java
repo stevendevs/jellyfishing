@@ -1,97 +1,96 @@
 package com.jellyfishing.common.item;
 
-import blueduck.jellyfishing.registry.JellyfishingBlocks;
+import com.jellyfishing.core.registry.JellyfishingBlocks;
 import net.minecraft.advancements.CriteriaTriggers;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.SoundType;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.BlockNamedItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.state.Property;
-import net.minecraft.state.StateContainer;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
+import net.minecraft.core.BlockPos;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.Property;
 
-import net.minecraft.item.Item.Properties;
+import java.util.Objects;
 
-public class BubbleKitItem extends BlockNamedItem {
-    public BubbleKitItem(Properties properties) {
-        super(JellyfishingBlocks.BUBBLE_BLOCK.get(), properties);
+public class BubbleKitItem extends ItemNameBlockItem {
+    public BubbleKitItem(Properties settings) {
+        super(JellyfishingBlocks.BUBBLE_BLOCK.get(), settings);
     }
 
-    public ActionResultType tryPlace(BlockItemUseContext context) {
+    @Override
+    public InteractionResult place(BlockPlaceContext context) {
         if (!context.canPlace()) {
-            return ActionResultType.FAIL;
+            return InteractionResult.FAIL;
         } else {
-            BlockItemUseContext blockitemusecontext = this.getBlockItemUseContext(context);
-            if (blockitemusecontext == null) {
-                return ActionResultType.FAIL;
+            BlockPlaceContext itemPlacementContext = this.updatePlacementContext(context);
+            if (itemPlacementContext == null) {
+                return InteractionResult.FAIL;
             } else {
-                BlockState blockstate = this.getStateForPlacement(blockitemusecontext);
-                if (blockstate == null) {
-                    return ActionResultType.FAIL;
-                } else if (!this.placeBlock(blockitemusecontext, blockstate)) {
-                    return ActionResultType.FAIL;
+                BlockState blockState = this.getPlacementState(itemPlacementContext);
+                if (blockState == null) {
+                    return InteractionResult.FAIL;
+                } else if (!this.placeBlock(itemPlacementContext, blockState)) {
+                    return InteractionResult.FAIL;
                 } else {
-                    BlockPos blockpos = blockitemusecontext.getPos();
-                    World world = blockitemusecontext.getWorld();
-                    PlayerEntity playerentity = blockitemusecontext.getPlayer();
-                    ItemStack itemstack = blockitemusecontext.getItem();
-                    BlockState blockstate1 = world.getBlockState(blockpos);
-                    Block block = blockstate1.getBlock();
-                    if (block == blockstate.getBlock()) {
-                        blockstate1 = this.updateBlockStateFromTag(blockpos, world, itemstack, blockstate1);
-                        this.onBlockPlaced(blockpos, world, playerentity, itemstack, blockstate1);
-                        block.onBlockPlacedBy(world, blockpos, blockstate1, playerentity, itemstack);
-                        if (playerentity instanceof ServerPlayerEntity) {
-                            CriteriaTriggers.PLACED_BLOCK.trigger((ServerPlayerEntity)playerentity, blockpos, itemstack);
+                    BlockPos blockPos = itemPlacementContext.getClickedPos();
+                    Level level = itemPlacementContext.getLevel();
+                    Player player = itemPlacementContext.getPlayer();
+                    ItemStack stack = itemPlacementContext.getItemInHand();
+                    BlockState blockState1 = level.getBlockState(blockPos);
+                    Block block = blockState1.getBlock();
+                    if (block == blockState.getBlock()) {
+                        blockState1 = this.placeFromTag(blockPos, level, stack, blockState1);
+                        this.updateCustomBlockEntityTag(blockPos, level, player, stack, blockState1);
+                        block.setPlacedBy(level, blockPos, blockState1, player, stack);
+                        if (player instanceof ServerPlayer) {
+                            CriteriaTriggers.PLACED_BLOCK.trigger((ServerPlayer)player, blockPos, stack);
                         }
                     }
 
-                    SoundType soundtype = blockstate1.getSoundType(world, blockpos, context.getPlayer());
-                    world.playSound(playerentity, blockpos, this.getPlaceSound(blockstate1, world, blockpos, context.getPlayer()), SoundCategory.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
-                    if (playerentity == null || !playerentity.abilities.isCreativeMode) {
-                        itemstack.damageItem(1, context.getPlayer(), (p_220045_0_) -> {
-                            p_220045_0_.sendBreakAnimation(EquipmentSlotType.MAINHAND);
-                        });;
+                    SoundType soundGroup = blockState1.getSoundType();
+                    level.playSound(player, blockPos, this.getPlaceSound(blockState1), SoundSource.BLOCKS, (soundGroup.getVolume() + 1.0F) / 2.0F, soundGroup.getPitch() * 0.8F);
+                    if (player == null || !player.isCreative()) {
+                        stack.hurtAndBreak(1, Objects.requireNonNull(context.getPlayer()), (livingEntity) -> livingEntity.broadcastBreakEvent(EquipmentSlot.MAINHAND));
                     }
 
-                    return ActionResultType.func_233537_a_(world.isRemote);
+                    return InteractionResult.sidedSuccess(level.isClientSide);
                 }
             }
         }
     }
 
-    private BlockState updateBlockStateFromTag(BlockPos p_219985_1_, World p_219985_2_, ItemStack p_219985_3_, BlockState p_219985_4_) {
-        BlockState blockstate = p_219985_4_;
-        CompoundNBT compoundnbt = p_219985_3_.getTag();
-        if (compoundnbt != null) {
-            CompoundNBT compoundnbt1 = compoundnbt.getCompound("BlockStateTag");
-            StateContainer<Block, BlockState> statecontainer = p_219985_4_.getBlock().getStateContainer();
+    private BlockState placeFromTag(BlockPos pos, Level level, ItemStack stack, BlockState state) {
+        BlockState blockState = state;
+        CompoundTag tag = stack.getTag();
+        if (tag != null) {
+            var tag1 = tag.getCompound("BlockStateTag");
+            var stateManager = state.getBlock().getStateDefinition();
 
-            for(String s : compoundnbt1.keySet()) {
-                Property<?> property = statecontainer.getProperty(s);
+            for(String s : tag1.getAllKeys()) {
+                Property<?> property = stateManager.getProperty(s);
                 if (property != null) {
-                    String s1 = compoundnbt1.get(s).getString();
-                    blockstate = updateState(blockstate, property, s1);
+                    var s1 = Objects.requireNonNull(tag1.get(s)).getAsString();
+                    blockState = with(blockState, property, s1);
                 }
             }
         }
 
-        if (blockstate != p_219985_4_) {
-            p_219985_2_.setBlockState(p_219985_1_, blockstate, 2);
+        if (blockState != state) {
+            level.setBlock(pos, blockState, 2);
         }
 
-        return blockstate;
+        return blockState;
     }
-    private static <T extends Comparable<T>> BlockState updateState(BlockState p_219988_0_, Property<T> p_219988_1_, String p_219988_2_) {
-        return p_219988_1_.parseValue(p_219988_2_).map((p_219986_2_) -> p_219988_0_.with(p_219988_1_, p_219986_2_)).orElse(p_219988_0_);
+
+    private static <T extends Comparable<T>> BlockState with(BlockState state, Property<T> property, String name) {
+        return property.getValue(name).map((value) -> state.setValue(property, value)).orElse(state);
     }
 }

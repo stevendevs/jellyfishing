@@ -1,90 +1,95 @@
 package com.jellyfishing.common.block;
 
-import blueduck.jellyfishing.registry.JellyfishingBlocks;
-import blueduck.jellyfishing.registry.JellyfishingItems;
-import net.minecraft.block.*;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.fluid.Fluids;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.state.BooleanProperty;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.properties.BlockStateProperties;
+import com.jellyfishing.core.registry.JellyfishingBlocks;
+import com.jellyfishing.core.registry.JellyfishingItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.FluidTags;
-import net.minecraft.util.*;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.world.IWorld;
-import net.minecraft.world.World;
-
-import net.minecraft.block.AbstractBlock.Properties;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.SweetBerryBushBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraft.world.phys.BlockHitResult;
 
+@SuppressWarnings("deprecation")
 public class SeanutBush extends SweetBerryBushBlock implements SimpleWaterloggedBlock {
-
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-    public SeanutBush(Block.Properties p_i49971_1_) {
-        super(p_i49971_1_);
-        this.setDefaultState(this.stateContainer.getBaseState().with(AGE, Integer.valueOf(0)).with(WATERLOGGED, Boolean.valueOf(true)));
-
-    }
-    public BlockState getStateForPlacement(BlockItemUseContext context) {
-        FluidState ifluidstate = context.getWorld().getFluidState(context.getPos());
-        return ifluidstate.isTagged(FluidTags.WATER) && ifluidstate.getLevel() == 8 ? super.getStateForPlacement(context) : null;
-
+    public SeanutBush(Properties properties) {
+        super(properties);
+        this.registerDefaultState(this.defaultBlockState().setValue(AGE, 0).setValue(WATERLOGGED, Boolean.TRUE));
     }
 
-    public ItemStack getItem(IBlockReader worldIn, BlockPos pos, BlockState state) {
+    @Override
+    public BlockState getStateForPlacement(BlockPlaceContext ctx) {
+        FluidState fluidState = ctx.getLevel().getFluidState(ctx.getClickedPos());
+        return fluidState.is(FluidTags.WATER) && fluidState.getAmount() == 8 ? super.getStateForPlacement(ctx) : null;
+    }
+
+    @Override
+    public ItemStack getCloneItemStack(BlockGetter world, BlockPos pos, BlockState state) {
         return new ItemStack(JellyfishingItems.SEANUT.get());
     }
 
-    public void onEntityCollision(BlockState state, World worldIn, BlockPos pos, Entity entityIn) {
-    }
-    public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
+    @Override
+    public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {}
+
+    @Override
+    protected boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
         Block block = state.getBlock();
         return (block == JellyfishingBlocks.ALGAE_GRASS.get() || block == JellyfishingBlocks.CORALSTONE.get());
     }
 
-    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
-        int i = state.get(AGE);
-        boolean flag = i == 3;
-        if (!flag && player.getHeldItem(handIn).getItem() == Items.BONE_MEAL) {
-            return ActionResultType.PASS;
-        } else if (i > 1) {
-            int j = 1 + worldIn.rand.nextInt(2);
-            spawnAsEntity(worldIn, pos, new ItemStack(JellyfishingItems.SEANUT.get(), j + (flag ? 1 : 0)));
-            worldIn.playSound((PlayerEntity)null, pos, SoundEvents.ITEM_SWEET_BERRIES_PICK_FROM_BUSH, SoundCategory.BLOCKS, 1.0F, 0.8F + worldIn.rand.nextFloat() * 0.4F);
-            worldIn.setBlockState(pos, state.with(AGE, Integer.valueOf(1)), 2);
-            return ActionResultType.SUCCESS;
+    @Override
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        int age = state.getValue(AGE);
+        boolean ageIsThree = age == 3;
+        if (!ageIsThree && player.getItemInHand(hand).getItem() == Items.BONE_MEAL) {
+            return InteractionResult.PASS;
+        } else if (age > 1) {
+            var nextInt = 1 + level.random.nextInt(2);
+            popResource(level, pos, new ItemStack(JellyfishingItems.SEANUT.get(), nextInt + (ageIsThree ? 1 : 0)));
+            level.playSound(null, pos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + level.random.nextFloat() * 0.4F);
+            level.setBlock(pos, state.setValue(AGE, 1), 2);
+            return InteractionResult.SUCCESS;
         } else {
-            return super.onBlockActivated(state, worldIn, pos, player, handIn, hit);
+            return super.use(state, level, pos, player, hand, hit);
         }
     }
 
-    public void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+    @Override
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(AGE, WATERLOGGED);
     }
 
-    public BlockState updatePostPlacement(BlockState stateIn, Direction facing, BlockState facingState, IWorld worldIn, BlockPos currentPos, BlockPos facingPos) {
-        BlockState blockstate = super.updatePostPlacement(stateIn, facing, facingState, worldIn, currentPos, facingPos);
+    @Override
+    public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos currentPos, BlockPos neighborPos) {
+        BlockState blockstate = super.updateShape(state, direction, neighborState, level, currentPos, neighborPos);
         if (!blockstate.isAir()) {
-            worldIn.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(worldIn));
+            level.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
         }
-
         return blockstate;
     }
 
     @Override
     public FluidState getFluidState(BlockState state) {
-        return Fluids.WATER.getStillFluidState(false);
+        return Fluids.WATER.getSource(false);
     }
-
 }

@@ -12,10 +12,5 @@ public class JellyfishingParticles {
 
     public static final DeferredRegister<ParticleType<?>> PARTICLES = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, JellyfishingMod.MODID);
 
-    public static final RegistryObject<BasicParticleType> CLOUD_PARTICLE = PARTICLES.register("cloud_particle", () -> new BasicParticleType(false));
-
-    public static void init() {
-        PARTICLES.register(FMLJavaModLoadingContext.get().getModEventBus());
-    }
-
+    public static final RegistrySupplier<SimpleParticleType> CLOUD_PARTICLE = PARTICLES.register("cloud_particle", () -> new SimpleParticleType(false) {});
 }

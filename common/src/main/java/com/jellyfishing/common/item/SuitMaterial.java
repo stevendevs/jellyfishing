@@ -1,14 +1,16 @@
 package com.jellyfishing.common.item;
 
 import com.jellyfishing.core.Jellyfishing;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public class SuitMaterial implements ArmorMaterial {
-
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
     private static final int[] ARMOR_ARRAY = new int[]{3, 5, 7, 3};
 
@@ -29,7 +31,7 @@ public class SuitMaterial implements ArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return null;
+        return SoundEvents.ARMOR_EQUIP_IRON;
     }
 
     @Override
@@ -38,6 +40,7 @@ public class SuitMaterial implements ArmorMaterial {
     }
 
     @Override
+    @Environment(EnvType.CLIENT)
     public String getName() {
         return Jellyfishing.id("air_suit").toString();
     }

@@ -4,12 +4,12 @@ import com.jellyfishing.core.Jellyfishing;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.decoration.PaintingVariant;
 
 @SuppressWarnings({ "unused"})
 public class  JellyfishingPaintings {
-
-    public static final DeferredRegister<PaintingVariant> PAINTINGS = DeferredRegister.create(Jellyfishing.MOD_ID, Registry.PAINTING_VARIANT_REGISTRY);
+    public static final DeferredRegister<PaintingVariant> PAINTINGS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.PAINTING_VARIANT);
 
     public static final RegistrySupplier<PaintingVariant> CAPTAIN = PAINTINGS.register("captain", ()-> new PaintingVariant(64, 48));
     public static final RegistrySupplier<PaintingVariant> BOLD_AND_BRASH = PAINTINGS.register("bold_and_brash", ()-> new PaintingVariant(16, 32));

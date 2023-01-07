@@ -1,41 +1,23 @@
 package com.jellyfishing.core.registry;
 
-import blueduck.jellyfishing.JellyfishingMod;
-import blueduck.jellyfishing.misc.AgilityEnchantment;
-import blueduck.jellyfishing.misc.PlunderingEnchantment;
-import com.jellyfishing.common.item.JellyfishNetItem;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.*;
-import net.minecraft.world.item.Item;
-import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
+import com.jellyfishing.common.misc.AgilityEnchantment;
+import com.jellyfishing.common.misc.PlunderingEnchantment;
+import com.jellyfishing.core.Jellyfishing;
+import dev.architectury.registry.registries.DeferredRegister;
+import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.enchantment.Enchantment;
 
 public class JellyfishingEnchantments {
+    public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.ENCHANTMENT);
 
-    public static java.util.function.Predicate<Item> NET = item -> item instanceof JellyfishNetItem;
-    public static EnchantmentType ENCHANTMENT_TYPE = EnchantmentType.create("jellyfish_net", JellyfishingEnchantments.NET);
+//    public static EnchantmentCategory NET_ENCHANTMENT_CATEGORY = getNetCategory("net", AgilityEnchantment::canEnchant);
 
-    public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, JellyfishingMod.MODID);
+    public static final RegistrySupplier<Enchantment> AGILITY = ENCHANTMENTS.register("agility", AgilityEnchantment::newInstance);
+    public static final RegistrySupplier<Enchantment> PLUNDERING = ENCHANTMENTS.register("plundering", PlunderingEnchantment::newInstance);
 
-    public static final RegistryObject<Enchantment> AGILITY = ENCHANTMENTS.register("agility", () -> new AgilityEnchantment(Enchantment.Rarity.UNCOMMON, new EquipmentSlotType[]{EquipmentSlotType.MAINHAND}));
-    public static final RegistryObject<Enchantment> PLUNDERING = ENCHANTMENTS.register("plundering", () -> new PlunderingEnchantment(Enchantment.Rarity.UNCOMMON, new EquipmentSlotType[]{EquipmentSlotType.MAINHAND}));
-
-    public static void init() {
-        ENCHANTMENTS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        EnchantmentType[] TYPES = new EnchantmentType[ItemGroup.TOOLS.getRelevantEnchantmentTypes().length + 2];
-        for (int i = 0; i < ItemGroup.TOOLS.getRelevantEnchantmentTypes().length; i++) {
-            TYPES[i] = ItemGroup.TOOLS.getRelevantEnchantmentTypes()[i];
-        }
-        TYPES[TYPES.length - 1] = ENCHANTMENT_TYPE;
-        ItemGroup.TOOLS.enchantmentTypes = TYPES;
-
-        }
-
-    }
-
-
-
+//    @ExpectPlatform
+//    public static EnchantmentCategory getNetCategory(String id, Predicate<Item> predicate) {
+//        throw new AssertionError();
+//    }
+}

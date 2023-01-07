@@ -17,9 +17,9 @@
   "icon": "assets/jellyfishing/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.jellyfishing.core.fabric.JellyfishingFabric"
-    ]
+    "main": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ],
+    "client": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ],
+    "terrablender": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ]
   },
   "mixins": [
     "jellyfishing.mixins.json",

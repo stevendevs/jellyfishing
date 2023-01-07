@@ -1,82 +1,71 @@
 package com.jellyfishing.common.block;
 
-import blueduck.jellyfishing.registry.JellyfishingBlocks;
-import blueduck.jellyfishing.registry.JellyfishingItems;
-import net.minecraft.block.*;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.fluid.Fluids;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.state.BooleanProperty;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.tags.FluidTags;
-import net.minecraft.util.*;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.world.IWorld;
-import net.minecraft.world.World;
+import com.jellyfishing.core.registry.JellyfishingItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SweetBerryBushBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.server.ServerWorld;
-
-import java.util.Random;
-
-import net.minecraft.block.AbstractBlock.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.phys.BlockHitResult;
 
 public class PineapplePlant extends SweetBerryBushBlock {
-
-
-    public PineapplePlant(BlockBehaviour.Properties p_i49971_1_) {
-        super(p_i49971_1_);
-        this.setDefaultState(this.stateContainer.getBaseState().with(AGE, Integer.valueOf(0)));
-
+    public PineapplePlant(Properties properties) {
+        super(properties);
+        this.registerDefaultState(this.defaultBlockState().setValue(AGE, 0));
     }
 
-
-    public ItemStack getItem(IBlockReader worldIn, BlockPos pos, BlockState state) {
+    @Override
+    public ItemStack getCloneItemStack(BlockGetter world, BlockPos pos, BlockState state) {
         return new ItemStack(JellyfishingItems.PINEAPPLE_SEEDS.get());
     }
 
-    public void onEntityCollision(BlockState state, World worldIn, BlockPos pos, Entity entityIn) {
-    }
+    @Override
+    public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {}
 
-    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
-        int i = state.get(AGE);
-        boolean flag = i == 3;
-        if (!flag && player.getHeldItem(handIn).getItem() == Items.BONE_MEAL) {
-            return ActionResultType.PASS;
-        } else if (flag) {
-            spawnAsEntity(worldIn, pos, new ItemStack(JellyfishingItems.PINEAPPLE.get(), 1));
-            worldIn.playSound((PlayerEntity)null, pos, SoundEvents.ITEM_SWEET_BERRIES_PICK_FROM_BUSH, SoundCategory.BLOCKS, 1.0F, 0.8F + worldIn.rand.nextFloat() * 0.4F);
-            worldIn.setBlockState(pos, state.with(AGE, Integer.valueOf(0)), 2);
-            return ActionResultType.SUCCESS;
+    @Override
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        int age = state.getValue(AGE);
+        var ageIsThree = age == 3;
+        if (!ageIsThree && player.getItemInHand(hand).is(Items.BONE_MEAL)) {
+            return InteractionResult.PASS;
+        } else if (ageIsThree) {
+            popResource(level, pos, new ItemStack(JellyfishingItems.PINEAPPLE.get(), 1));
+            level.playSound(null, pos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 0.8F + level.random.nextFloat() * 0.4F);
+            level.setBlock(pos, state.setValue(AGE, 0), 2);
+            return InteractionResult.sidedSuccess(level.isClientSide);
         } else {
-            return ActionResultType.SUCCESS;
+            return super.use(state, level, pos, player, hand, hit);
         }
     }
 
-    public void randomTick(BlockState state, ServerWorld worldIn, BlockPos pos, Random random) {
-        int i = state.get(AGE);
-        int j = 9;
-        if (worldIn.getBlockState(pos.down()).getBlock().equals(Blocks.FARMLAND)) {
-            j = 5;
+    @Override
+    public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+        int age = state.getValue(AGE);
+        int nextInt = 9;
+        if (level.getBlockState(pos.below()).getBlock().equals(Blocks.FARMLAND)) {
+            nextInt = 5;
         }
-        if (i < 3 && worldIn.getLightSubtracted(pos.up(), 0) >= 9 && net.minecraftforge.common.ForgeHooks.onCropsGrowPre(worldIn, pos, state,random.nextInt(j) == 0)) {
-            worldIn.setBlockState(pos, state.with(AGE, Integer.valueOf(i + 1)), 2);
-            net.minecraftforge.common.ForgeHooks.onCropsGrowPost(worldIn, pos, state);
+        if (age < 3 && level.getRawBrightness(pos.above(), 0) >= 9 && random.nextInt(nextInt) == 0) {
+            level.setBlock(pos, state.setValue(AGE, age + 1), 2);
         }
-
+        super.randomTick(state, level, pos, random);
     }
 
-    public void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+    @Override
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(AGE);
     }
-
-
-
 }
