@@ -1,8 +1,13 @@
 package com.jellyfishing.common.biomes;
 
 import com.jellyfishing.core.registry.JellyfishingParticles;
+import net.minecraft.core.HolderGetter;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.world.level.biome.AmbientParticleSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class JellyfishFields extends JellyfishingBiome {
 
@@ -27,5 +32,15 @@ public class JellyfishFields extends JellyfishingBiome {
 //        GENERATION_SETTINGS.withFeature(8, () -> JellyfishingConfiguredFeatures.CONFIGURED_TUBE_PLANT);
 //        GENERATION_SETTINGS.withFeature(8, () -> JellyfishingConfiguredFeatures.CONFIGURED_SEANUT_BUSH);
 //        GENERATION_SETTINGS.withFeature(6, () -> JellyfishingConfiguredFeatures.CONFIGURED_CORALSTONE_REPLACEMENT);
+    }
+
+
+
+
+
+
+    public static void bootstrapBiomes(BootstapContext<Biome> context) {
+        HolderGetter<ConfiguredWorldCarver<?>> carverGetter = context.lookup(Registries.CONFIGURED_CARVER);
+        HolderGetter<PlacedFeature> placedFeatureGetter = context.lookup(Registries.PLACED_FEATURE);
     }
 }

@@ -5,7 +5,6 @@ import com.jellyfishing.core.config.JellyfishingConfig;
 import com.jellyfishing.core.registry.JellyfishingEntities;
 import com.jellyfishing.core.registry.JellyfishingParticles;
 import com.jellyfishing.core.registry.JellyfishingSounds;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.sounds.Music;
 import net.minecraft.sounds.Musics;
