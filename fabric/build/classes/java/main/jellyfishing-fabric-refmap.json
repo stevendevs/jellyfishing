@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "com/jellyfishing/core/mixin/client/fabric/EnchantmentCategoryMixin": {
+      "canEnchant(Lnet/minecraft/world/item/Item;)Z": "Lnet/minecraft/class_1886$14;method_8177(Lnet/minecraft/class_1792;)Z",
+      "net.minecraft.world.item.enchantment.EnchantmentCategory$9": "net/minecraft/class_1886$14"
+    },
+    "com/jellyfishing/core/mixin/client/fabric/ItemRenderMixin": {
+      "Lnet/minecraft/client/renderer/ItemModelShaper;getItemModel(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_763;method_3308(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1087;",
+      "getModel": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;",
+      "tryRenderGuiItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;IIII)V": "Lnet/minecraft/class_918;method_4026(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;IIII)V",
+      "Lnet/minecraft/client/renderer/entity/ItemRenderer;getModel(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/jellyfishing/core/mixin/client/fabric/EnchantmentCategoryMixin": {
+        "canEnchant(Lnet/minecraft/world/item/Item;)Z": "Lnet/minecraft/class_1886$14;method_8177(Lnet/minecraft/class_1792;)Z",
+        "net.minecraft.world.item.enchantment.EnchantmentCategory$9": "net/minecraft/class_1886$14"
+      },
+      "com/jellyfishing/core/mixin/client/fabric/ItemRenderMixin": {
+        "Lnet/minecraft/client/renderer/ItemModelShaper;getItemModel(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_763;method_3308(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1087;",
+        "getModel": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;",
+        "tryRenderGuiItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;IIII)V": "Lnet/minecraft/class_918;method_4026(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;IIII)V",
+        "Lnet/minecraft/client/renderer/entity/ItemRenderer;getModel(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;"
+      }
+    }
+  }
+}

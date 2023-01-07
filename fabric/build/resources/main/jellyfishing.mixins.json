@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.jellyfishing.core.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.fabric.ItemRenderMixin"
+  ],
+  "mixins": [
+    "client.fabric.EnchantmentCategoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
