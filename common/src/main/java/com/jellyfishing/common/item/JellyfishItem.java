@@ -1,7 +1,6 @@
 package com.jellyfishing.common.item;
 
 import com.jellyfishing.common.entities.AbstractJellyfishEntity;
-import com.jellyfishing.core.config.JellyfishingConfig;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.BlockSource;
 import net.minecraft.core.Direction;
@@ -44,7 +43,7 @@ public class JellyfishItem extends Item {
                 return stack;
             }
         };
-        if (!JellyfishingConfig.NOPLACE_JELLYFISH.get()) {
+        if (!false) {
             DispenserBlock.registerBehavior(this, fallibleItemDispenserBehavior);
         }
     }
@@ -54,7 +53,7 @@ public class JellyfishItem extends Item {
         Level level = context.getLevel();
         Player player = context.getPlayer();
         InteractionHand hand = context.getHand();
-        if (level.isClientSide() || JellyfishingConfig.NOPLACE_JELLYFISH.get()) {
+        if (level.isClientSide() || false) {
             AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.create(level);
             use(level, player, hand, entity);
         } else {
@@ -91,7 +90,7 @@ public class JellyfishItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
-        if (JellyfishingConfig.NOPLACE_JELLYFISH.get()) {
+        if (false) {
             AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.create(level);
             use(level, player, usedHand, entity);
         }

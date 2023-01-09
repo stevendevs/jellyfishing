@@ -9,17 +9,14 @@ import com.jellyfishing.common.item.KelpShakeItem;
 import com.jellyfishing.common.item.SpatulaItem;
 import com.jellyfishing.common.item.SuitMaterial;
 import com.jellyfishing.core.Jellyfishing;
-import com.jellyfishing.core.config.JellyfishingConfig;
 import dev.architectury.core.item.ArchitecturyRecordItem;
 import dev.architectury.core.item.ArchitecturySpawnEggItem;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
@@ -69,13 +66,13 @@ public class JellyfishingItems {
 
     public static final RegistrySupplier<Item> KRABBY_PATTY = ITEMS.register("krabby_patty", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.INGREDIENTS).food(new FoodProperties.Builder().nutrition(10).saturationMod(1.5F).meat().build()).rarity(Rarity.RARE)));
 
-    public static final RegistrySupplier<Item> SPATULA = ITEMS.register("spatula", () -> new SpatulaItem(Tiers.IRON, JellyfishingConfig.SPATULA_DAMAGE.get() - 3, -2, new Item.Properties().durability(250).arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> SPATULA = ITEMS.register("spatula", () -> new SpatulaItem(Tiers.IRON, 4 - 3, -2, new Item.Properties().durability(250).arch$tab(CreativeModeTabs.COMBAT)));
 
-    public static final RegistrySupplier<Item> GOLDEN_SPATULA = ITEMS.register("golden_spatula", () -> new SpatulaItem(Tiers.NETHERITE, JellyfishingConfig.GOLDEN_SPATULA_DAMAGE.get() - 3, -2F, new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT).rarity(Rarity.RARE)));
+    public static final RegistrySupplier<Item> GOLDEN_SPATULA = ITEMS.register("golden_spatula", () -> new SpatulaItem(Tiers.NETHERITE, 6 - 3, -2F, new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT).rarity(Rarity.RARE)));
 
-    public static final RegistrySupplier<Item> KARATE_GLOVE = ITEMS.register("karate_glove", () -> new GloveItem(new Item.Properties().durability(1000).arch$tab(CreativeModeTabs.COMBAT), JellyfishingConfig.KARATE_DAMAGE.get() - 1, -1.5F));
-    public static final RegistrySupplier<Item> MASTER_KARATE_GLOVE = ITEMS.register("master_karate_glove", () -> new GloveItem(new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT), JellyfishingConfig.MASTER_KARATE_DAMAGE.get() - 1, -1.5F));
-    public static final RegistrySupplier<Item> POWER_KARATE_GLOVE = ITEMS.register("power_karate_glove", () -> new GloveItem(new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT), JellyfishingConfig.POWER_KARATE_DAMAGE.get() - 1, -3.625F));
+    public static final RegistrySupplier<Item> KARATE_GLOVE = ITEMS.register("karate_glove", () -> new GloveItem(new Item.Properties().durability(1000).arch$tab(CreativeModeTabs.COMBAT), 3 - 1, -1.5F));
+    public static final RegistrySupplier<Item> MASTER_KARATE_GLOVE = ITEMS.register("master_karate_glove", () -> new GloveItem(new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT), 5 - 1, -1.5F));
+    public static final RegistrySupplier<Item> POWER_KARATE_GLOVE = ITEMS.register("power_karate_glove", () -> new GloveItem(new Item.Properties().durability(2031).arch$tab(CreativeModeTabs.COMBAT), 18 - 1, -3.625F));
 
 
     public static final SuitMaterial SUIT_MATERIAL = new SuitMaterial();

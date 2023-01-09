@@ -1,6 +1,5 @@
 package com.jellyfishing.common.misc.fabric;
 
-import com.chocohead.mm.api.ClassTinkerers;
 import com.jellyfishing.common.misc.AgilityEnchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 

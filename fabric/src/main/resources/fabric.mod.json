@@ -18,8 +18,8 @@
   "environment": "*",
   "entrypoints": {
     "main": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ],
-    "client": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ],
-    "terrablender": [ "com.jellyfishing.core.fabric.JellyfishingFabric" ]
+    "client": [ "com.jellyfishing.core.fabric.JellyfishingClientFabric" ],
+    "terrablender": [ "com.jellyfishing.core.fabric.JellyBlender" ]
   },
   "mixins": [
     "jellyfishing.mixins.json",

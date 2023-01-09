@@ -11,6 +11,31 @@ loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 }
 
+sourceSets {
+    datagen {
+        compileClasspath += main.compileClasspath
+        runtimeClasspath += main.runtimeClasspath
+    }
+}
+
+loom {
+    runs {
+        datagen {
+            name "Data Generation"
+
+            server()
+            source sourceSets.datagen
+
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${project(":common").file(output_datagen)}"
+
+            runDir "build/datagen"
+        }
+    }
+}
+
+sourceSets.main.resources.srcDirs += project(":common").file(rootProject.output_datagen)
+
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
@@ -22,7 +47,6 @@ configurations {
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
-    // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
     modImplementation "fuzs.forgeconfigapiport:forgeconfigapiport-fabric:5.0.3"
@@ -30,15 +54,13 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
-
-    modImplementation "com.github.glitchfiend:TerraBlender-fabric:${minecraft_version}-${terrablender_version}"
 }
 
 processResources {
     inputs.property "version", project.version
 
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
+        filesMatching("fabric.mod.json") {
+            expand "version": project.version
     }
 }
 
@@ -80,8 +102,6 @@ publishing {
         }
     }
 
-    // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
-        // Add repositories to publish to here.
     }
 }

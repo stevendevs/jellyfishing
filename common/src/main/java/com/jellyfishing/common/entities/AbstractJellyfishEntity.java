@@ -1,6 +1,5 @@
 package com.jellyfishing.common.entities;
 
-import com.jellyfishing.core.config.JellyfishingConfig;
 import com.jellyfishing.core.mixin.access.DamageSourceAccess;
 import com.jellyfishing.core.registry.JellyfishingEnchantments;
 import com.jellyfishing.core.registry.JellyfishingItems;
@@ -176,10 +175,10 @@ public class AbstractJellyfishEntity extends AbstractFish implements Bucketable 
 
     @Override
     public void playerTouch(Player entityIn) {
-        if ((!this.removeWhenFarAway(1) && !(JellyfishingConfig.CAUGHT_JELLYFISH_STING.get())) || ItemsUtil.hasAllSuitPieces(entityIn)) {
+        if ((!this.removeWhenFarAway(1)) || ItemsUtil.hasAllSuitPieces(entityIn)) {
             return;
         }
-        if (canThisEntitySting && stingCounter == 0 && this.isInWater() && JellyfishingConfig.JELLYFISH_STING.get() && !entityIn.getCommandSenderWorld().getDifficulty().equals(Difficulty.PEACEFUL)) {
+        if (canThisEntitySting && stingCounter == 0 && this.isInWater() && !entityIn.getCommandSenderWorld().getDifficulty().equals(Difficulty.PEACEFUL)) {
             stingCounter = stingTime;
             if (this.getCommandSenderWorld().getRandom().nextDouble() < stingChance) {
                 entityIn.hurt(JELLYFISH_STING, stingDmg);

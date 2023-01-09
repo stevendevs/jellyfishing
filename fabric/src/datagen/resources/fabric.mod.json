@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "jellyfishing-datagen",
+  "name": "JellyFishing Data Generation",
+  "version": "${version}",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": [ "com.jellyfishing.datagen.JellyfishingData" ]
+  }
+}

@@ -3,14 +3,8 @@ package com.jellyfishing.core;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
-import com.jellyfishing.client.model.AbstractJellyfishModel;
-import com.jellyfishing.client.model.SuitModel;
-import com.jellyfishing.client.renderer.BlueJellyfishRenderer;
-import com.jellyfishing.client.renderer.JellyfishRenderer;
 import com.jellyfishing.common.entities.AbstractJellyfishEntity;
-import com.jellyfishing.common.misc.CloudParticle;
 import com.jellyfishing.common.misc.JellyfishingSellItemFactory;
-import com.jellyfishing.core.config.JellyfishingConfig;
 import com.jellyfishing.core.mixin.access.VillagerAccess;
 import com.jellyfishing.core.registry.JellyfishingBlocks;
 import com.jellyfishing.core.registry.JellyfishingEnchantments;
@@ -21,18 +15,9 @@ import com.jellyfishing.core.registry.JellyfishingPaintings;
 import com.jellyfishing.core.registry.JellyfishingParticles;
 import com.jellyfishing.core.registry.JellyfishingSounds;
 import com.jellyfishing.core.registry.JellyfishingVillagers;
-import com.jellyfishing.core.util.ArmorRenderer;
 import dev.architectury.event.events.common.LootEvent;
-import dev.architectury.registry.client.level.entity.EntityModelLayerRegistry;
-import dev.architectury.registry.client.level.entity.EntityRendererRegistry;
-import dev.architectury.registry.client.particle.ParticleProviderRegistry;
-import dev.architectury.registry.client.rendering.RenderTypeRegistry;
 import dev.architectury.registry.level.entity.EntityAttributeRegistry;
 import dev.architectury.registry.level.entity.trade.TradeRegistry;
-import dev.architectury.utils.Env;
-import dev.architectury.utils.EnvExecutor;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.npc.Villager;
@@ -49,43 +34,10 @@ import java.util.Set;
 public class Jellyfishing {
     public static final String MOD_ID = "jellyfishing";
 
-    public static void onClientInit() {
-        EntityModelLayerRegistry.register(SuitModel.LAYER_LOCATION, SuitModel::createBodyLayer);
-        EntityModelLayerRegistry.register(AbstractJellyfishModel.LAYER_LOCATION, AbstractJellyfishModel::createBodyLayer);
 
-        EntityRendererRegistry.register(JellyfishingEntities.JELLYFISH, JellyfishRenderer::new);
-        EntityRendererRegistry.register(JellyfishingEntities.BLUE_JELLYFISH, BlueJellyfishRenderer::new);
-
-        RenderTypeRegistry.register(RenderType.translucent(),
-                JellyfishingBlocks.JELLY_BLOCK.get(),
-                JellyfishingBlocks.BLUE_JELLY_BLOCK.get(),
-                JellyfishingBlocks.BUBBLE_BLOCK.get()
-        );
-        RenderTypeRegistry.register(RenderType.cutoutMipped(),
-                JellyfishingBlocks.CORAL_PLANT.get(),
-                JellyfishingBlocks.TUBE_PLANT.get(),
-                JellyfishingBlocks.SEANUT_BUSH.get(),
-                JellyfishingBlocks.PINEAPPLE_PLANT.get(),
-                JellyfishingBlocks.POTTED_PINEAPPLE.get(),
-                JellyfishingBlocks.SCRAP_METAL_WINDOW.get(),
-                JellyfishingBlocks.CHROME_DOOR.get(),
-                JellyfishingBlocks.CHROME_VENT.get()
-        );
-
-        ParticleProviderRegistry.register(JellyfishingParticles.CLOUD_PARTICLE, CloudParticle.Factory::new);
-
-        ArmorRenderer.register((matrices, vertexConsumers, stack, entity, slot, light, contextModel) -> {
-            SuitModel suitModel = new SuitModel(Minecraft.getInstance().getEntityModels().bakeLayer(SuitModel.LAYER_LOCATION));
-            contextModel.copyPropertiesTo(suitModel);
-            suitModel.setAllVisible(true);
-            if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_HELMET.get()) || stack.getItem().equals(JellyfishingItems.AIR_SUIT_BOOTS.get()) || stack.getItem().equals(JellyfishingItems.AIR_SUIT_CHESTPLATE.get()))
-                ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/sandy_suit_legs.png"));
-            else if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_LEGGINGS.get()))
-                ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/sandy_suit.png"));
-        }, JellyfishingItems.AIR_SUIT_HELMET.get(), JellyfishingItems.AIR_SUIT_CHESTPLATE.get(), JellyfishingItems.AIR_SUIT_LEGGINGS.get(), JellyfishingItems.AIR_SUIT_BOOTS.get());
-    }
 
     public static void init() {
+//        JellyfishingBiomes.BIOMES.register();
         JellyfishingBlocks.BLOCKS.register();
         JellyfishingEntities.ENTITIES.register();
         JellyfishingItems.ITEMS.register();
@@ -137,7 +89,7 @@ public class Jellyfishing {
         LootEvents.villagerTrades();
         LootEvents.traderTrades();
 
-        EnvExecutor.runInEnv(Env.CLIENT, ()-> Jellyfishing::onClientInit);
+//        EnvExecutor.runInEnv(Env.CLIENT, ()-> Jellyfishing::onClientInit);
     }
 
 //    public static RegistryKey<PlacedFeature> rk(PlacedFeature placedFeature) {
@@ -174,10 +126,10 @@ public class Jellyfishing {
                 }
 
                 if (BuiltInLootTables.FISHING == id) {
-                    if (JellyfishingConfig.JELLYFISH_FISHABLE.get()) {
+                    if (true) {
                         context.addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(id("gameplay/fishing/fish")).setWeight(10).setQuality(1)).build());
                     }
-                    if (JellyfishingConfig.NETS_FISHABLE.get()) {
+                    if (true) {
                         context.addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(id("gameplay/fishing/treasure_net")).setWeight(3).setQuality(1)).build());
                     }
                     context.addPool(LootPool.lootPool().add(LootTableReference.lootTableReference(id("gameplay/fishing/junk_plants")).setWeight(1).setQuality(-2)).build());
