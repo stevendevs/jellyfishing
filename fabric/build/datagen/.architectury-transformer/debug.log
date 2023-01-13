@@ -128,30 +128,31 @@
 [Architectury Transformer DEBUG]  - C:\Users\Steve\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\Steve\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\Steve\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
-[Architectury Transformer] Read classpath in 1.108 s
+[Architectury Transformer] Read classpath in 1.201 s
 [Architectury Transformer DEBUG] Closed File Systems for E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\Steve\AppData\Local\Temp\12774317818101821145.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@36a5cabc
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@432038ec
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@7daa0fbd
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@42530531
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5a3bc7ed
-[Architectury Transformer DEBUG] Transforming from E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\Steve\AppData\Local\Temp\12774317818101821145.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\Steve\AppData\Local\Temp\1935654672083559561.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5ddcc487
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@16eccb2e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@5ef5c734
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@d771cc9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@36b4091c
+[Architectury Transformer DEBUG] Transforming from E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\Steve\AppData\Local\Temp\1935654672083559561.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@1583741e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@413f69cc
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/AbstractJellyfishModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SuitModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/AbstractJellyfishModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/package-info with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/BlueJellyfishRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/JellyfishRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/Water with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/SeanutBush with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/JellyfishMachineBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/AlgaeGrassBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/JellyfishMachineBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/PineapplePlant with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/AbstractJellyfishEntity with maxs=true frames=true
@@ -161,21 +162,21 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/TubePlantFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/SeanutBushFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishNetItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpShakeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/package-info with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/AgilityEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishingBiome with maxs=true frames=true
@@ -184,8 +185,8 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/JellyfishingClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing$LootEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/package-info with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PistonHandlerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/FluidBlockMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/BaseSpawnerMixin with maxs=true frames=true
@@ -193,415 +194,426 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/DamageSourceAccess with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/VillagerAccess with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/StructurePoolAccess with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/client/HumanoidArmorLayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/client/HoneyBlockMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/client/HumanoidArmorLayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingSounds with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingPaintings with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/package-info with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingConfiguredFeatures with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBiomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyFishingPlacedFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRendererRegistryImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ItemsUtil with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRendererRegistryImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /jellyfishing-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /jellyfishing-common.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Steve\AppData\Local\Temp\12774317818101821145.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\Steve\AppData\Local\Temp\1935654672083559561.jar
 [Architectury Transformer] Listening at E:\Users\Steve\IdeaProjects\jellyfishing\common\build\devlibs\jellyfishing-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/mixin/access/VillagerAccess.class to com/jellyfishing/core/mixin/access/VillagerAccess.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@5fb5faea
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@6c3f8f83
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/VillagerAccess with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/VillagerAccess in 36.40 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/VillagerAccess in 51.27 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/mixin/access/StructurePoolAccess.class to com/jellyfishing/core/mixin/access/StructurePoolAccess.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@6f8cd10d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@636b02c3
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/StructurePoolAccess with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/StructurePoolAccess in 42.54 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing.class to com/jellyfishing/core/Jellyfishing.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@52736363
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing in 23.76 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks.class to com/jellyfishing/core/registry/JellyfishingBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@6769b478
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks in 22.28 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/SeanutBush.class to com/jellyfishing/common/block/SeanutBush.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@14a2ad5c
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/SeanutBush with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/SeanutBush in 21.23 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks$1.class to com/jellyfishing/core/registry/JellyfishingBlocks$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@2a6e5619
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks$1 in 20.36 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/BubbleBlock.class to com/jellyfishing/common/block/BubbleBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@55015094
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/BubbleBlock in 17.05 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/PineapplePlant.class to com/jellyfishing/common/block/PineapplePlant.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@6887e255
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/PineapplePlant with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/PineapplePlant in 15.72 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/AlgaeGrassBlock.class to com/jellyfishing/common/block/AlgaeGrassBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@3224c43
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/AlgaeGrassBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/AlgaeGrassBlock in 22.63 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingItems.class to com/jellyfishing/core/registry/JellyfishingItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@3a147ebe
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingItems in 24.18 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/BubbleKitItem.class to com/jellyfishing/common/item/BubbleKitItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@7a39c5d
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/BubbleKitItem in 21.33 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishNetItem.class to com/jellyfishing/common/item/JellyfishNetItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@429e2818
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishNetItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishNetItem in 20.52 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem.class to com/jellyfishing/common/item/JellyfishItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@524d4ffa
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem in 19.15 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/GloveItem.class to com/jellyfishing/common/item/GloveItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@744ecb53
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/GloveItem in 21.37 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SpatulaItem.class to com/jellyfishing/common/item/SpatulaItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@5b17323e
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SpatulaItem in 21.76 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpShakeItem.class to com/jellyfishing/common/item/KelpShakeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@284c47c7
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpShakeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpShakeItem in 19.55 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SuitMaterial.class to com/jellyfishing/common/item/SuitMaterial.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@33904c16
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SuitMaterial in 18.77 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEntities.class to com/jellyfishing/core/registry/JellyfishingEntities.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@10d22e07
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEntities in 22.17 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/JellyfishEntity.class to com/jellyfishing/common/entities/JellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@7d6b0629
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/JellyfishEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/JellyfishEntity in 21.14 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/AbstractJellyfishEntity.class to com/jellyfishing/common/entities/AbstractJellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@1c2e8b15
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/AbstractJellyfishEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/AbstractJellyfishEntity in 22.02 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/BlueJellyfishEntity.class to com/jellyfishing/common/entities/BlueJellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@71e5cd05
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/BlueJellyfishEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/BlueJellyfishEntity in 21.43 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem$1.class to com/jellyfishing/common/item/JellyfishItem$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@abb78d4
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem$1 in 22.87 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpMaterial.class to com/jellyfishing/common/item/KelpMaterial.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@6d213829
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpMaterial with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpMaterial in 22.97 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingSounds.class to com/jellyfishing/core/registry/JellyfishingSounds.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@1bf8d3c2
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingSounds with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingSounds in 23.82 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingPaintings.class to com/jellyfishing/core/registry/JellyfishingPaintings.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@743ebfb4
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingPaintings with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingPaintings in 23.15 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingVillagers.class to com/jellyfishing/core/registry/JellyfishingVillagers.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@2761aa8
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingVillagers in 21.24 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEnchantments.class to com/jellyfishing/core/registry/JellyfishingEnchantments.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@770669c4
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEnchantments with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEnchantments in 21.84 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/AgilityEnchantment.class to com/jellyfishing/common/misc/AgilityEnchantment.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@28d54fe3
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/AgilityEnchantment with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/AgilityEnchantment in 27.94 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/PlunderingEnchantment.class to com/jellyfishing/common/misc/PlunderingEnchantment.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@7bf05847
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/PlunderingEnchantment in 25.90 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles.class to com/jellyfishing/core/registry/JellyfishingParticles.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@465490ee
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles in 24.50 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles$1.class to com/jellyfishing/core/registry/JellyfishingParticles$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@5a328664
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles$1 in 24.99 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingExtras.class to com/jellyfishing/core/registry/JellyfishingExtras.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@4c22af5e
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingExtras in 22.67 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing$LootEvents.class to com/jellyfishing/core/Jellyfishing$LootEvents.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@44afe4e7
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing$LootEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing$LootEvents in 21.81 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class to com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@7f6e02de
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory in 18.46 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/StructurePoolAccess in 34.10 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/worldgen/JellyfishingBiomeRegion.class to com/jellyfishing/common/worldgen/JellyfishingBiomeRegion.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@5797aff7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@468f790f
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishingBiomeRegion with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishingBiomeRegion in 21.35 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData.class to com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishingBiomeRegion in 22.91 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing.class to com/jellyfishing/core/Jellyfishing.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@5dcc1a36
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@3c4af4df
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData in 34.34 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBiomes.class to com/jellyfishing/core/registry/JellyfishingBiomes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing in 20.53 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks.class to com/jellyfishing/core/registry/JellyfishingBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@1f8dee82
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@144ee5ae
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBiomes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBiomes in 19.60 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/worldgen/JellyfishingBiome.class to com/jellyfishing/common/worldgen/JellyfishingBiome.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks in 26.59 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/PineapplePlant.class to com/jellyfishing/common/block/PineapplePlant.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@57facebc
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@f2eb847
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishingBiome with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishingBiome in 22.74 ms
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/PineapplePlant with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/PineapplePlant in 22.90 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/BubbleBlock.class to com/jellyfishing/common/block/BubbleBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@269cd5ed
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/BubbleBlock in 20.78 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks$1.class to com/jellyfishing/core/registry/JellyfishingBlocks$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@1fdcd359
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks$1 in 24.82 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/SeanutBush.class to com/jellyfishing/common/block/SeanutBush.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@5756bb63
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/SeanutBush with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/SeanutBush in 21.54 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/AlgaeGrassBlock.class to com/jellyfishing/common/block/AlgaeGrassBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@37cdb8e
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/AlgaeGrassBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/AlgaeGrassBlock in 22.91 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/Water.class to com/jellyfishing/common/block/Water.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@4d8fd6e0
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/Water with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/Water in 24.64 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingItems.class to com/jellyfishing/core/registry/JellyfishingItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@44c3309c
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingItems in 24.75 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/BubbleKitItem.class to com/jellyfishing/common/item/BubbleKitItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@541b1127
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/BubbleKitItem in 21.94 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishNetItem.class to com/jellyfishing/common/item/JellyfishNetItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@5ca0090
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishNetItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishNetItem in 26.18 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpShakeItem.class to com/jellyfishing/common/item/KelpShakeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@29f4092
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpShakeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpShakeItem in 25.12 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/GloveItem.class to com/jellyfishing/common/item/GloveItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@1a534e72
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/GloveItem in 18.82 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SpatulaItem.class to com/jellyfishing/common/item/SpatulaItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@30985be0
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SpatulaItem in 18.66 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem.class to com/jellyfishing/common/item/JellyfishItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@3f91c3cd
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem in 19.40 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SuitMaterial.class to com/jellyfishing/common/item/SuitMaterial.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@459c2666
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SuitMaterial in 17.68 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingFeatures.class to com/jellyfishing/core/registry/JellyfishingFeatures.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@7d1fd1f3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@201d436b
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingFeatures with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingFeatures in 19.33 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingFeatures in 23.76 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/TubePlantFeature.class to com/jellyfishing/common/features/TubePlantFeature.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@22f4c371
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@440ea55a
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/TubePlantFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/TubePlantFeature in 16.12 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/TubePlantFeature in 23.95 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/CoralPlantFeature.class to com/jellyfishing/common/features/CoralPlantFeature.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@2963b21e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@686ee4e2
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/CoralPlantFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/CoralPlantFeature in 15.14 ms
-[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/PineapplePlantFeature.class to com/jellyfishing/common/features/PineapplePlantFeature.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@41fe3c4d
-[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/PineapplePlantFeature in 14.53 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/CoralPlantFeature in 21.31 ms
 [Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/SeanutBushFeature.class to com/jellyfishing/common/features/SeanutBushFeature.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f358@65a377c4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@4c7d95bd
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/SeanutBushFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/SeanutBushFeature in 15.21 ms
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/SeanutBushFeature in 21.10 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/PineapplePlantFeature.class to com/jellyfishing/common/features/PineapplePlantFeature.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@4a7da637
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/PineapplePlantFeature in 22.53 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEntities.class to com/jellyfishing/core/registry/JellyfishingEntities.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@11ca89fc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEntities in 20.74 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/JellyfishEntity.class to com/jellyfishing/common/entities/JellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@5156638
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/JellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/JellyfishEntity in 19.27 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/AbstractJellyfishEntity.class to com/jellyfishing/common/entities/AbstractJellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@5f6a01d8
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/AbstractJellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/AbstractJellyfishEntity in 18.74 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/BlueJellyfishEntity.class to com/jellyfishing/common/entities/BlueJellyfishEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@471d1791
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/BlueJellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/BlueJellyfishEntity in 18.83 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem$1.class to com/jellyfishing/common/item/JellyfishItem$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@6b4e09a0
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem$1 in 33.42 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpMaterial.class to com/jellyfishing/common/item/KelpMaterial.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@2481e3b0
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpMaterial in 27.61 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingSounds.class to com/jellyfishing/core/registry/JellyfishingSounds.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@2ebfdbce
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingSounds with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingSounds in 29.51 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingPaintings.class to com/jellyfishing/core/registry/JellyfishingPaintings.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@1e69fcab
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingPaintings in 33.43 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingVillagers.class to com/jellyfishing/core/registry/JellyfishingVillagers.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@72d5f575
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingVillagers in 27.45 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEnchantments.class to com/jellyfishing/core/registry/JellyfishingEnchantments.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@6a27b565
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEnchantments in 23.42 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/AgilityEnchantment.class to com/jellyfishing/common/misc/AgilityEnchantment.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@5753a5cc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/AgilityEnchantment with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/AgilityEnchantment in 21.03 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/PlunderingEnchantment.class to com/jellyfishing/common/misc/PlunderingEnchantment.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@7cbbe9dc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/PlunderingEnchantment in 18.71 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles.class to com/jellyfishing/core/registry/JellyfishingParticles.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@7a408ca3
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles in 20.22 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles$1.class to com/jellyfishing/core/registry/JellyfishingParticles$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@ab6493f
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles$1 in 18.28 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingExtras.class to com/jellyfishing/core/registry/JellyfishingExtras.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@2fba87dc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingExtras in 17.99 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing$LootEvents.class to com/jellyfishing/core/Jellyfishing$LootEvents.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@67641a35
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing$LootEvents with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing$LootEvents in 25.17 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class to com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@78206104
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory in 31.48 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/worldgen/JellyfishingBiome.class to com/jellyfishing/common/worldgen/JellyfishingBiome.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@7e551626
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishingBiome with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishingBiome in 28.41 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBiomes.class to com/jellyfishing/core/registry/JellyfishingBiomes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@698f68cd
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBiomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBiomes in 28.70 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingConfiguredFeatures.class to com/jellyfishing/core/registry/JellyfishingConfiguredFeatures.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$111/0x0000000800c2f588@2820b4b3
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_fabric_e21b6dda42d74000b7cf55d9aa3e6d09_79763be4af59f2594d84a186c53e79ca53612b937cadc181944371b6e6b9d030jellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingConfiguredFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingConfiguredFeatures in 21.75 ms

@@ -4,12 +4,11 @@ import com.jellyfishing.common.block.AlgaeGrassBlock;
 import com.jellyfishing.common.block.BubbleBlock;
 import com.jellyfishing.common.block.PineapplePlant;
 import com.jellyfishing.common.block.SeanutBush;
+import com.jellyfishing.common.block.Water;
 import com.jellyfishing.core.Jellyfishing;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,11 +38,11 @@ import java.util.function.Supplier;
 public class JellyfishingBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.BLOCK);
 
-    public static final RegistrySupplier<Block> JELLY_BLOCK = create("jelly_block", () -> new HoneyBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(0.5F).noOcclusion().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
-    public static final RegistrySupplier<Block> BLUE_JELLY_BLOCK = create("blue_jelly_block", () -> new SlimeBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(2F).noOcclusion().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> JELLY_BLOCK = create("jelly_block", () -> new HoneyBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(0.5F).noCollission().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> BLUE_JELLY_BLOCK = create("blue_jelly_block", () -> new SlimeBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(2F).noCollission().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
 
-    public static final RegistrySupplier<Block> CORAL_PLANT = create("coral_plant", () -> new BaseCoralPlantBlock(Block.Properties.of(Material.REPLACEABLE_WATER_PLANT, MaterialColor.COLOR_ORANGE).air().sound(SoundType.SLIME_BLOCK).noCollission().lightLevel(blockState -> 12)), CreativeModeTabs.BUILDING_BLOCKS);
-    public static final RegistrySupplier<Block> TUBE_PLANT = create("tube_plant", () -> new BaseCoralPlantBlock(Block.Properties.of(Material.REPLACEABLE_WATER_PLANT, MaterialColor.COLOR_ORANGE).air().sound(SoundType.SLIME_BLOCK).noCollission()), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> CORAL_PLANT = create("coral_plant", () -> new Water(Block.Properties.of(Material.WATER_PLANT, MaterialColor.COLOR_ORANGE).noOcclusion().sound(SoundType.SLIME_BLOCK).noCollission().lightLevel(blockState -> 12)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> TUBE_PLANT = create("tube_plant", () -> new Water(Block.Properties.of(Material.WATER_PLANT, MaterialColor.COLOR_ORANGE).noOcclusion().sound(SoundType.SLIME_BLOCK).noCollission()), CreativeModeTabs.BUILDING_BLOCKS);
 
     public static final RegistrySupplier<Block> SCRAP_METAL = create("scrap_metal", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS); //Tool Irom PICKAXE
     public static final RegistrySupplier<Block> SCRAP_METAL_STAIRS = create("scrap_metal_stairs", () -> new StairBlock(SCRAP_METAL.get().defaultBlockState(), Block.Properties.copy(SCRAP_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
@@ -119,8 +118,8 @@ public class JellyfishingBlocks {
 
 
 
-    public static final RegistrySupplier<Block> SEANUT_BUSH = create("seanut_bush", () -> new SeanutBush(Block.Properties.of(Material.REPLACEABLE_WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
-    public static final RegistrySupplier<Block> PINEAPPLE_PLANT = create("pineapple_plant", () -> new PineapplePlant(Block.Properties.of(Material.REPLACEABLE_WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> SEANUT_BUSH = create("seanut_bush", () -> new SeanutBush(Block.Properties.of(Material.WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> PINEAPPLE_PLANT = create("pineapple_plant", () -> new PineapplePlant(Block.Properties.of(Material.WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
 
     public static final RegistrySupplier<Block> BUBBLE_BLOCK = create("bubble_block", () -> new BubbleBlock(Block.Properties.of(Material.CLAY, MaterialColor.GRASS).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion()), CreativeModeTabs.BUILDING_BLOCKS);
 

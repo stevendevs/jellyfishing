@@ -19,7 +19,7 @@
       "options": {
         "type": "jellyfishing:cloud_particle"
       },
-      "probability": 0.0
+      "probability": 5.0E-6
     },
     "sky_color": 7842047,
     "water_color": 4566523,
@@ -49,6 +49,11 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "jellyfishing:coral_plant"
     ]
   ],
   "precipitation": "rain",

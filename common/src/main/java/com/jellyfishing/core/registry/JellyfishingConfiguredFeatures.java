@@ -1,35 +1,26 @@
-//package com.jellyfishing.core.registry;
-//
-//import blueduck.jellyfishing.blocks.PineapplePlant;
-//import com.google.common.collect.ImmutableSet;
-//import com.jellyfishing.core.Jellyfishing;
-//import net.minecraft.block.Blocks;
-//import net.minecraft.core.Registry;
-//import net.minecraft.resources.ResourceLocation;
-//import net.minecraft.util.registry.WorldGenRegistries;
-//import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
-//import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
-//import net.minecraft.world.gen.feature.*;
-//import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-//import net.minecraft.world.level.levelgen.feature.Feature;
-//
-//public class JellyfishingConfiguredFeatures {
-//
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_CORAL_PLANT = JellyfishingFeatures.CORAL_PLANT_FEATURE.get().withConfiguration(new ProbabilityConfig(.5F)).range(32).square().func_242731_b(5);
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_TUBE_PLANT = JellyfishingFeatures.TUBE_PLANT_FEATURE.get().withConfiguration(new ProbabilityConfig(.2F)).range(32).square().func_242731_b(2);
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_SEANUT_BUSH = JellyfishingFeatures.SEANUT_BUSH_FEATURE.get().withConfiguration(new ProbabilityConfig(.03F)).range(32).square().func_242731_b(2);
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_PINEAPPLE_PLANT = JellyfishingFeatures.PINEAPPLE_PLANT_FEATURE.get().withConfiguration(new ProbabilityConfig(.05F)).range(32).square().func_242731_b(1);
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_PINEAPPLE_PLANT_PATCH = Feature.RANDOM_PATCH.withConfiguration(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(JellyfishingBlocks.PINEAPPLE_PLANT.get().getDefaultState().with(PineapplePlant.AGE, Integer.valueOf(3))), SimpleBlockPlacer.PLACER).tries(4).whitelist(ImmutableSet.of(Blocks.GRASS_BLOCK)).replaceable().build()).withPlacement(Features.Placements.PATCH_PLACEMENT);
-//    public static final ConfiguredFeature<?, ?> CONFIGURED_CORALSTONE_REPLACEMENT = Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, JellyfishingBlocks.CORALSTONE.get().getDefaultState(), 100)).range(300).square().func_242731_b(250);
-//
+package com.jellyfishing.core.registry;
+
+import com.jellyfishing.core.Jellyfishing;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration;
+
+public class JellyfishingConfiguredFeatures {
+//    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_CORAL_PLANT = createConfigured("coral_plant");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_TUBE_PLANT = createConfigured("tube_plant");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_SEANUT_BUSH = createConfigured("seanut_bush");
+
+//    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT = JellyfishingFeatures.PINEAPPLE_PLANT_FEATURE.get().withConfiguration(new ProbabilityFeatureConfiguration(.05F)).range(32).square().count(1);
+//    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT_PATCH = Feature.RANDOM_PATCH.withConfiguration(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(JellyfishingBlocks.PINEAPPLE_PLANT.get().getDefaultState().with(PineapplePlant.AGE, Integer.valueOf(3))), SimpleBlockPlacer.PLACER).tries(4).whitelist(ImmutableSet.of(Blocks.GRASS_BLOCK)).replaceable().build()).withPlacement(Features.Placements.PATCH_PLACEMENT);
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_CORALSTONE_REPLACEMENT = createConfigured("coralstone_replacement");
+    
 //    public static void registerConfiguredFeatures() {
-//        Registry<ConfiguredFeature<?, ?>> registry = WorldGenRegistries.CONFIGURED_FEATURE;
-//        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "coral_plant"), CONFIGURED_CORAL_PLANT);
-//        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "tube_plant"), CONFIGURED_TUBE_PLANT);
-//        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "seanut_bush"), CONFIGURED_SEANUT_BUSH);
 //        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "pineapple_plant"), CONFIGURED_PINEAPPLE_PLANT);
 //        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "pineapple_patch"), CONFIGURED_PINEAPPLE_PLANT_PATCH);
-//        Registry.register(registry, new ResourceLocation(Jellyfishing.MOD_ID, "coralstone_replacement"), CONFIGURED_CORALSTONE_REPLACEMENT);
 //    }
-//
-//}
+
+    private static ResourceKey<ConfiguredFeature<?, ?>> createConfigured(String name) {
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, Jellyfishing.id(name));
+    }
+}

@@ -3,35 +3,47 @@ package com.jellyfishing.common.features;
 import com.jellyfishing.core.registry.JellyfishingBlocks;
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
+import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration;
 
-public class SeanutBushFeature extends Feature<ProbabilityFeatureConfiguration> {
-    public SeanutBushFeature(Codec<ProbabilityFeatureConfiguration> configCodec) {
+public class SeanutBushFeature extends Feature<NoneFeatureConfiguration> {
+    public SeanutBushFeature(Codec<NoneFeatureConfiguration> configCodec) {
         super(configCodec);
     }
 
     @Override
-    public boolean place(FeaturePlaceContext<ProbabilityFeatureConfiguration> context) {
-        var probabilityGen = 0;
+    public boolean place(FeaturePlaceContext<NoneFeatureConfiguration> context) {
+        int i = 0;
 
-        for(var probabilityZero = 0; probabilityZero < context.config().probability; ++probabilityZero) {
-            var random1 = context.random().nextInt(8) - context.random().nextInt(8);
-            var random2 = context.random().nextInt(8) - context.random().nextInt(8);
-            var topY = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR, context.origin().getX() + random1, context.origin().getZ() + random2);
-            BlockPos blockpos = new BlockPos(context.origin().getX() + random1, topY, context.origin().getZ() + random2);
-            BlockState blockstate = JellyfishingBlocks.SEANUT_BUSH.get().defaultBlockState().setValue(BlockStateProperties.AGE_3, 3);
-            if (context.level().getBlockState(blockpos).getBlock() == Blocks.WATER && blockstate.canSurvive(context.level(), blockpos)) {
-                context.level().setBlock(blockpos, blockstate, 2);
-                ++probabilityGen;
+        WorldGenLevel worldGenLevel = context.level();
+        BlockPos blockPos = context.origin();
+        RandomSource randomSource = context.random();
+
+        int randomX = randomSource.nextInt(8) - randomSource.nextInt(8);
+        int randomZ = randomSource.nextInt(8) - randomSource.nextInt(8);
+
+        int j = worldGenLevel.getHeight(Heightmap.Types.OCEAN_FLOOR, blockPos.getX() + randomX, blockPos.getZ() + randomZ);
+        BlockPos blockPos2 = new BlockPos(blockPos.getX() + randomX, j, blockPos.getZ() + randomZ);
+
+        if (worldGenLevel.getBlockState(blockPos2).is(Blocks.WATER)) {
+            BlockState blockState = JellyfishingBlocks.SEANUT_BUSH.get().defaultBlockState().setValue(BlockStateProperties.AGE_3, 3).setValue(BlockStateProperties.WATERLOGGED, true);
+
+            for(int l = 0; l <= 1; ++l) {
+                if (worldGenLevel.getBlockState(blockPos2).is(Blocks.WATER) && worldGenLevel.getBlockState(blockPos2.above()).is(Blocks.WATER) && blockState.canSurvive(worldGenLevel, blockPos2)) {
+                    worldGenLevel.setBlock(blockPos2, blockState, 2);
+                    ++i;
+                }
             }
         }
 
-        return probabilityGen > 0;
+        return i > 0;
     }
 }

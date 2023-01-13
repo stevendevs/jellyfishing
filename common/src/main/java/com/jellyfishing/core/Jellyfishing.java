@@ -5,30 +5,54 @@ import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
 import com.jellyfishing.common.entities.AbstractJellyfishEntity;
 import com.jellyfishing.common.misc.JellyfishingSellItemFactory;
+import com.jellyfishing.common.worldgen.JellyfishingBiome;
 import com.jellyfishing.core.mixin.access.VillagerAccess;
+import com.jellyfishing.core.registry.JellyfishingBiomes;
 import com.jellyfishing.core.registry.JellyfishingBlocks;
 import com.jellyfishing.core.registry.JellyfishingEnchantments;
 import com.jellyfishing.core.registry.JellyfishingEntities;
 import com.jellyfishing.core.registry.JellyfishingExtras;
+import com.jellyfishing.core.registry.JellyfishingFeatures;
 import com.jellyfishing.core.registry.JellyfishingItems;
 import com.jellyfishing.core.registry.JellyfishingPaintings;
 import com.jellyfishing.core.registry.JellyfishingParticles;
 import com.jellyfishing.core.registry.JellyfishingSounds;
 import com.jellyfishing.core.registry.JellyfishingVillagers;
+import dev.architectury.event.events.common.LifecycleEvent;
 import dev.architectury.event.events.common.LootEvent;
+import dev.architectury.registry.level.biome.BiomeModifications;
 import dev.architectury.registry.level.entity.EntityAttributeRegistry;
 import dev.architectury.registry.level.entity.trade.TradeRegistry;
+import net.minecraft.core.Holder;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.npc.Villager;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.placement.BiomeFilter;
+import net.minecraft.world.level.levelgen.placement.CountPlacement;
+import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
+import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.entries.LootTableReference;
 
+import java.util.List;
 import java.util.Set;
 
 public class Jellyfishing {
@@ -39,6 +63,7 @@ public class Jellyfishing {
     public static void init() {
 //        JellyfishingBiomes.BIOMES.register();
         JellyfishingBlocks.BLOCKS.register();
+        JellyfishingFeatures.FEATURES.register();
         JellyfishingEntities.ENTITIES.register();
         JellyfishingItems.ITEMS.register();
         JellyfishingSounds.SOUNDS.register();
@@ -89,7 +114,25 @@ public class Jellyfishing {
         LootEvents.villagerTrades();
         LootEvents.traderTrades();
 
+        initialize();
+
+//        BiomeModifications.addProperties((ctx, mutable) -> {
+//            if (ctx.hasTag(BiomeTags.IS_FOREST)) {
+//                mutable.getGenerationProperties().addFeature(GenerationStep.Decoration.TOP_LAYER_MODIFICATION, placedFeature);
+//            }
+//        });
+
 //        EnvExecutor.runInEnv(Env.CLIENT, ()-> Jellyfishing::onClientInit);
+    }
+
+    public static void initialize() {
+        LifecycleEvent.SETUP.register(() -> {
+            BiomeModifications.addProperties((ctx, mutable) -> {
+                if (ctx.getKey().get().equals(JellyfishingBiomes.JELLYFISH_FIELDS.registry())) {
+                    mutable.getGenerationProperties().addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, JellyfishingBiome.PLACED_COMMON_CORAL_PLANT);
+                }
+            });
+        });
     }
 
 //    public static RegistryKey<PlacedFeature> rk(PlacedFeature placedFeature) {

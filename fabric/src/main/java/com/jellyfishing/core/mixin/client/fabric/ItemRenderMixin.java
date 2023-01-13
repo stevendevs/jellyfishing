@@ -1,5 +1,6 @@
 package com.jellyfishing.core.mixin.client.fabric;
 
+import com.jellyfishing.core.Jellyfishing;
 import com.jellyfishing.core.util.fabric.ClientUtil;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -44,7 +45,7 @@ public abstract class ItemRenderMixin {
     )
     public BakedModel innerRenderInGui(ItemRenderer itemRenderer, ItemStack stack, Level world, LivingEntity entity, int seed) {
         if (ClientUtil.PERSPECTIVE_ITEM_LIST.contains(stack.getItem())) {
-            ModelResourceLocation guiId = new ModelResourceLocation(BuiltInRegistries.ITEM.getKey(stack.getItem()), "inventory");
+            ModelResourceLocation guiId = new ModelResourceLocation(Jellyfishing.MOD_ID, "spatula", "inventory");
             ClientLevel clientWorld = world instanceof ClientLevel ? (ClientLevel)world : null;
             BakedModel model = this.itemModelShaper.getModelManager().getModel(guiId);
             BakedModel model2 = model.getOverrides().resolve(model, stack, clientWorld, entity, seed);
@@ -63,7 +64,7 @@ public abstract class ItemRenderMixin {
     )
     public BakedModel getInventoryModel(ItemModelShaper itemModels, ItemStack stack) {
         if (ClientUtil.PERSPECTIVE_ITEM_LIST.contains(stack.getItem())) {
-            ModelResourceLocation invID = new ModelResourceLocation(new ResourceLocation(BuiltInRegistries.ITEM.getKey(stack.getItem()) + "_in_hand"), "inventory");
+            ModelResourceLocation invID = new ModelResourceLocation(Jellyfishing.MOD_ID, "spatula", "inventory");
             return itemModels.getModelManager().getModel(invID);
         } else {
             return itemModels.getItemModel(stack);

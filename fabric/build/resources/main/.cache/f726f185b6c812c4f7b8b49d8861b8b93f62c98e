@@ -1,3 +1,4 @@
-// 1.19.3	2023-01-09T16:51:47.3204925	JellyFishing Data Generation/Jellyfishing World Generation Modifications
-69d75765bafd0af106e2affc7a737b8293727f08 data\jellyfishing\worldgen\configured_feature\coralstone_replacement.json
-16a29b1734455f3716228e77c88d5bf2985c3dde data\jellyfishing\worldgen\biome\jellyfish_fields.json
+// 1.19.3	2023-01-12T22:58:05.4911407	JellyFishing Data Generation/Jellyfishing World Generation Modifications
+ef60b32dabc7f76d8053bfbf204aa40935ee7851 data\jellyfishing\worldgen\biome\jellyfish_fields.json
+2eeed5cc08e1de2d4d3b63089328c36dfec4f281 data\jellyfishing\worldgen\placed_feature\coral_plant.json
+46caea41a30b8769184fad40fe7d7c24499e2e52 data\jellyfishing\worldgen\configured_feature\coral_plant.json

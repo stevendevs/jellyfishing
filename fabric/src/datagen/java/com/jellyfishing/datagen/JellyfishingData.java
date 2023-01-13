@@ -18,5 +18,6 @@ public class JellyfishingData implements DataGeneratorEntrypoint {
     public void buildRegistry(RegistrySetBuilder registryBuilder) {
         registryBuilder.add(Registries.BIOME, JellyfishingBiome::bootstrapBiomes);
         registryBuilder.add(Registries.CONFIGURED_FEATURE, JellyfishingBiome::bootstrapConfiguredFeatures);
+        registryBuilder.add(Registries.PLACED_FEATURE, JellyfishingBiome::bootstrapPlacedFeatures);
     }
 }
