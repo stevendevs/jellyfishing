@@ -1,3 +1,4 @@
 v1	named	intermediary
 FIELD	com/jellyfishing/core/mixin/client/fabric/ItemRenderMixin	Lnet/minecraft/client/renderer/ItemModelShaper;	itemModelShaper	field_4732
 METHOD	com/jellyfishing/core/mixin/client/fabric/ItemRenderMixin	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;	getModel	method_4019
+METHOD	com/jellyfishing/core/mixin/client/fabric/ItemRenderMixin	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/renderer/block/model/ItemTransforms$TransformType;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IILnet/minecraft/client/resources/model/BakedModel;)V	render	method_23179

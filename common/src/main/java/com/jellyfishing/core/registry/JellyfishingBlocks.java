@@ -38,44 +38,44 @@ import java.util.function.Supplier;
 public class JellyfishingBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.BLOCK);
 
-    public static final RegistrySupplier<Block> JELLY_BLOCK = create("jelly_block", () -> new HoneyBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(0.5F).noCollission().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
-    public static final RegistrySupplier<Block> BLUE_JELLY_BLOCK = create("blue_jelly_block", () -> new SlimeBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(2F).noCollission().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> JELLY_BLOCK = create("jelly_block", () -> new HoneyBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(0.5F).noOcclusion().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> BLUE_JELLY_BLOCK = create("blue_jelly_block", () -> new SlimeBlock(Block.Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE).speedFactor(0.4F).jumpFactor(2F).noOcclusion().sound(SoundType.HONEY_BLOCK)), CreativeModeTabs.BUILDING_BLOCKS);
 
     public static final RegistrySupplier<Block> CORAL_PLANT = create("coral_plant", () -> new Water(Block.Properties.of(Material.WATER_PLANT, MaterialColor.COLOR_ORANGE).noOcclusion().sound(SoundType.SLIME_BLOCK).noCollission().lightLevel(blockState -> 12)), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> TUBE_PLANT = create("tube_plant", () -> new Water(Block.Properties.of(Material.WATER_PLANT, MaterialColor.COLOR_ORANGE).noOcclusion().sound(SoundType.SLIME_BLOCK).noCollission()), CreativeModeTabs.BUILDING_BLOCKS);
 
-    public static final RegistrySupplier<Block> SCRAP_METAL = create("scrap_metal", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS); //Tool Irom PICKAXE
+    public static final RegistrySupplier<Block> SCRAP_METAL = create("scrap_metal", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> SCRAP_METAL_STAIRS = create("scrap_metal_stairs", () -> new StairBlock(SCRAP_METAL.get().defaultBlockState(), Block.Properties.copy(SCRAP_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> SCRAP_METAL_SLAB = create("scrap_metal_slab", () -> new SlabBlock(Block.Properties.copy(SCRAP_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
 //    public static final RegistrySupplier<Block> SCRAP_METAL_VERTICAL_SLAB = conditionallyRegisterBlock("scrap_metal_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(SCRAP_METAL.get())), () -> isLoaded("quark"));
 //    public static final RegistrySupplier<Item> SCRAP_METAL_VERTICAL_SLAB_ITEM = conditionallyRegisterItem("scrap_metal_vertical_slab", () -> new BlockItem(SCRAP_METAL_VERTICAL_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)), () -> isLoaded("quark"));
 
-    public static final RegistrySupplier<Block> CHROME_METAL = create("chrome_metal", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS); //Tool Irom PICKAXE
+    public static final RegistrySupplier<Block> CHROME_METAL = create("chrome_metal", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CHROME_METAL_STAIRS = create("chrome_metal_stairs", () -> new StairBlock(CHROME_METAL.get().defaultBlockState(), Block.Properties.copy(CHROME_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CHROME_METAL_SLAB = create("chrome_metal_slab", () -> new SlabBlock(Block.Properties.copy(CHROME_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
 //    public static final RegistrySupplier<Block> CHROME_METAL_VERTICAL_SLAB = conditionallyRegisterBlock("chrome_metal_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(CHROME_METAL.get())), () -> isLoaded("quark"));
 //    public static final RegistrySupplier<Item> CHROME_METAL_VERTICAL_SLAB_ITEM = conditionallyRegisterItem("chrome_metal_vertical_slab", () -> new BlockItem(CHROME_METAL_VERTICAL_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)), () -> isLoaded("quark"));
 
-    public static final RegistrySupplier<Block> CHROME_BRICKS = create("chrome_bricks", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS); //Tool Irom PICKAXE
+    public static final RegistrySupplier<Block> CHROME_BRICKS = create("chrome_bricks", () -> new Block(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CHROME_BRICK_STAIRS = create("chrome_brick_stairs", () -> new StairBlock(CHROME_METAL.get().defaultBlockState(), Block.Properties.copy(CHROME_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CHROME_BRICK_SLAB = create("chrome_brick_slab", () -> new SlabBlock(Block.Properties.copy(CHROME_METAL.get())), CreativeModeTabs.BUILDING_BLOCKS);
 //    public static final RegistrySupplier<Block> CHROME_BRICK_VERTICAL_SLAB = conditionallyRegisterBlock("chrome_brick_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(CHROME_BRICKS.get())), () -> isLoaded("quark"));
 //    public static final RegistrySupplier<Item> CHROME_BRICK_VERTICAL_SLAB_ITEM = conditionallyRegisterItem("chrome_brick_vertical_slab", () -> new BlockItem(CHROME_BRICK_VERTICAL_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)), () -> isLoaded("quark"));
 
-    public static final RegistrySupplier<Block> VAULT_DOOR = create("vault_door", () -> new DoorBlock(Block.Properties.of(Material.PISTON, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(2F, 2F).noOcclusion().requiresCorrectToolForDrops(), SoundEvents.IRON_DOOR_CLOSE, SoundEvents.IRON_DOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS); //Tool Irom PICKAXE
+    public static final RegistrySupplier<Block> VAULT_DOOR = create("vault_door", () -> new DoorBlock(Block.Properties.of(Material.PISTON, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(2F, 2F).noOcclusion().requiresCorrectToolForDrops(), SoundEvents.IRON_DOOR_CLOSE, SoundEvents.IRON_DOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS);
     public static final RegistrySupplier<Block> VAULT_TRAPDOOR = create("vault_trapdoor", () -> new TrapDoorBlock(Block.Properties.copy(VAULT_DOOR.get()), SoundEvents.IRON_TRAPDOOR_CLOSE, SoundEvents.IRON_TRAPDOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS);
 
     public static final RegistrySupplier<Block> SCRAP_METAL_WINDOW = create("scrap_metal_window", () -> new TrapDoorBlock(Block.Properties.copy(VAULT_DOOR.get()).noOcclusion(), SoundEvents.IRON_TRAPDOOR_CLOSE, SoundEvents.IRON_TRAPDOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS);
-    public static final RegistrySupplier<Block> CHROME_DOOR = create("chrome_door", () -> new DoorBlock(Block.Properties.of(Material.PISTON, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(2F, 2F).noOcclusion().requiresCorrectToolForDrops(), SoundEvents.IRON_DOOR_CLOSE, SoundEvents.IRON_DOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS); //Tool Irom PICKAXE
+    public static final RegistrySupplier<Block> CHROME_DOOR = create("chrome_door", () -> new DoorBlock(Block.Properties.of(Material.PISTON, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(2F, 2F).noOcclusion().requiresCorrectToolForDrops(), SoundEvents.IRON_DOOR_CLOSE, SoundEvents.IRON_DOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS);
     public static final RegistrySupplier<Block> CHROME_VENT = create("chrome_vent", () -> new TrapDoorBlock(Block.Properties.copy(VAULT_DOOR.get()), SoundEvents.IRON_TRAPDOOR_CLOSE, SoundEvents.IRON_TRAPDOOR_OPEN), CreativeModeTabs.REDSTONE_BLOCKS);
 
-    public static final RegistrySupplier<Block> SEANUT_BRITTLE_BLOCK = create("seanut_brittle_block", () -> new Block(Block.Properties.of(Material.GLASS, MaterialColor.COLOR_BROWN).sound(SoundType.STONE).strength(0.3F, 0.3F)), CreativeModeTabs.BUILDING_BLOCKS); //Tool PICKAXE but Not Required
+    public static final RegistrySupplier<Block> SEANUT_BRITTLE_BLOCK = create("seanut_brittle_block", () -> new Block(Block.Properties.of(Material.GLASS, MaterialColor.COLOR_BROWN).sound(SoundType.STONE).strength(0.3F, 0.3F)), CreativeModeTabs.BUILDING_BLOCKS);
 
-    public static final RegistrySupplier<Block> PINEAPPLE_BLOCK = create("pineapple_block", () -> new Block(Block.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.WET_GRASS).strength(0.9F, 0.9F)), CreativeModeTabs.BUILDING_BLOCKS); //Tool AXE but Not Required
+    public static final RegistrySupplier<Block> PINEAPPLE_BLOCK = create("pineapple_block", () -> new Block(Block.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.WET_GRASS).strength(0.9F, 0.9F)), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> PINEAPPLE_PILLAR = create("pineapple_pillar", () -> new RotatedPillarBlock(Block.Properties.copy(PINEAPPLE_BLOCK.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CHISELED_PINEAPPLE_BLOCK = create("chiseled_pineapple_block", () -> new Block(Block.Properties.copy(PINEAPPLE_BLOCK.get())), CreativeModeTabs.BUILDING_BLOCKS);
 
-    public static final RegistrySupplier<Block> CORALSTONE = create("coralstone", () -> new Block(Block.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).sound(SoundType.STONE).strength(1.5F, 1F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS); //Tool PICKAXE
+    public static final RegistrySupplier<Block> CORALSTONE = create("coralstone", () -> new Block(Block.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).sound(SoundType.STONE).strength(1.5F, 1F).requiresCorrectToolForDrops()), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CORALSTONE_WALL = create("coralstone_wall", () -> new WallBlock(Block.Properties.copy(CORALSTONE.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CORALSTONE_STAIRS = create("coralstone_stairs", () -> new StairBlock(CORALSTONE.get().defaultBlockState(), Block.Properties.copy(CORALSTONE.get())), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> CORALSTONE_SLAB = create("coralstone_slab", () -> new SlabBlock(Block.Properties.copy(CORALSTONE.get())), CreativeModeTabs.BUILDING_BLOCKS);
@@ -121,7 +121,7 @@ public class JellyfishingBlocks {
     public static final RegistrySupplier<Block> SEANUT_BUSH = create("seanut_bush", () -> new SeanutBush(Block.Properties.of(Material.WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
     public static final RegistrySupplier<Block> PINEAPPLE_PLANT = create("pineapple_plant", () -> new PineapplePlant(Block.Properties.of(Material.WATER_PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)), CreativeModeTabs.BUILDING_BLOCKS);
 
-    public static final RegistrySupplier<Block> BUBBLE_BLOCK = create("bubble_block", () -> new BubbleBlock(Block.Properties.of(Material.CLAY, MaterialColor.GRASS).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion()), CreativeModeTabs.BUILDING_BLOCKS);
+    public static final RegistrySupplier<Block> BUBBLE_BLOCK = create("bubble_block", () -> new BubbleBlock(Block.Properties.of(Material.CLAY, MaterialColor.GRASS).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion()));
 
     public static final RegistrySupplier<Block> GRILL = create("grill", () -> new DirectionalBlock(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops().noOcclusion()) { //Tool Iron PICKAXE
     }, CreativeModeTabs.FUNCTIONAL_BLOCKS);

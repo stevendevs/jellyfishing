@@ -1,8 +1,11 @@
 package com.jellyfishing.common.block;
 
+import com.jellyfishing.core.registry.JellyfishingItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.HalfTransparentBlock;
@@ -21,7 +24,12 @@ public class BubbleBlock extends HalfTransparentBlock {
     }
 
     @Override
-    public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
-        world.setBlockAndUpdate(pos, Blocks.AIR.defaultBlockState());
+    public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+        level.removeBlock(pos, false);
+    }
+
+    @Override
+    public ItemStack getCloneItemStack(BlockGetter level, BlockPos pos, BlockState state) {
+        return JellyfishingItems.BUBBLE_WAND.get().getDefaultInstance();
     }
 }

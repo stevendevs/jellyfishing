@@ -1,0 +1,166 @@
+{
+  "jellyfishing:jellyfishing/krabby_patty": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/jelly_block": {
+    "criteria": {
+      "net": "2023-01-13 21:20:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2023-01-13 21:15:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2023-01-13 21:15:32 -0500"
+    },
+    "done": false
+  },
+  "jellyfishing:jellyfishing/roasted_seanut": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/im_ready": {
+    "criteria": {
+      "net": "2023-01-13 20:00:54 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/karate": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/kelp_mustache": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/spatula": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2023-01-13 21:16:04 -0500",
+      "minecraft:warm_ocean": "2023-01-13 21:15:58 -0500"
+    },
+    "done": false
+  },
+  "jellyfishing:jellyfishing/sandy_suit": {
+    "criteria": {
+      "air_suit_armor": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut_brittle": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-01-13 20:01:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/golden_spatula": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/firmly_grasp_it": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/ice_cream": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-01-13 21:15:32 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/catch_blue": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-01-13 21:15:43 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut_butter": {
+    "criteria": {
+      "net": "2023-01-13 20:00:53 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}
