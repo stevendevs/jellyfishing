@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": {
+      "feature": {
+        "type": "jellyfishing:pineapple_plant_feature",
+        "config": {
+          "probability": 0.2
+        }
+      },
+      "placement": []
+    }
+  }
+}
