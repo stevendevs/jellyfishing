@@ -1,0 +1,17 @@
+{
+  "jellyfishing:jellyfishing/im_ready": {
+    "criteria": {
+      "net": "2023-01-15 21:41:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2023-01-15 21:44:16 -0500",
+      "minecraft:desert": "2023-01-15 21:43:46 -0500",
+      "minecraft:meadow": "2023-01-15 21:41:59 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

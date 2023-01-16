@@ -40,31 +40,31 @@ public class JellyfishingItems {
     public static final RegistrySupplier<Item> JELLYFISH_SPAWN_EGG = ITEMS.register("jellyfish_spawn_egg", () -> new ArchitecturySpawnEggItem(JellyfishingEntities.JELLYFISH,15615448, 15615377, new Item.Properties().arch$tab(CreativeModeTabs.SPAWN_EGGS)));
     public static final RegistrySupplier<Item> BLUE_JELLYFISH_SPAWN_EGG = ITEMS.register("blue_jellyfish_spawn_egg", () -> new ArchitecturySpawnEggItem(JellyfishingEntities.BLUE_JELLYFISH,5733356, 5719532, new Item.Properties().arch$tab(CreativeModeTabs.SPAWN_EGGS)));
 
-    public static final RegistrySupplier<Item> SEANUT = ITEMS.register("seanut", () -> new ItemNameBlockItem(JellyfishingBlocks.SEANUT_BUSH.get(), (new Item.Properties()).arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(3).saturationMod(0.1F).build())));
-    public static final RegistrySupplier<Item> ROASTED_SEANUT = ITEMS.register("roasted_seanut", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build())));
-    public static final RegistrySupplier<Item> SEANUT_BUTTER = ITEMS.register("seanut_butter", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.5F).build())));
-    public static final RegistrySupplier<Item> SEANUT_BRITTLE = ITEMS.register("seanut_brittle", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(12).saturationMod(0.8F).build())));
+    public static final RegistrySupplier<Item> SEANUT = ITEMS.register("seanut", () -> new ItemNameBlockItem(JellyfishingBlocks.SEANUT_BUSH.get(), (new Item.Properties()).arch$tab(CreativeModeTabs.NATURAL_BLOCKS).food(new FoodProperties.Builder().nutrition(3).saturationMod(0.1F).build())));
+    public static final RegistrySupplier<Item> ROASTED_SEANUT = ITEMS.register("roasted_seanut", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).build())));
+    public static final RegistrySupplier<Item> SEANUT_BUTTER = ITEMS.register("seanut_butter", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.5F).build())));
+    public static final RegistrySupplier<Item> SEANUT_BRITTLE = ITEMS.register("seanut_brittle", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(12).saturationMod(0.8F).build())));
 
-    public static final RegistrySupplier<Item> PINEAPPLE_SEEDS = ITEMS.register("pineapple_seeds", () -> new ItemNameBlockItem(JellyfishingBlocks.PINEAPPLE_PLANT.get(), (new Item.Properties()).arch$tab(CreativeModeTabs.INGREDIENTS)));
+    public static final RegistrySupplier<Item> PINEAPPLE_SEEDS = ITEMS.register("pineapple_seeds", () -> new ItemNameBlockItem(JellyfishingBlocks.PINEAPPLE_PLANT.get(), (new Item.Properties()).arch$tab(CreativeModeTabs.NATURAL_BLOCKS)));
 
-    public static final RegistrySupplier<Item> PINEAPPLE = ITEMS.register("pineapple", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.INGREDIENTS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).build())));
+    public static final RegistrySupplier<Item> PINEAPPLE = ITEMS.register("pineapple", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).build())));
 
 
-    public static final RegistrySupplier<Item> JELLYFISH_JELLY_SANDWICH = ITEMS.register("jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(8).saturationMod(0.45F).build())));
-    public static final RegistrySupplier<Item> BLUE_JELLYFISH_JELLY_SANDWICH = ITEMS.register("blue_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(12).saturationMod(0.55F).build())));
+    public static final RegistrySupplier<Item> JELLYFISH_JELLY_SANDWICH = ITEMS.register("jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(8).saturationMod(0.45F).build())));
+    public static final RegistrySupplier<Item> BLUE_JELLYFISH_JELLY_SANDWICH = ITEMS.register("blue_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(12).saturationMod(0.55F).build())));
 
-    public static final RegistrySupplier<Item> SEANUT_JELLYFISH_JELLY_SANDWICH = ITEMS.register("seanut_butter_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(11).saturationMod(0.55F).build())));
-    public static final RegistrySupplier<Item> SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH = ITEMS.register("seanut_butter_blue_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(15).saturationMod(0.7F).build())));
+    public static final RegistrySupplier<Item> SEANUT_JELLYFISH_JELLY_SANDWICH = ITEMS.register("seanut_butter_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(11).saturationMod(0.55F).build())));
+    public static final RegistrySupplier<Item> SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH = ITEMS.register("seanut_butter_blue_jellyfish_jelly_sandwich", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(15).saturationMod(0.7F).build())));
 
-    public static final RegistrySupplier<Item> KELP_SHAKE = ITEMS.register("kelp_shake", () -> new KelpShakeItem(new Item.Properties().stacksTo(16).arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.2F).build())));
+    public static final RegistrySupplier<Item> KELP_SHAKE = ITEMS.register("kelp_shake", () -> new KelpShakeItem(new Item.Properties().stacksTo(16).arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.2F).build())));
 
     public static final RegistrySupplier<Item> KELP_MUSTACHE = ITEMS.register("kelp_mustache", () -> new ArmorItem(new KelpMaterial(), EquipmentSlot.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
 
-    public static final RegistrySupplier<Item> TRIPLE_GOOBERBERRY_SUNRISE = ITEMS.register("triple_gooberberry_sunrise", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FUNCTIONAL_BLOCKS).food(new FoodProperties.Builder().nutrition(10).saturationMod(0.6F).fast().build())));
+    public static final RegistrySupplier<Item> TRIPLE_GOOBERBERRY_SUNRISE = ITEMS.register("triple_gooberberry_sunrise", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(10).saturationMod(0.6F).fast().build())));
 
     public static final RegistrySupplier<Item> GREASE_BALL = ITEMS.register("grease_ball", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.INGREDIENTS).rarity(Rarity.RARE)));
 
-    public static final RegistrySupplier<Item> KRABBY_PATTY = ITEMS.register("krabby_patty", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.INGREDIENTS).food(new FoodProperties.Builder().nutrition(10).saturationMod(1.5F).meat().build()).rarity(Rarity.RARE)));
+    public static final RegistrySupplier<Item> KRABBY_PATTY = ITEMS.register("krabby_patty", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(10).saturationMod(1.5F).meat().build()).rarity(Rarity.RARE)));
 
     public static final RegistrySupplier<Item> SPATULA = ITEMS.register("spatula", () -> new SpatulaItem(Tiers.IRON, 4 - 3, -2, new Item.Properties().durability(250).arch$tab(CreativeModeTabs.COMBAT)));
 
@@ -86,5 +86,5 @@ public class JellyfishingItems {
 
     public static final RegistrySupplier<Item> DIVER_SUIT_HELMET = null;//ITEMS.register("diver_suit_helmet", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlotType.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
 
-    public static final RegistrySupplier<Item> MUSIC_DISC_JELLYFISH_FIELDS = ITEMS.register("music_disc_jellyfish_fields", () -> new ArchitecturyRecordItem(15, JellyfishingSounds.JELLYFISH_FIELDS, new Item.Properties().arch$tab(CreativeModeTabs.INGREDIENTS).rarity(Rarity.RARE), 173));
+    public static final RegistrySupplier<Item> MUSIC_DISC_JELLYFISH_FIELDS = ITEMS.register("music_disc_jellyfish_fields", () -> new ArchitecturyRecordItem(15, JellyfishingSounds.JELLYFISH_FIELDS, new Item.Properties().arch$tab(CreativeModeTabs.TOOLS_AND_UTILITIES).rarity(Rarity.RARE), 173));
 }

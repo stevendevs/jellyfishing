@@ -4,15 +4,19 @@ import com.jellyfishing.core.Jellyfishing;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class JellyfishingConfiguredFeatures {
-//    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_CORAL_PLANT = createConfigured("coral_plant");
-    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_TUBE_PLANT = createConfigured("tube_plant");
-    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_SEANUT_BUSH = createConfigured("seanut_bush");
-
 //    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT = JellyfishingFeatures.PINEAPPLE_PLANT_FEATURE.get().withConfiguration(new ProbabilityFeatureConfiguration(.05F)).range(32).square().count(1);
-//    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT_PATCH = Feature.RANDOM_PATCH.withConfiguration(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(JellyfishingBlocks.PINEAPPLE_PLANT.get().getDefaultState().with(PineapplePlant.AGE, Integer.valueOf(3))), SimpleBlockPlacer.PLACER).tries(4).whitelist(ImmutableSet.of(Blocks.GRASS_BLOCK)).replaceable().build()).withPlacement(Features.Placements.PATCH_PLACEMENT);
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT_PATCH = createConfigured("pineapple_patch");
+    //public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_PINEAPPLE_PLANT_PATCH = Feature.RANDOM_PATCH.(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(JellyfishingBlocks.PINEAPPLE_PLANT.get().getDefaultState().with(PineapplePlant.AGE, Integer.valueOf(3))), SimpleBlockPlacer.PLACER).tries(4).whitelist(ImmutableSet.of(Blocks.GRASS_BLOCK)).replaceable().build()).withPlacement(Features.Placements.PATCH_PLACEMENT);
+
+    public static final ResourceKey<PlacedFeature> PLACED_PINEAPPLE_PLANT_PATCH = ResourceKey.create(
+            Registries.PLACED_FEATURE,
+            Jellyfishing.id("pineapple_patch")
+    );
     public static final ResourceKey<ConfiguredFeature<?, ?>> CONFIGURED_CORALSTONE_REPLACEMENT = createConfigured("coralstone_replacement");
     
 //    public static void registerConfiguredFeatures() {

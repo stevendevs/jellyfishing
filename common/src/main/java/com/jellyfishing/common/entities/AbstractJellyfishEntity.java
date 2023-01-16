@@ -58,7 +58,7 @@ public class AbstractJellyfishEntity extends AbstractFish implements Bucketable 
     public int moveCounter;
     public int moveTime;
 
-    public final DamageSource JELLYFISH_STING = ((DamageSourceAccess) new EntityDamageSource("sting", this)).invokeBypassArmor();
+    public final DamageSource JELLYFISH_STING = new DamageSource("sting").bypassArmor();
     public ItemStack JELLYFISH_ITEM;
     public Item JELLY_ITEM;
 

@@ -15,6 +15,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.Music;
@@ -26,30 +27,37 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.MobSpawnSettings;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.placement.BiomeFilter;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.NoiseBasedCountPlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 
 import javax.annotation.Nullable;
 
 public class JellyfishingBiome {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> COMMON_CORAL_PLANT = ResourceKey.create(
+    public static final ResourceKey<ConfiguredFeature<?, ?>> JELLY_FEATURES = ResourceKey.create(
             Registries.CONFIGURED_FEATURE,
-            Jellyfishing.id("coral_plant")
+            Jellyfishing.id("jelly_features")
     );
-    public static final ResourceKey<PlacedFeature> PLACED_COMMON_CORAL_PLANT = ResourceKey.create(
+    public static final ResourceKey<PlacedFeature> PLACED_JELLY_FEATURES = ResourceKey.create(
     Registries.PLACED_FEATURE,
-            Jellyfishing.id("coral_plant")
+            Jellyfishing.id("jelly_features")
     );
 
     public static Music MUSIC = new Music(JellyfishingSounds.BACKGROUND_MUSIC, 200, 4000, false);
@@ -67,9 +75,11 @@ public class JellyfishingBiome {
 
     public static void bootstrapPlacedFeatures(BootstapContext<PlacedFeature> bootstapContext) {
         HolderGetter<ConfiguredFeature<?, ?>> holderGetter = bootstapContext.lookup(Registries.CONFIGURED_FEATURE);
-        Holder.Reference<ConfiguredFeature<?, ?>> reference8 = holderGetter.getOrThrow(COMMON_CORAL_PLANT);
+        Holder.Reference<ConfiguredFeature<?, ?>> reference8 = holderGetter.getOrThrow(JELLY_FEATURES);
+        Holder<ConfiguredFeature<?, ?>> holder9 = holderGetter.getOrThrow(JellyfishingConfiguredFeatures.CONFIGURED_PINEAPPLE_PLANT_PATCH);
 
-        PlacementUtils.register(bootstapContext, PLACED_COMMON_CORAL_PLANT, reference8, NoiseBasedCountPlacement.of(20, 20.0, 0.0), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, BiomeFilter.biome());
+        PlacementUtils.register(bootstapContext, PLACED_JELLY_FEATURES, reference8, NoiseBasedCountPlacement.of(20, 20.0, 0.0), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, BiomeFilter.biome());
+        PlacementUtils.register(bootstapContext, JellyfishingConfiguredFeatures.PLACED_PINEAPPLE_PLANT_PATCH, holder9, PlacementUtils.isEmpty());
     }
 
     public static void bootstrapConfiguredFeatures(BootstapContext<ConfiguredFeature<?, ?>> bootstapContext) {
@@ -87,12 +97,20 @@ public class JellyfishingBiome {
 
         FeatureUtils.register(
                 bootstapContext,
-                COMMON_CORAL_PLANT,
+                JELLY_FEATURES,
                 Feature.SIMPLE_RANDOM_SELECTOR,
                 new SimpleRandomFeatureConfiguration(HolderSet.direct(
                         PlacementUtils.inlinePlaced(JellyfishingFeatures.CORAL_PLANT_FEATURE.get(), FeatureConfiguration.NONE),
                         PlacementUtils.inlinePlaced(JellyfishingFeatures.SEANUT_BUSH_FEATURE.get(), FeatureConfiguration.NONE),
                         PlacementUtils.inlinePlaced(JellyfishingFeatures.TUBE_PLANT_FEATURE.get(), FeatureConfiguration.NONE)
+                )));
+
+        FeatureUtils.register(
+                bootstapContext,
+                JellyfishingConfiguredFeatures.CONFIGURED_PINEAPPLE_PLANT_PATCH,
+                Feature.SIMPLE_RANDOM_SELECTOR,
+                new SimpleRandomFeatureConfiguration(HolderSet.direct(
+                        PlacementUtils.inlinePlaced(JellyfishingFeatures.PINEAPPLE_PLANT_FEATURE.get(), new ProbabilityFeatureConfiguration(1F))
                 )));
     }
 
@@ -115,7 +133,7 @@ public class JellyfishingBiome {
 
         BiomeGenerationSettings.Builder biomeBuilder = new BiomeGenerationSettings.Builder(holderGetter, holderGetter2);
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_COMMON_CORAL_PLANT);
+        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_JELLY_FEATURES);
 
         return biome(Biome.Precipitation.RAIN, 0.8F, 0.4F, 4566523, 2587774, 7842047, spawnBuilder, biomeBuilder, MUSIC, PARTICLES);
     }

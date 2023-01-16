@@ -1,0 +1,123 @@
+{
+  "jellyfishing:jellyfishing/sandy_suit": {
+    "criteria": {
+      "air_suit_armor": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/krabby_patty": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut_brittle": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-01-14 23:59:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2023-01-15 00:22:44 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/golden_spatula": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/firmly_grasp_it": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/roasted_seanut": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/ice_cream": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/im_ready": {
+    "criteria": {
+      "net": "2023-01-14 23:58:23 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/catch_blue": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/karate": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/kelp_mustache": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/spatula": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "jellyfishing:jellyfishing/seanut_butter": {
+    "criteria": {
+      "net": "2023-01-14 23:58:22 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

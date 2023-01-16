@@ -3,13 +3,8 @@ package com.jellyfishing.core.registry;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.monster.Drowned;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.enchantment.EnchantmentCategory;
-import net.minecraft.world.level.BaseSpawner;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
@@ -56,7 +51,7 @@ public class JellyfishingExtras {
 //        CreativeModeTabs.TOOLS_AND_UTILITIES.setEnchantmentCategories(TYPES);
     }
 
-    public static boolean doSpecialSpawn(Mob entity, LevelAccessor level) {
+    public static void doSpecialSpawn(Mob entity, LevelAccessor level) {
         if (!level.isClientSide()) {
             if (entity instanceof Drowned) {
                 if (entity.getLevel().getRandom().nextDouble() < 0.025) {
@@ -127,7 +122,6 @@ public class JellyfishingExtras {
                 }
             }
         }
-        return true;
     }
     
     @ExpectPlatform
