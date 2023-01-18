@@ -1,0 +1,157 @@
+[16:40:45] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19.3-2, --assetsDir, C:\Users\Steve\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 44.1.0, --fml.mcVersion, 1.19.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20221207.122022, -mixin.config, jellyfishing-common.mixins.json, -mixin.config, jellyfishing.mixins.json, --mixin.config, jellyfishing-common.mixins.json]
+[16:40:45] [main/INFO] (Launcher) ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16:40:46] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Steve/.gradle/caches/transforms-3/d032b1585c4b9cafc7b3105067f932e6/transformed/alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f/mixin-patched-0.8.5.8.jar%23113!/ Service=ModLauncher Env=CLIENT
+[16:40:46] [main/WARN] (ModFileParser) Mod file C:\Users\Steve\.gradle\caches\transforms-3\d9fb400d44b75ed7ce1e4c21a7ef9ec3\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\javafmllanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[16:40:46] [main/WARN] (ModFileParser) Mod file C:\Users\Steve\.gradle\caches\transforms-3\fdc4a71a9a3122715259e1fbda8d8efc\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\lowcodelanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[16:40:46] [main/WARN] (ModFileParser) Mod file C:\Users\Steve\.gradle\caches\transforms-3\af72fafee11077aa8d7c9c1c0e80127b\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\mclanguage-1.19.3-44.1.0.jar is missing mods.toml file
+[16:40:46] [main/WARN] (ModFileParser) Mod file C:\Users\Steve\.gradle\caches\transforms-3\ebdde1dae0915740d30fad2b5d695929\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\fmlcore-1.19.3-44.1.0.jar is missing mods.toml file
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.19.3-44.1.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.19.3-44.1.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.19.3-44.1.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.19.3-44.1.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@c5dc3db
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-7.0.66.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file TerraBlender-forge-1.19.3-2.1.0.134.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file 14831736857068641022.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-7.0.66.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file TerraBlender-forge-1.19.3-2.1.0.134.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (ModDiscoverer) Found mod file 14831736857068641022.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@2ca2fcb5
+[16:40:46] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!
+[16:40:49] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[16:40:49] [main/ERROR] (mixin) Mixin config jellyfishing-common.mixins.json does not specify "minVersion" property
+[16:40:49] [main/ERROR] (mixin) Mixin config jellyfishing.mixins.json does not specify "minVersion" property
+[16:40:49] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Steve\.gradle\caches\fabric-loom\assets, --assetIndex, 1.19.3-2]
+[16:40:49] [main/INFO] (unprotect) Found 7127 Minecraft classes
+[16:40:49] [main/INFO] (mixin) Remapping refMap terrablender.refmap.json using RemapperChain (Architectury Patched)
+[16:40:49] [main/INFO] (mixin) Remapping refMap terrablender.refmap.json using RemapperChain (Architectury Patched)
+[16:40:49] [main/INFO] (mixin) Remapping refMap architectury-forge-refmap.json using RemapperChain (Architectury Patched)
+[16:40:49] [main/INFO] (mixin) Remapping refMap architectury-common-refmap.json using RemapperChain (Architectury Patched)
+[16:40:51] [pool-6-thread-1/INFO] (Minecraft) Building unoptimized datafixer
+[16:40:53] [Render thread/WARN] (Minecraft) Assets URL 'union:/E:/Users/Steve/IdeaProjects/jellyfishing/.gradle/loom-cache/1.19.3/loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0/forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/assets/.mcassetsroot' uses unexpected schema
+[16:40:53] [Render thread/WARN] (Minecraft) Assets URL 'union:/E:/Users/Steve/IdeaProjects/jellyfishing/.gradle/loom-cache/1.19.3/loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0/forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/data/.mcassetsroot' uses unexpected schema
+[16:40:53] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:40:53] [Render thread/INFO] (Minecraft) Setting user: Dev
+[16:40:53] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 build 7
+[16:40:54] [modloading-worker-0/INFO] (ForgeMod) Forge mod loading, version 44.1.0, for MC 1.19.3 with MCP 20221207.122022
+[16:40:54] [modloading-worker-0/INFO] (MinecraftForge) MinecraftForge v44.1.0 Initialized
+[16:40:54] [modloading-worker-0/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:sync_ids
+[16:40:54] [modloading-worker-0/INFO] (NetworkManagerImpl) Registering C2S receiver with id architectury:sync_ids
+[16:40:56] [Render thread/ERROR] (FMLModContainer) Exception caught during firing event: com.jellyfishing.core.mixin.PlayerMixin is invalid
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: class dev.architectury.registry.level.entity.forge.EntityAttributeRegistryImpl event(Lnet/minecraftforge/event/entity/EntityAttributeCreationEvent;)V
+java.lang.NoClassDefFoundError: com.jellyfishing.core.mixin.PlayerMixin is invalid
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.ModLauncherClassTracker.handlesClass(ModLauncherClassTracker.java:91)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.handlesClass(MixinLaunchPluginLegacy.java:109)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.computeLaunchPluginTransformerSet(LaunchPluginHandler.java:69)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:64)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at TRANSFORMER/minecraft@1.19.3/net.minecraft.world.entity.ai.attributes.DefaultAttributes.<clinit>(DefaultAttributes.java:82)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.event.entity.EntityAttributeCreationEvent.put(EntityAttributeCreationEvent.java:35)
+	at TRANSFORMER/architectury@7.0.66/dev.architectury.registry.level.entity.forge.EntityAttributeRegistryImpl.event(EntityAttributeRegistryImpl.java:50)
+	at TRANSFORMER/architectury@7.0.66/dev.architectury.registry.level.entity.forge.__EntityAttributeRegistryImpl_event_EntityAttributeCreationEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at LAYER PLUGIN/javafmllanguage@1.19.3-44.1.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.lambda$postEvent$34(ModLoader.java:312)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:312)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.common.ForgeHooks.modifyAttributes(ForgeHooks.java:1264)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:390)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:201)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:201)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:179)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.19.3-44.1.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:179)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:91)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:111)
+	at TRANSFORMER/forge@44.1.0/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:91)
+	at TRANSFORMER/minecraft@1.19.3/net.minecraft.client.Minecraft.<init>(Minecraft.java:469)
+	at TRANSFORMER/minecraft@1.19.3/net.minecraft.client.main.Main.run(Main.java:176)
+	at TRANSFORMER/minecraft@1.19.3/net.minecraft.client.main.Main.main(Main.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.19.3-44.1.0/net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:217)
+
+[16:40:56] [Render thread/ERROR] (FMLModContainer) Caught exception during event net.minecraftforge.event.entity.EntityAttributeCreationEvent@11326597 dispatch for modid architectury
+java.lang.NoClassDefFoundError: com.jellyfishing.core.mixin.PlayerMixin is invalid
+	at org.spongepowered.asm.service.modlauncher.ModLauncherClassTracker.handlesClass(ModLauncherClassTracker.java:91) ~[mixin-patched-0.8.5.8.jar:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.handlesClass(MixinLaunchPluginLegacy.java:109) ~[mixin-patched-0.8.5.8.jar:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.computeLaunchPluginTransformerSet(LaunchPluginHandler.java:69) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:64) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.minecraft.world.entity.ai.attributes.DefaultAttributes.<clinit>(DefaultAttributes.java:82) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/:?]
+	at net.minecraftforge.event.entity.EntityAttributeCreationEvent.put(EntityAttributeCreationEvent.java:35) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at dev.architectury.registry.level.entity.forge.EntityAttributeRegistryImpl.event(EntityAttributeRegistryImpl.java:50) ~[architectury-forge-7.0.66.jar%23189!/:?]
+	at dev.architectury.registry.level.entity.forge.__EntityAttributeRegistryImpl_event_EntityAttributeCreationEvent.invoke(.dynamic) ~[architectury-forge-7.0.66.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2398!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2398!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2398!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19.3-44.1.0.jar%23183!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$postEvent$34(ModLoader.java:312) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:312) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyAttributes(ForgeHooks.java:1264) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:390) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:201) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:201) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:179) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:179) ~[fmlcore-1.19.3-44.1.0.jar%23186!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:91) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:111) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:91) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23181%23188!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:469) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:176) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.3-44.1.0-minecraft-project-@forge-merged-named.jar%23182!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.3-44.1.0.jar%2394!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2399!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:217) ~[?:?]
+[16:40:56] [Render thread/FATAL] (ForgeMod) Preparing crash report with UUID 02daec65-cbf0-40fe-9378-12216b030ed6
+[16:40:56] [Render thread/FATAL] (ForgeMod) Preparing crash report with UUID 5f4902f7-9c81-4f47-9e76-634fc2145b5b

@@ -5,7 +5,7 @@
       "feature": {
         "type": "jellyfishing:pineapple_plant_feature",
         "config": {
-          "probability": 0.2
+          "probability": 1.0
         }
       },
       "placement": []

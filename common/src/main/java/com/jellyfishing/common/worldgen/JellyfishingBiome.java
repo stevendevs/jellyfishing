@@ -8,9 +8,11 @@ import com.jellyfishing.core.registry.JellyfishingEntities;
 import com.jellyfishing.core.registry.JellyfishingFeatures;
 import com.jellyfishing.core.registry.JellyfishingParticles;
 import com.jellyfishing.core.registry.JellyfishingSounds;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.HolderSet;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.BootstapContext;
@@ -19,6 +21,9 @@ import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.Music;
+import net.minecraft.sounds.Musics;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.AmbientMoodSettings;
@@ -49,6 +54,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 
 import javax.annotation.Nullable;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class JellyfishingBiome {
     public static final ResourceKey<ConfiguredFeature<?, ?>> JELLY_FEATURES = ResourceKey.create(
@@ -60,8 +66,14 @@ public class JellyfishingBiome {
             Jellyfishing.id("jelly_features")
     );
 
-    public static Music MUSIC = new Music(JellyfishingSounds.BACKGROUND_MUSIC, 200, 4000, false);
+    public static final Holder.Reference<SoundEvent> BACKGROUND_MUSIC_HOLDER = createForHolder(JellyfishingSounds.BACKGROUND_MUSIC);
     public static AmbientParticleSettings PARTICLES = new AmbientParticleSettings(JellyfishingParticles.CLOUD_PARTICLE.get(), 0.000005F);
+
+    private static Holder.Reference<SoundEvent> createForHolder(RegistrySupplier<SoundEvent> event) {
+        AtomicReference<Holder.Reference<SoundEvent>> soundEventReference = new AtomicReference<>();
+        event.listen((soundEvent -> soundEventReference.set(BuiltInRegistries.SOUND_EVENT.createIntrusiveHolder(event.get()))));
+        return soundEventReference.get();
+    }
 
     public static void bootstrapBiomes(BootstapContext<Biome> biomeRegisterable) {
         biomeRegisterable.register(
@@ -135,6 +147,6 @@ public class JellyfishingBiome {
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
         biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_JELLY_FEATURES);
 
-        return biome(Biome.Precipitation.RAIN, 0.8F, 0.4F, 4566523, 2587774, 7842047, spawnBuilder, biomeBuilder, MUSIC, PARTICLES);
+        return biome(Biome.Precipitation.RAIN, 0.8F, 0.4F, 4566523, 2587774, 7842047, spawnBuilder, biomeBuilder, Musics.createGameMusic(BACKGROUND_MUSIC_HOLDER), PARTICLES);
     }
 }

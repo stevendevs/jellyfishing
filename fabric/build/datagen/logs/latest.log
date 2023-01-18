@@ -1,6 +1,6 @@
-[20:10:37] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.3 with Fabric Loader 0.14.12
-[20:10:38] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod jellyfishing-datagen uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:10:38] [main/INFO] (FabricLoader) Loading 42 mods:
+[16:44:06] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.3 with Fabric Loader 0.14.12
+[16:44:06] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod jellyfishing-datagen uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:44:06] [main/INFO] (FabricLoader) Loading 42 mods:
 	- architectury 7.0.66
 	- fabric-api 0.72.0+1.19.3
 	- fabric-api-base 0.4.20+afca2f3e85
@@ -37,30 +37,30 @@
 	- fabric-transitive-access-wideners-v1 2.3.0+5b9a588b85
 	- fabricloader 0.14.12
 	- forgeconfigapiport 5.0.3
-	- generated_f71507b 1.0.0
+	- generated_03877af 1.0.0
 	- java 17
 	- jellyfishing 1.0.0
 	- jellyfishing-datagen ${version}
 	- minecraft 1.19.3
 	- terrablender 2.1.0.134
-[20:10:38] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Steve/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:10:38] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:10:38] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[20:10:38] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[20:10:38] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/gui/screens/worldselection/WorldOpenFlows (java.lang.RuntimeException: Cannot load class net.minecraft.client.gui.screens.worldselection.WorldOpenFlows in environment type SERVER)
-[20:10:38] [main/WARN] (FabricLoader/Mixin) @Mixin target net.minecraft.client.gui.screens.worldselection.WorldOpenFlows was not found terrablender.mixins.json:MixinWorldOpenFlows from mod terrablender
-[20:10:43] [main/INFO] (Minecraft) Building unoptimized datafixer
-[20:10:45] [main/INFO] (terrablender) Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20:10:45] [main/INFO] (terrablender) Registered region minecraft:nether to index 0 for type NETHER
-[20:10:45] [main/INFO] (terrablender) Registered region jellyfishing:biome_region to index 1 for type OVERWORLD
-[20:10:46] [main/ERROR] (Minecraft) No data fixer registered for jellyfishing:textures/entities/blue_jellyfish.png
-[20:10:46] [main/ERROR] (Minecraft) No data fixer registered for jellyfishing:textures/entities/blue_jellyfish.png
-[20:10:46] [main/INFO] (FabricDataGenHelper) Running data generator for jellyfishing-datagen
-[20:10:46] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Jellyfishing World Generation Modifications
-[20:10:47] [main/INFO] (Minecraft) JellyFishing Data Generation/Jellyfishing World Generation Modifications finished after 327 ms
-[20:10:47] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Tags for minecraft:block
-[20:10:47] [main/INFO] (Minecraft) JellyFishing Data Generation/Tags for minecraft:block finished after 12 ms
-[20:10:47] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Tags for minecraft:painting_variant
-[20:10:47] [main/INFO] (Minecraft) JellyFishing Data Generation/Tags for minecraft:painting_variant finished after 1 ms
-[20:10:47] [main/INFO] (Minecraft) All providers took: 342 ms
-[20:10:47] [main/INFO] (Minecraft) Caching: total files: 12, old count: 12, new count: 13, removed stale: 0, written: 1
+[16:44:06] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Steve/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[16:44:06] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:44:06] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[16:44:06] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:44:06] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/gui/screens/worldselection/WorldOpenFlows (java.lang.RuntimeException: Cannot load class net.minecraft.client.gui.screens.worldselection.WorldOpenFlows in environment type SERVER)
+[16:44:06] [main/WARN] (FabricLoader/Mixin) @Mixin target net.minecraft.client.gui.screens.worldselection.WorldOpenFlows was not found terrablender.mixins.json:MixinWorldOpenFlows from mod terrablender
+[16:44:11] [main/INFO] (Minecraft) Building unoptimized datafixer
+[16:44:13] [main/ERROR] (Minecraft) No data fixer registered for jellyfishing:textures/entities/blue_jellyfish.png
+[16:44:13] [main/ERROR] (Minecraft) No data fixer registered for jellyfishing:textures/entities/blue_jellyfish.png
+[16:44:14] [main/INFO] (terrablender) Registered region minecraft:overworld to index 0 for type OVERWORLD
+[16:44:14] [main/INFO] (terrablender) Registered region minecraft:nether to index 0 for type NETHER
+[16:44:14] [main/INFO] (terrablender) Registered region jellyfishing:biome_region to index 1 for type OVERWORLD
+[16:44:14] [main/INFO] (FabricDataGenHelper) Running data generator for jellyfishing-datagen
+[16:44:14] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Jellyfishing World Generation Modifications
+[16:44:14] [main/INFO] (Minecraft) JellyFishing Data Generation/Jellyfishing World Generation Modifications finished after 361 ms
+[16:44:14] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Tags for minecraft:block
+[16:44:14] [main/INFO] (Minecraft) JellyFishing Data Generation/Tags for minecraft:block finished after 12 ms
+[16:44:14] [main/INFO] (Minecraft) Starting provider: JellyFishing Data Generation/Tags for minecraft:painting_variant
+[16:44:14] [main/INFO] (Minecraft) JellyFishing Data Generation/Tags for minecraft:painting_variant finished after 0 ms
+[16:44:14] [main/INFO] (Minecraft) All providers took: 375 ms
+[16:44:14] [main/INFO] (Minecraft) Caching: total files: 12, old count: 12, new count: 13, removed stale: 0, written: 0

@@ -1,7 +1,7 @@
-// 1.19.3	2023-01-15T20:10:47.0872312	JellyFishing Data Generation/Tags for minecraft:block
+// 1.19.3	2023-01-17T16:44:14.8703779	JellyFishing Data Generation/Tags for minecraft:block
 696a5a9d6204a4519a756e1e1c13fad3f6fcec3a data\minecraft\tags\blocks\mineable\pickaxe.json
 2aa8a8ec129302da77d3509b36840ea2544b8b10 data\minecraft\tags\blocks\mineable\axe.json
-021ef584f0c7863e5c6de786f6940a999cef43a4 data\minecraft\tags\blocks\mineable\shovel.json
 36a887b5ac474d8a166cdf3cfa850eff145b396e data\minecraft\tags\blocks\mineable\hoe.json
+021ef584f0c7863e5c6de786f6940a999cef43a4 data\minecraft\tags\blocks\mineable\shovel.json
 0004779f6130b011bc3e5efdca9871242a351917 data\minecraft\tags\blocks\needs_iron_tool.json
 a7197f6f17cd3135c1bcfa56a057b668e440d8a4 data\fabric\tags\blocks\mineable\shears.json

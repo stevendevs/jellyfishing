@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "examplemod-common.mixins.json"
-        mixinConfig "examplemod.mixins.json"
+        mixinConfig "jellyfishing-common.mixins.json"
+        mixinConfig "jellyfishing.mixins.json"
     }
 }
 
@@ -38,7 +38,7 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-    implementation ('com.github.glitchfiend:TerraBlender-forge:' + minecraft_version + '-' + terrablender_version)
+    modImplementation ('com.github.glitchfiend:TerraBlender-forge:' + minecraft_version + '-' + terrablender_version)
 }
 
 processResources {

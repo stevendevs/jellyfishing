@@ -1,13 +1,23 @@
 package com.jellyfishing.core.registry;
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableSet;
+import com.jellyfishing.common.entities.AbstractJellyfishEntity;
+import com.jellyfishing.core.mixin.access.VillagerAccess;
 import dev.architectury.injectables.annotations.ExpectPlatform;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.monster.Drowned;
+import net.minecraft.world.entity.npc.Villager;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.levelgen.Heightmap;
 
 import java.util.function.Supplier;
 
@@ -42,13 +52,37 @@ public class JellyfishingExtras {
         setCompostable(JellyfishingItems.PINEAPPLE, 0.7F);
     }
 
-    public static void setEnchantmentCategory() {
-//        EnchantmentCategory[] TYPES = new EnchantmentCategory[CreativeModeTabs.TOOLS_AND_UTILITIES.getEnchantmentCategories().length + 2];
-//        for (int i = 0; i < CreativeModeTabs.TOOLS_AND_UTILITIES.getEnchantmentCategories().length; i++) {
-//            TYPES[i] = CreativeModeTabs.TOOLS_AND_UTILITIES.getEnchantmentCategories()[i];
-//        }
-//        TYPES[TYPES.length - 1] = JellyfishingEnchantments.NET_ENCHANTMENT_CATEGORY;
-//        CreativeModeTabs.TOOLS_AND_UTILITIES.setEnchantmentCategories(TYPES);
+    public static void registerSpawning() {
+        var entities = ImmutableList.of(JellyfishingEntities.JELLYFISH, JellyfishingEntities.BLUE_JELLYFISH);
+        entities.forEach(entity -> entity.listen((real)-> SpawnPlacements.register(real, SpawnPlacements.Type.IN_WATER, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, AbstractJellyfishEntity::canJellySpawn)));
+    }
+
+    public static void registerVillagerProducts() {
+        VillagerAccess.setItemFoodValues(ImmutableMap.<Item, Integer>builder()
+                .putAll(Villager.FOOD_POINTS)
+                .put(JellyfishingItems.ROASTED_SEANUT.get(), 2)
+                .put(JellyfishingItems.SEANUT_BRITTLE.get(), 5)
+                .put(JellyfishingItems.JELLYFISH_JELLY_SANDWICH.get(), 4)
+                .put(JellyfishingItems.BLUE_JELLYFISH_JELLY_SANDWICH.get(), 5)
+                .put(JellyfishingItems.SEANUT_JELLYFISH_JELLY_SANDWICH.get(), 5)
+                .put(JellyfishingItems.SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH.get(), 6)
+                .put(JellyfishingItems.KRABBY_PATTY.get(), 20)
+                .put(JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.get(), 8)
+                .put(JellyfishingItems.PINEAPPLE.get(), 1)
+                .build());
+
+        VillagerAccess.setGatherableItems(ImmutableSet.<Item>builder()
+                .addAll(Villager.WANTED_ITEMS)
+                .add(JellyfishingItems.ROASTED_SEANUT.get())
+                .add(JellyfishingItems.SEANUT_BRITTLE.get())
+                .add(JellyfishingItems.JELLYFISH_JELLY_SANDWICH.get())
+                .add(JellyfishingItems.BLUE_JELLYFISH_JELLY_SANDWICH.get())
+                .add(JellyfishingItems.SEANUT_JELLYFISH_JELLY_SANDWICH.get())
+                .add(JellyfishingItems.SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH.get())
+                .add(JellyfishingItems.KRABBY_PATTY.get())
+                .add(JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.get())
+                .add(JellyfishingItems.PINEAPPLE.get())
+                .build());
     }
 
     public static void doSpecialSpawn(Mob entity, LevelAccessor level) {
@@ -125,12 +159,12 @@ public class JellyfishingExtras {
     }
     
     @ExpectPlatform
-    public static <T extends Block> void setFlammable(Supplier<T> block, int encouragement, int flammability) {
+    public static <T extends Block> void setFlammable(RegistrySupplier<T> block, int encouragement, int flammability) {
         throw new AssertionError();
     }
 
     @ExpectPlatform
-    public static <T extends ItemLike> void setCompostable(Supplier<T> like, float chance) {
+    public static <T extends ItemLike> void setCompostable(RegistrySupplier<T> like, float chance) {
         throw new AssertionError();
     }
 }

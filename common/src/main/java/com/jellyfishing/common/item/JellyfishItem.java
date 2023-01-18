@@ -1,6 +1,7 @@
 package com.jellyfishing.common.item;
 
 import com.jellyfishing.common.entities.AbstractJellyfishEntity;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.BlockSource;
 import net.minecraft.core.Direction;
@@ -11,6 +12,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.animal.AbstractFish;
 import net.minecraft.world.entity.player.Player;
@@ -22,11 +24,12 @@ import net.minecraft.world.level.block.DispenserBlock;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.Objects;
+import java.util.function.Supplier;
 
 public class JellyfishItem extends Item {
-    public final EntityType<?> entityType;
+    public final RegistrySupplier<? extends EntityType<? extends Mob>> entityType;
 
-    public JellyfishItem(Properties settings, EntityType<?> entityType) {
+    public JellyfishItem(Properties settings, RegistrySupplier<? extends EntityType<? extends Mob>> entityType) {
         super(settings);
         this.entityType = entityType;
 
@@ -35,7 +38,7 @@ public class JellyfishItem extends Item {
             public ItemStack execute(BlockSource source, ItemStack stack) {
                 var direction = source.getBlockState().getValue(DispenserBlock.FACING);
                 var entityType = ((JellyfishItem) stack.getItem()).entityType;
-                var entity = (AbstractJellyfishEntity) entityType.spawn(source.getLevel(), stack, null, source.getPos().offset(direction.getNormal()), MobSpawnType.DISPENSER, direction != Direction.UP, false);
+                var entity = (AbstractJellyfishEntity) entityType.get().spawn(source.getLevel(), stack, null, source.getPos().offset(direction.getNormal()), MobSpawnType.DISPENSER, direction != Direction.UP, false);
                 if (entity != null) {
                     entity.setFromBucket(true);
                 }
@@ -54,7 +57,7 @@ public class JellyfishItem extends Item {
         Player player = context.getPlayer();
         InteractionHand hand = context.getHand();
         if (level.isClientSide() || false) {
-            AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.create(level);
+            AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.get().create(level);
             use(level, player, hand, entity);
         } else {
             ItemStack stack = context.getItemInHand();
@@ -68,7 +71,7 @@ public class JellyfishItem extends Item {
                 pos1 = pos.offset(direction.getNormal());
             }
 
-            var entity = this.entityType.spawn((ServerLevel) level, stack, null, pos1, MobSpawnType.BUCKET, true, false);
+            var entity = this.entityType.get().spawn((ServerLevel) level, stack, null, pos1, MobSpawnType.BUCKET, true, false);
             if (entity != null) {
                 ((AbstractFish)entity).setFromBucket(true);
             }
@@ -91,7 +94,7 @@ public class JellyfishItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
         if (false) {
-            AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.create(level);
+            AbstractJellyfishEntity entity = (AbstractJellyfishEntity) this.entityType.get().create(level);
             use(level, player, usedHand, entity);
         }
 

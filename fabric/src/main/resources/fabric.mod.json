@@ -13,7 +13,10 @@
     "homepage": "https://curseforge.com/minecraft/mc-mods/jellyfishing",
     "sources": "https://github.com/stevendevs/jellyfishing"
   },
-  "license": "Insert License Here",
+  "license": [
+    "MIT (Code)",
+    "ARR (Assets)"
+  ],
   "icon": "assets/jellyfishing/icon.png",
   "environment": "*",
   "entrypoints": {
