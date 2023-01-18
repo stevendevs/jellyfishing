@@ -10,7 +10,6 @@
     "BaseSpawnerMixin",
     "FluidBlockMixin",
     "PistonHandlerMixin",
-    "PlayerMixin",
     "StructurePoolsMixin",
     "access.DamageSourceAccess",
     "access.StructurePoolAccess",
