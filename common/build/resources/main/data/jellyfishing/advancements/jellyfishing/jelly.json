@@ -1,38 +1,38 @@
 {
   "parent": "jellyfishing:jellyfishing/catch",
+  "criteria": {
+    "getJellyAndNet": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "jellyfishing:jelly",
+            "items": [
+              "jellyfishing:jellyfish_net"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:jellyfish_jelly"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.jelly.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.jelly.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:jellyfish_jelly"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "jellyfishing:jelly"
-          },
-          {
-            "item": "jellyfishing:jellyfish_net"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.jelly.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getJellyAndNet"
     ]
   ]
 }

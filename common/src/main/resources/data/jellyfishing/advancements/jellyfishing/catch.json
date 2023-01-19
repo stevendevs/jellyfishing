@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/firmly_grasp_it",
+  "criteria": {
+    "getJellyfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:jellyfish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:jellyfish"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.catch.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.catch.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:jellyfish"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "jellyfishing:jellyfish"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.catch.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getJellyfish"
     ]
   ]
 }

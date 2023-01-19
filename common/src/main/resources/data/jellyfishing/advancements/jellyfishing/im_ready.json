@@ -1,31 +1,41 @@
 {
   "parent": "jellyfishing:jellyfishing/root",
+  "criteria": {
+    "jellyfishing:jellyfish_fields": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "jellyfishing:jellyfish_fields"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:coral_plant"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.im_ready.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.im_ready.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:coral_plant"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "biome": "jellyfishing:jellyfish_fields"
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.im_ready.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "jellyfishing:jellyfish_fields"
     ]
   ]
 }

@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/krabby_patty",
+  "criteria": {
+    "getSpatula": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:spatula"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:spatula"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.spatula.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.spatula.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:spatula"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "jellyfishing:spatula"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.spatula.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getSpatula"
     ]
   ]
 }

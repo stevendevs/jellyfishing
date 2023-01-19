@@ -37,7 +37,7 @@ public abstract class HumanoidArmorLayerMixin extends RenderLayer<LivingEntity, 
 //            if (armorItem.getSlot().equals(EquipmentSlot.LEGS)) {
 //                cir.setReturnValue(Jellyfishing.id("textures/models/armor/sandy_suit_legs.png"));
 //            } else {
-//                cir.setReturnValue(Jellyfishing.id("textures/models/armor/sandy_suit.png"));
+//                cir.setReturnValue(Jellyfishing.id("textures/models/armor/air_suit.png"));
 //            }
 //        }
     }

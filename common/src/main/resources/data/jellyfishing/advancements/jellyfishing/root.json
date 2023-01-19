@@ -1,26 +1,41 @@
 {
+  "criteria": {
+    "jellyfishing:jellyfish_fields": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "jellyfishing:jellyfish_fields"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:algae_grass"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.root.title"
-    },
+    "announce_to_chat": false,
+    "background": "jellyfishing:textures/block/coralstone.png",
     "description": {
       "translate": "advancements.jellyfishing.root.description"
     },
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
     "hidden": false,
-    "background": "jellyfishing:textures/block/coralstone.png"
-  },
-  "criteria": {
-    "consumed_item": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:oak_boat"
-      }
+    "icon": {
+      "item": "jellyfishing:algae_grass"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.jellyfishing.root.title"
     }
-  }
+  },
+  "requirements": [
+    [
+      "jellyfishing:jellyfish_fields"
+    ]
+  ]
 }

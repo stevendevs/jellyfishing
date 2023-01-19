@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/root",
+  "criteria": {
+    "getIceCream": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:triple_gooberberry_sunrise"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:triple_gooberberry_sunrise"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.ice_cream.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.ice_cream.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:triple_gooberberry_sunrise"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "jellyfishing:triple_gooberberry_sunrise"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.ice_cream.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getIceCream"
     ]
   ]
 }

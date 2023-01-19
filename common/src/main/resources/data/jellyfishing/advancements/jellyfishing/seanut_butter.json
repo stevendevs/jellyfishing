@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/seanut",
+  "criteria": {
+    "getSeanutButter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:seanut_butter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:seanut_butter"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.seanut_butter.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.seanut_butter.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:seanut_butter"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "jellyfishing:seanut_butter"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.seanut_butter.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getSeanutButter"
     ]
   ]
 }

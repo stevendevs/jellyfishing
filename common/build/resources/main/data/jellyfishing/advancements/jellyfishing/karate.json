@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/root",
+  "criteria": {
+    "getGlove": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:master_karate_glove"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:master_karate_glove"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.karate.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.karate.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:master_karate_glove"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "jellyfishing:master_karate_glove"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.karate.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getGlove"
     ]
   ]
 }

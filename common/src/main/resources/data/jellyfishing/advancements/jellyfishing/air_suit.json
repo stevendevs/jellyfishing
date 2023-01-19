@@ -1,0 +1,57 @@
+{
+  "parent": "jellyfishing:jellyfishing/root",
+
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:air_suit_helmet"
+            ]
+          },
+          {
+            "items": [
+              "jellyfishing:air_suit_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "jellyfishing:air_suit_leggings"
+            ]
+          },
+          {
+            "items": [
+              "jellyfishing:air_suit_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.jellyfishing.air_suit.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:air_suit_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.jellyfishing.air_suit.title"
+    }
+  },
+  "requirements": [
+    [
+      "air_suit_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,35 +1,37 @@
 {
   "parent": "jellyfishing:jellyfishing/spatula",
+  "criteria": {
+    "getGoldenSpatula": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellyfishing:golden_spatula"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "jellyfishing:golden_spatula"
-    },
-    "title": {
-      "translate": "advancements.jellyfishing.golden_spatula.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.jellyfishing.golden_spatula.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "jellyfishing:golden_spatula"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "net": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "jellyfishing:golden_spatula"
-          }
-        ]
-      }
+    "title": {
+      "translate": "advancements.jellyfishing.golden_spatula.title"
     }
   },
   "requirements": [
     [
-      "net"
+      "getGoldenSpatula"
     ]
   ]
 }
