@@ -4,8 +4,6 @@ import com.google.common.collect.ImmutableList;
 import com.jellyfishing.core.registry.JellyfishingBiomes;
 import com.jellyfishing.core.registry.JellyfishingBlocks;
 import net.minecraft.data.worldgen.SurfaceRuleData;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.levelgen.Noises;
 import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 
