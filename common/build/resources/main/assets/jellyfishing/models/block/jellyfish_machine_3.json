@@ -1,8 +1,0 @@
-{
-  "parent": "block/orientable",
-  "textures": {
-    "top": "jellyfishing:block/machine_side",
-    "front": "jellyfishing:block/machine_front_3",
-    "side": "jellyfishing:block/machine_side"
-  }
-}

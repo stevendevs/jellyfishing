@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "jellyfishing:block/chrome_metal",
-    "top": "jellyfishing:block/chrome_metal",
-    "side": "jellyfishing:block/chrome_metal"
-  }
-}

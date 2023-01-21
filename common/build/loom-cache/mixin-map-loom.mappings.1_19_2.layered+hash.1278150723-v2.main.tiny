@@ -1,5 +1,0 @@
-v1	named	intermediary
-FIELD	com/jellyfishing/core/mixin/BaseSpawnerMixin	Lnet/minecraft/world/level/SpawnData;	nextSpawnData	field_9155
-FIELD	com/jellyfishing/core/mixin/FluidBlockMixin	Lnet/minecraft/world/level/material/FlowingFluid;	fluid	field_11279
-METHOD	com/jellyfishing/core/mixin/FluidBlockMixin	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)V	fizz	method_10318
-METHOD	com/jellyfishing/core/mixin/PlayerMixin	(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;	getItemBySlot	method_6118
