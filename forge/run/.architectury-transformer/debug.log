@@ -6,13 +6,13 @@
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.14.13\2c57930fc72f178345a891e60a2c41f0a49f783b\fabric-loader-0.14.13.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\2f803c7a8b17b6dd3fd6d490b5593943\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\javafmllanguage-1.19.3-44.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\f7cead3e5aa30ddf8a495ea253f0c204\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\lowcodelanguage-1.19.3-44.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\4c48dd3555d89e1a7d03eda6f5c32abc\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\mclanguage-1.19.3-44.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\f095ffa7fa800b2b22592c24b732f433\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\fmlcore-1.19.3-44.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\851fb76c2d6d37b15a3d04f42a31cc02\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\fmlloader-1.19.3-44.1.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\e0a0bc223f5502941087371d75e1750b\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarSelector-0.3.19.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\6c84a2a25a2979fcda4eb6ff48555903\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarMetadata-0.3.19.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\ad312db168813b9ab14f36e402c1f518\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\javafmllanguage-1.19.3-44.1.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\8cfc0aca652bdb6478dd15030e7cc42e\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\lowcodelanguage-1.19.3-44.1.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\c2870cedb9b708e17f1b69e9e0689488\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\mclanguage-1.19.3-44.1.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\357b3ad76e15a968a2f5a3ae468d87c5\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\fmlcore-1.19.3-44.1.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\dfdc3ad5ef9709c649a6314b2abe98b5\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\fmlloader-1.19.3-44.1.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\10c7a733580cbc816396b2df21953b61\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarSelector-0.3.19.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\bdde2904c031bc5c30bdb75cfa9ee9b0\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarMetadata-0.3.19.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.13.9\5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59\text2speech-1.13.9.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.13.9\7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb\text2speech-1.13.9-natives-windows.jar
@@ -20,31 +20,31 @@
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\5.0.28\e2157e236e529aff80a5fc3ccb506e56d46b130b\datafixerupper-5.0.28.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\ea9b0babab1092219084a0ae26d021e4\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\coremods-5.0.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\51831a5ea8f32d4d32cd281aa50c9e8e\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\forgespi-6.0.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\ef248ddb3aee908441f0daf760103595\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\accesstransformers-8.0.4.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\09ae4201e4f9f2070cdf82319c8e3d44\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\eventbus-6.0.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\0e0f349d46b5f45ca7ad1dd089fdd258\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\modlauncher-10.0.8.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\de91b62db2e236e97b3c1ee9fc9042e4\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\bootstraplauncher-1.1.2.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\2d2ffae9dac46b63965ad390960f2cf0\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\securejarhandler-2.1.4.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\86a68abe26d3b54064a76882a41881cb\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\nashorn-core-15.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\5b16be35c8f192b9e72a7667f02fe966\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-commons-9.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\346ffa58fc08063c5d7b188d318ca17d\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-util-9.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\f631a3d774ad94a074c44477ea5acd2e\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-analysis-9.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\f6470e70abf39bf8c055cf616d705074\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-tree-9.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\8dba581663d4da6a0e3fe4165e45a240\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\38b107ba974dbcb8852e198f51f5d0c2\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\coremods-5.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\92e9c45d8965dbd6242adad208a40b76\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\forgespi-6.0.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\60892d59aecaaf3258c7f738c8ec9321\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\accesstransformers-8.0.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\8c3dbbf4c5aadf8bc8cf0775eac78900\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\eventbus-6.0.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\7293acc1633af556f75d8b45b0946cc1\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\modlauncher-10.0.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\387d420bf0bdf9f4dcf9956b62c39922\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\bootstraplauncher-1.1.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\d5655acf3a5144f7d2485641894cbb33\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\securejarhandler-2.1.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\903f57d18c8290bcf21a11f76b33df32\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\nashorn-core-15.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\48845e97126bbe60e4ef698050221f93\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-commons-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\1e745db5562ac3f89d494c85d9f7d3df\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-util-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\023213411781ef39c6031151465220c7\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-analysis-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\131be72e08df26f4973ab3694eda409b\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-tree-9.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\a522982c45bf9429a3e670f360702834\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\asm-9.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\94ff9a4e0deda0cc43dab877dafa9582\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\antlr4-runtime-4.9.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\56130a2b3b1db5d3690fff50fc8820ca\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\unsafe-0.2.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\770751c15d65639a62a4d15abf608991\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\toml-3.6.4.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\88d6e53bdc31abf36648e20fe5fe4409\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\core-3.6.4.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\770f925c1b9000e37f8c3c8c69463dd0\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\maven-artifact-3.8.5.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\a2076442d3fe1c749595e5b1ad713ada\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\typetools-0.8.3.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\aeed29439ba9aa4bb730ffea99700805\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\terminalconsoleappender-1.2.0.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\e14bf6dd4ac639a12bc02c22eb6a5359\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\jline-reader-3.12.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\90ba2fc2e904b30965d35d1abb969f07\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\jline-terminal-3.12.1.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\7bf82ed02905d9b3f24535a06066ab21\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\mixin-patched-0.8.5.8.jar
-[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\c6fd1972cefa772807efd0a4915a0d5d\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarFileSystems-0.3.19.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\f57c83d067c36e8424341172b18a4610\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\antlr4-runtime-4.9.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\34254a3cbcd575f2feb39ceb1e024e55\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\unsafe-0.2.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\5677d16c70df47c6904d67de322f34a8\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\toml-3.6.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\56ac55dff970d01edf6236eb3b0d034b\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\core-3.6.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\44b48b3a06cabbbef818b0f85408500d\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\maven-artifact-3.8.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\be162875b97444c514a6e9af79371848\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\typetools-0.8.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\e1f110a88a1992f61de4319a6baf8f50\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\terminalconsoleappender-1.2.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\87bd80a16aebe9a829530cf4871d08ad\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\jline-reader-3.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\0632c06d00d73775c0466063b1b5841b\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\jline-terminal-3.12.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\6e992895959324e65faacaeede20f0d4\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\mixin-patched-0.8.5.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\transforms-3\ea96d49cc195492fea5ba0b54af72509\transformed\alfd-transformed-9de6f62584cc147d804d5c5c90ed166d95222ba10e46fe5231350d6ebdf1d40f\JarJarFileSystems-0.3.19.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-loom-runtime\1.1.3\5ca1d9609c1bdd10a3162a9e2d211a95ca79740e\architectury-loom-runtime-1.1.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect\1.2.0\49cc229a0469f28fae41593a9537743ac6a951dc\unprotect-1.2.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
@@ -115,23 +115,23 @@
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\maxba\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-[Architectury Transformer] Read classpath in 1.325 s
+[Architectury Transformer] Read classpath in 1.461 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\maxba\AppData\Local\Temp\17851284872718618560.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7b205dbd
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@106cc338
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@7a67e3c6
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6cc558c6
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@15713d56
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@63f259c3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@26ceffa8
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@600b90df
-[Architectury Transformer DEBUG] Transforming from C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\maxba\AppData\Local\Temp\17851284872718618560.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\maxba\AppData\Local\Temp\15613006296243682747.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@d62fe5b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@49964d75
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@528c868
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@466276d8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@5ce8d869
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@27eedb64
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@64c63c79
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@31c7528f
+[Architectury Transformer DEBUG] Transforming from C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar to C:\Users\maxba\AppData\Local\Temp\15613006296243682747.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
 [Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$125/0x0000000800c2ef78@5f354bcf
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$129/0x0000000800c8cde8@6eb2384f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$128/0x0000000800c8cbc8@73194df
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@8c3619e
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -140,17 +140,17 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/JellyfishingClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SuitModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/AbstractJellyfishModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SpatulaModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/ModelPerspectiveRegistry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/package-info with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SpatulaModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/forge/ModelPerspectiveRegistryImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/BlueJellyfishRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/JellyfishRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/JellyfishMachineBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/Water with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/AlgaeGrassBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/Water with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/SeanutBush with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/JellyfishMachineBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/PineapplePlant with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/package-info with maxs=true frames=true
@@ -159,23 +159,23 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/BlueJellyfishEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/CoralPlantFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/TubePlantFeature with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/SeanutBushFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishNetItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/package-info with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpShakeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpMaterial with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/package-info with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/AgilityEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishingBiome with maxs=true frames=true
@@ -184,8 +184,8 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/package-info with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PistonHandlerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/FluidBlockMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/PistonHandlerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/BaseSpawnerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/StructurePoolsMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/DamageSourceAccess with maxs=true frames=true
@@ -196,22 +196,22 @@
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingSounds with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/package-info with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingPaintings with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingFeatures with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/package-info with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingConfiguredFeatures with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEnchantments with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBiomes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ItemsUtil with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRendererRegistryImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ItemsUtil with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /jellyfishing-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /jellyfishing-common.mixins.json is a mixin config.
@@ -221,5 +221,845 @@
 [Architectury Transformer DEBUG] Found mixin config(s): jellyfishing-common.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, jellyfishing-common.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\maxba\AppData\Local\Temp\17851284872718618560.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\maxba\AppData\Local\Temp\15613006296243682747.jar
 [Architectury Transformer] Listening at C:\Users\maxba\IdeaProjects\jellyfishing-1.19\common\build\devlibs\jellyfishing-1.0.0-dev.jar
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/mixin/access/VillagerAccess.class to com/jellyfishing/core/mixin/access/VillagerAccess.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@40d33b5
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/VillagerAccess with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/VillagerAccess in 50.06 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/mixin/access/StructurePoolAccess.class to com/jellyfishing/core/mixin/access/StructurePoolAccess.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6444ab60
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/StructurePoolAccess with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/StructurePoolAccess in 38.79 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing.class to com/jellyfishing/core/Jellyfishing.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6df7c955
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing in 69.70 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks.class to com/jellyfishing/core/registry/JellyfishingBlocks.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@5ae5706a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks in 54.49 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/Water.class to com/jellyfishing/common/block/Water.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@71c6ef0a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/Water with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/mixin/access/DamageSourceAccess.class to com/jellyfishing/core/mixin/access/DamageSourceAccess.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/Water in 58.81 ms
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6691daef
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/mixin/access/DamageSourceAccess with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/SeanutBush.class to com/jellyfishing/common/block/SeanutBush.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/mixin/access/DamageSourceAccess in 103.3 ms
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@24e9cac8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/SeanutBush with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/SeanutBush in 93.50 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBlocks$1.class to com/jellyfishing/core/registry/JellyfishingBlocks$1.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@705976ba
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBlocks$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBlocks$1 in 37.64 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/BubbleBlock.class to com/jellyfishing/common/block/BubbleBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@442fb9d9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/BubbleBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/BubbleBlock in 30.71 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/PineapplePlant.class to com/jellyfishing/common/block/PineapplePlant.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@880aabc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/PineapplePlant with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/PineapplePlant in 29.38 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/block/AlgaeGrassBlock.class to com/jellyfishing/common/block/AlgaeGrassBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@1b083e62
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/block/AlgaeGrassBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/block/AlgaeGrassBlock in 29.59 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingItems.class to com/jellyfishing/core/registry/JellyfishingItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@63eaec36
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingItems in 30.39 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/BubbleKitItem.class to com/jellyfishing/common/item/BubbleKitItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@64ff2974
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/BubbleKitItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/BubbleKitItem in 28.48 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishNetItem.class to com/jellyfishing/common/item/JellyfishNetItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@1f01052e
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishNetItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishNetItem in 26.72 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem.class to com/jellyfishing/common/item/JellyfishItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7464aadc
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem in 28.81 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SpatulaItem.class to com/jellyfishing/common/item/SpatulaItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@33af6df0
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SpatulaItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SpatulaItem in 34.50 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/GloveItem.class to com/jellyfishing/common/item/GloveItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@79d6732a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/GloveItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/GloveItem in 34.07 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpShakeItem.class to com/jellyfishing/common/item/KelpShakeItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@bf59a63
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpShakeItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpShakeItem in 33.10 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/SuitMaterial.class to com/jellyfishing/common/item/SuitMaterial.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@1812c1ae
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/SuitMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/SuitMaterial in 39.30 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingFeatures.class to com/jellyfishing/core/registry/JellyfishingFeatures.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@220f4e76
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingFeatures in 32.23 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/TubePlantFeature.class to com/jellyfishing/common/features/TubePlantFeature.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@68e7e9e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/TubePlantFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/TubePlantFeature in 33.38 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/CoralPlantFeature.class to com/jellyfishing/common/features/CoralPlantFeature.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@12744150
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/CoralPlantFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/CoralPlantFeature in 31.88 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/PineapplePlantFeature.class to com/jellyfishing/common/features/PineapplePlantFeature.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@66cb31ee
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/PineapplePlantFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/PineapplePlantFeature in 31.39 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/features/SeanutBushFeature.class to com/jellyfishing/common/features/SeanutBushFeature.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@198af8a8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/features/SeanutBushFeature with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/features/SeanutBushFeature in 35.65 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEntities.class to com/jellyfishing/core/registry/JellyfishingEntities.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@412dcfe4
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEntities in 58.41 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingSounds.class to com/jellyfishing/core/registry/JellyfishingSounds.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@414a8101
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingSounds with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingSounds in 50.46 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingPaintings.class to com/jellyfishing/core/registry/JellyfishingPaintings.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7c07fbe0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingPaintings in 48.06 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingVillagers.class to com/jellyfishing/core/registry/JellyfishingVillagers.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@75fabac6
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingVillagers with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingVillagers in 33.85 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingEnchantments.class to com/jellyfishing/core/registry/JellyfishingEnchantments.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@2cd02873
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingEnchantments in 28.42 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/AgilityEnchantment.class to com/jellyfishing/common/misc/AgilityEnchantment.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@53fd393e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/AgilityEnchantment with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/AgilityEnchantment in 25.80 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/PlunderingEnchantment.class to com/jellyfishing/common/misc/PlunderingEnchantment.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@13888860
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/PlunderingEnchantment with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/PlunderingEnchantment in 28.03 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles.class to com/jellyfishing/core/registry/JellyfishingParticles.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6170e924
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles in 28.72 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingParticles$1.class to com/jellyfishing/core/registry/JellyfishingParticles$1.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@5d91109b
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingParticles$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingParticles$1 in 27.68 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingExtras.class to com/jellyfishing/core/registry/JellyfishingExtras.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6e65838a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingExtras with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingExtras in 30.42 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/AbstractJellyfishEntity.class to com/jellyfishing/common/entities/AbstractJellyfishEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@21587138
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/AbstractJellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/AbstractJellyfishEntity in 29.45 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/Jellyfishing$LootEvents.class to com/jellyfishing/core/Jellyfishing$LootEvents.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@3e304e6d
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/Jellyfishing$LootEvents with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/Jellyfishing$LootEvents in 30.34 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/JellyfishingClient.class to com/jellyfishing/client/JellyfishingClient.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6fe10702
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/JellyfishingClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/JellyfishingClient in 30.47 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/model/SuitModel.class to com/jellyfishing/client/model/SuitModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@71c5957a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SuitModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/model/SuitModel in 27.89 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/model/AbstractJellyfishModel.class to com/jellyfishing/client/model/AbstractJellyfishModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@f4d8219
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/AbstractJellyfishModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/model/AbstractJellyfishModel in 28.48 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/model/SpatulaModel.class to com/jellyfishing/client/model/SpatulaModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@2c8f560e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/SpatulaModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/model/SpatulaModel in 24.13 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/renderer/JellyfishRenderer.class to com/jellyfishing/client/renderer/JellyfishRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@5948719d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/JellyfishRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/renderer/JellyfishRenderer in 25.04 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/renderer/BlueJellyfishRenderer.class to com/jellyfishing/client/renderer/BlueJellyfishRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@2db50553
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/renderer/BlueJellyfishRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/renderer/BlueJellyfishRenderer in 25.73 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/CloudParticle$Factory.class to com/jellyfishing/common/misc/CloudParticle$Factory.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6b7a155b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/CloudParticle$Factory in 27.45 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/CloudParticle.class to com/jellyfishing/common/misc/CloudParticle.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@27c2ae93
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/CloudParticle with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/CloudParticle in 30.17 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/model/ModelPerspectiveRegistry.class to com/jellyfishing/client/model/ModelPerspectiveRegistry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@5b6be743
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/ModelPerspectiveRegistry with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/model/ModelPerspectiveRegistry in 29.22 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/client/model/forge/ModelPerspectiveRegistryImpl.class to com/jellyfishing/client/model/forge/ModelPerspectiveRegistryImpl.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@185b8795
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/client/model/forge/ModelPerspectiveRegistryImpl with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/client/model/forge/ModelPerspectiveRegistryImpl in 25.37 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class to com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@239678d
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/misc/JellyfishingSellItemFactory$SellItemFactory in 35.13 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/JellyfishItem$1.class to com/jellyfishing/common/item/JellyfishItem$1.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@26382141
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/JellyfishItem$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/JellyfishItem$1 in 38.13 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/item/KelpMaterial.class to com/jellyfishing/common/item/KelpMaterial.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@337eb419
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/item/KelpMaterial with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/item/KelpMaterial in 33.08 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/util/ArmorRenderer.class to com/jellyfishing/core/util/ArmorRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@4412ac1a
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/util/ArmorRenderer in 28.81 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/util/ArmorRendererRegistryImpl.class to com/jellyfishing/core/util/ArmorRendererRegistryImpl.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@7128d0c7
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/util/ArmorRendererRegistryImpl with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/util/ArmorRendererRegistryImpl in 26.42 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/JellyfishEntity.class to com/jellyfishing/common/entities/JellyfishEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@413e4756
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/JellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/JellyfishEntity in 26.97 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/entities/BlueJellyfishEntity.class to com/jellyfishing/common/entities/BlueJellyfishEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@3d4d5af7
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/entities/BlueJellyfishEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/entities/BlueJellyfishEntity in 26.05 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData.class to com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@6ef4ae5
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/common/worldgen/JellyfishFieldsSurfaceRuleData in 101.6 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingBiomes.class to com/jellyfishing/core/registry/JellyfishingBiomes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@702a4064
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingBiomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingBiomes in 71.02 ms
+[Architectury Transformer DEBUG] Transforming from com/jellyfishing/core/registry/JellyfishingConfiguredFeatures.class to com/jellyfishing/core/registry/JellyfishingConfiguredFeatures.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\maxba\IdeaProjects\jellyfishing-1.19\forge\build\loom-cache\mixin-map-loom.mappings.1_19_3.layered+hash.1278150723-v2-forge-1.19.3-44.1.0.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x0000000800c8e3d8@2c1156a7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$149/0x0000000800c8e5f8@33fe57a9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables$$Lambda$145/0x0000000800c84b08@3158e256
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] dev/architectury/injectables/targets/ArchitecturyTarget -> architectury_inject_jellyfishing_forge_4211775ed9464a4b946432f29e0b7674_0af6c0e798b853d970ddb299db68c17f7e262ae3f3e400fbe710c90f9b0d6a6cjellyfishing100devjar/PlatformMethods
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/jellyfishing/core/registry/JellyfishingConfiguredFeatures with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: jellyfishing-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/jellyfishing/core/registry/JellyfishingConfiguredFeatures in 30.63 ms
