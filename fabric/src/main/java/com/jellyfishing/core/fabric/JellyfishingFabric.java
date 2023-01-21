@@ -1,23 +1,10 @@
 package com.jellyfishing.core.fabric;
 
-import com.jellyfishing.client.renderer.SpatulaItemRender;
-import com.jellyfishing.common.worldgen.JellyfishingBiome;
 import com.jellyfishing.core.Jellyfishing;
-import com.jellyfishing.core.mixin.access.StructurePoolAccess;
-import com.jellyfishing.core.registry.JellyfishingBiomes;
-import com.jellyfishing.core.registry.JellyfishingFeatures;
-import com.jellyfishing.core.registry.JellyfishingItems;
-import com.mojang.datafixers.util.Pair;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
 import net.fabricmc.fabric.api.event.registry.DynamicRegistrySetupCallback;
-import net.minecraft.client.renderer.texture.atlas.SpriteResourceLoader;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 

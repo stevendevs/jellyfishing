@@ -37,8 +37,8 @@ public class Jellyfishing {
 
     public static void init() {
 //        JellyfishingBiomes.BIOMES.register();
-        JellyfishingItems.ITEMS.register();
         JellyfishingBlocks.BLOCKS.register();
+        JellyfishingItems.ITEMS.register();
         JellyfishingFeatures.FEATURES.register();
         JellyfishingEntities.ENTITIES.register();
         JellyfishingSounds.SOUNDS.register();
