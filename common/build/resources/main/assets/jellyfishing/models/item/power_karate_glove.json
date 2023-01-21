@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "jellyfishing:item/power_karate_glove_item"
-  }
-}
