@@ -1,10 +1,12 @@
 package com.jellyfishing.core.registry;
 
+import com.jellyfishing.common.item.AirSuitItem;
 import com.jellyfishing.common.item.BubbleKitItem;
 import com.jellyfishing.common.item.GloveItem;
 import com.jellyfishing.common.item.JellyfishItem;
 import com.jellyfishing.common.item.JellyfishNetItem;
 import com.jellyfishing.common.item.KelpMaterial;
+import com.jellyfishing.common.item.KelpMustacheItem;
 import com.jellyfishing.common.item.KelpShakeItem;
 import com.jellyfishing.common.item.SpatulaItem;
 import com.jellyfishing.common.item.SuitMaterial;
@@ -60,7 +62,7 @@ public class JellyfishingItems {
 
     public static final RegistrySupplier<Item> KELP_SHAKE = register("kelp_shake", () -> new KelpShakeItem(new Item.Properties().stacksTo(16).arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.2F).build())));
 
-    public static final RegistrySupplier<Item> KELP_MUSTACHE = register("kelp_mustache", () -> new ArmorItem(new KelpMaterial(), EquipmentSlot.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> KELP_MUSTACHE = register("kelp_mustache", () -> new KelpMustacheItem(new KelpMaterial(), EquipmentSlot.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
 
     public static final RegistrySupplier<Item> TRIPLE_GOOBERBERRY_SUNRISE = register("triple_gooberberry_sunrise", () -> new Item(new Item.Properties().arch$tab(CreativeModeTabs.FOOD_AND_DRINKS).food(new FoodProperties.Builder().nutrition(10).saturationMod(0.6F).fast().build())));
 
@@ -79,14 +81,24 @@ public class JellyfishingItems {
 
     public static final SuitMaterial SUIT_MATERIAL = new SuitMaterial();
 
-    public static final RegistrySupplier<Item> AIR_SUIT_HELMET = register("air_suit_helmet", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlot.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
-    public static final RegistrySupplier<Item> AIR_SUIT_CHESTPLATE = register("air_suit_chestplate", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlot.CHEST, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
-    public static final RegistrySupplier<Item> AIR_SUIT_LEGGINGS = register("air_suit_leggings", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlot.LEGS, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
-    public static final RegistrySupplier<Item> AIR_SUIT_BOOTS = register("air_suit_boots", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlot.FEET, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> AIR_SUIT_HELMET = register("air_suit_helmet", () -> new AirSuitItem(SUIT_MATERIAL, EquipmentSlot.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> AIR_SUIT_CHESTPLATE = register("air_suit_chestplate", () -> new AirSuitItem(SUIT_MATERIAL, EquipmentSlot.CHEST, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> AIR_SUIT_LEGGINGS = register("air_suit_leggings", () -> new AirSuitItem(SUIT_MATERIAL, EquipmentSlot.LEGS, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+    public static final RegistrySupplier<Item> AIR_SUIT_BOOTS = register("air_suit_boots", () -> new AirSuitItem(SUIT_MATERIAL, EquipmentSlot.FEET, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
 
 //TODO: InvisibilitySpray IDEA!!!!
 
     public static final RegistrySupplier<Item> DIVER_SUIT_HELMET = null;//register("diver_suit_helmet", () -> new ArmorItem(SUIT_MATERIAL, EquipmentSlotType.HEAD, new Item.Properties().arch$tab(CreativeModeTabs.COMBAT)));
+
+    //    private void updateDiverSuit() {
+//        var itemStack = this.getItemBySlot(EquipmentSlot.HEAD);
+//        if (itemStack.getItem() == JellyfishingItems.DIVER_SUIT_HELMET.get()) {
+//            if (this.isInWater()) {
+//                this.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 10, 0, true, true));
+//            }
+//            this.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 10, 0, true, true));
+//        }
+//    }
 
     public static final RegistrySupplier<Item> MUSIC_DISC_JELLYFISH_FIELDS = register("music_disc_jellyfish_fields", () -> new ArchitecturyRecordItem(15, JellyfishingSounds.JELLYFISH_FIELDS, new Item.Properties().arch$tab(CreativeModeTabs.TOOLS_AND_UTILITIES).rarity(Rarity.RARE), 173));
 
