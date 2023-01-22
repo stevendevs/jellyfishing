@@ -1,5 +1,5 @@
 {
-  "loader": "forge:separate-perspective",
+  "loader": "forge:separate_transforms",
   "base": {
     "parent": "minecraft:item/generated",
     "textures": {
@@ -7,16 +7,16 @@
     }
   },
   "perspectives": {
-    "third_person_left_hand": {
+    "thirdperson_lefthand": {
       "parent": "jellyfishing:item/karate_glove_left"
     },
-    "first_person_left_hand": {
+    "firstperson_lefthand": {
       "parent": "jellyfishing:item/karate_glove_left"
     },
-    "third_person_right_hand": {
+    "thirdperson_righthand": {
       "parent": "jellyfishing:item/karate_glove_right"
     },
-    "first_person_right_hand": {
+    "firstperson_righthand": {
       "parent": "jellyfishing:item/karate_glove_right"
     }
   }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "jellyfishing:item/air_suit_helmet"
+    "layer0": "jellyfishing:item/spatula"
   }
 }

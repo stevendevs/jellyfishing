@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "jellyfishing:item/sandy_suit_leggings"
+    "layer0": "jellyfishing:item/air_suit_leggings"
   }
 }

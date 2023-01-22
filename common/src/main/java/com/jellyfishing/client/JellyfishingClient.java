@@ -46,13 +46,13 @@ public class JellyfishingClient {
                     suitModel.setCurrentEntity(entity);
                     contextModel.copyPropertiesTo(suitModel);
                     suitModel.setAllVisible(true);
-                    if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_HELMET))
+                    if (stack.getItem().equals(item))
                         ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/air_suit_helmet.png"));
-                    else if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_CHESTPLATE))
+                    else if (stack.getItem().equals(item1))
                         ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/air_suit_chest.png"));
-                    else if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_LEGGINGS))
+                    else if (stack.getItem().equals(item2))
                         ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/air_suit_legs.png"));
-                    else if (stack.getItem().equals(JellyfishingItems.AIR_SUIT_BOOTS))
+                    else if (stack.getItem().equals(item3))
                         ArmorRenderer.renderPart(matrices, vertexConsumers, light, stack, suitModel, Jellyfishing.id("textures/models/armor/air_suit_boots.png"));
         }, item, item1, item2, item3)))));
 
