@@ -20,7 +20,7 @@ public class Water extends Block implements SimpleWaterloggedBlock {
 
     public Water(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
+        this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, true));
 
     }
 

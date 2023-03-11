@@ -17,7 +17,7 @@ public class JellyfishingVillagers {
     public static final DeferredRegister<PoiType> POIS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.POINT_OF_INTEREST_TYPE);
     public static final DeferredRegister<VillagerProfession> VILLAGER_PROFESSIONS = DeferredRegister.create(Jellyfishing.MOD_ID, Registries.VILLAGER_PROFESSION);
 
-    public static final RegistrySupplier<PoiType> FRYCOOK_POI = createPOI("frycook", 1, 1, JellyfishingBlocks.GRILL);
+    public static final RegistrySupplier<PoiType> FRYCOOK_POI = createPOI("frycook", 1, 10, JellyfishingBlocks.GRILL);
     public static final RegistrySupplier<VillagerProfession> FRYCOOK = createVillagerProfession("frycook", SoundEvents.DISPENSER_FAIL, FRYCOOK_POI);
 
     public static RegistrySupplier<PoiType> createPOI(String id, int ticketCount, int searchDistance, Supplier<Block> block) {

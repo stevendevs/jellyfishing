@@ -1,8 +1,11 @@
 package com.jellyfishing.core.registry;
 
+import com.google.common.collect.ImmutableSet;
+import com.jellyfishing.common.block.PineapplePlant;
 import com.jellyfishing.core.Jellyfishing;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration;

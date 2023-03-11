@@ -1,10 +1,6 @@
 package com.jellyfishing.core.registry;
 
-import com.jellyfishing.common.block.AlgaeGrassBlock;
-import com.jellyfishing.common.block.BubbleBlock;
-import com.jellyfishing.common.block.PineapplePlant;
-import com.jellyfishing.common.block.SeanutBush;
-import com.jellyfishing.common.block.Water;
+import com.jellyfishing.common.block.*;
 import com.jellyfishing.core.Jellyfishing;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -14,20 +10,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.BaseCoralPlantBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DirectionalBlock;
-import net.minecraft.world.level.block.DoorBlock;
-import net.minecraft.world.level.block.FlowerPotBlock;
-import net.minecraft.world.level.block.HoneyBlock;
-import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.SlimeBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.TrapDoorBlock;
-import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 
@@ -123,7 +106,7 @@ public class JellyfishingBlocks {
 
     public static final RegistrySupplier<Block> BUBBLE_BLOCK = create("bubble_block", () -> new BubbleBlock(Block.Properties.of(Material.CLAY, MaterialColor.GRASS).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion()));
 
-    public static final RegistrySupplier<Block> GRILL = create("grill", () -> new DirectionalBlock(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops().noOcclusion()) { //Tool Iron PICKAXE
+    public static final RegistrySupplier<Block> GRILL = create("grill", () -> new GrillBlock(Block.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).sound(SoundType.METAL).strength(2F, 2F).requiresCorrectToolForDrops().noOcclusion()) { //Tool Iron PICKAXE
     }, CreativeModeTabs.FUNCTIONAL_BLOCKS);
 
     public static final RegistrySupplier<Block> POTTED_PINEAPPLE = create("potted_pineapple", () -> new FlowerPotBlock(PINEAPPLE_PLANT.get(), Block.Properties.copy(Blocks.FLOWER_POT)));

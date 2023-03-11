@@ -1,7 +1,8 @@
 {
   "loader": "forge:separate_transforms",
   "base": {
-    "parent": "jellyfishing:item/spatula_gui"
+    "parent": "jellyfishing:item/spatula_gui",
+    "gui_lighting": "front"
   },
   "perspectives": {
     "firstperson_lefthand": {
