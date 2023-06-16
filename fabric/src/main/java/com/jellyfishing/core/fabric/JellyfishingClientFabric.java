@@ -1,12 +1,15 @@
 package com.jellyfishing.core.fabric;
 
 import com.jellyfishing.client.JellyfishingClient;
+import com.jellyfishing.core.Jellyfishing;
 import net.fabricmc.api.ClientModInitializer;
 
 public class JellyfishingClientFabric implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         JellyfishingClient.onClientInit();
+
+
 
 //        BuiltinItemRendererRegistry.INSTANCE.register(JellyfishingItems.SPATULA.get(), SpatulaItemRender.INSTANCE);
 

@@ -7,3 +7,4 @@ accessible method net/minecraft/data/worldgen/SurfaceRuleData makeStateRule (Lne
 accessible method net/minecraft/world/damagesource/DamageSource <init> (Ljava/lang/String;)V
 accessible method net/minecraft/world/damagesource/DamageSource bypassArmor ()Lnet/minecraft/world/damagesource/DamageSource;
 accessible method net/minecraft/world/entity/SpawnPlacements register (Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/SpawnPlacements$Type;Lnet/minecraft/world/level/levelgen/Heightmap$Types;Lnet/minecraft/world/entity/SpawnPlacements$SpawnPredicate;)V
+accessible method net/minecraft/world/entity/ai/village/poi/PoiTypes	register	(Lnet/minecraft/core/Registry;Lnet/minecraft/resources/ResourceKey;Ljava/util/Set;II)Lnet/minecraft/world/entity/ai/village/poi/PoiType;

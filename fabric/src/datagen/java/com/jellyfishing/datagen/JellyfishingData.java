@@ -5,6 +5,7 @@ import com.jellyfishing.core.Jellyfishing;
 import com.jellyfishing.core.registry.JellyfishingPaintings;
 import com.jellyfishing.datagen.provider.JellyBlockTagProvider;
 import com.jellyfishing.datagen.provider.JellyPaintingTagProvider;
+import com.jellyfishing.datagen.provider.JellyPoiTypeProvider;
 import com.jellyfishing.datagen.provider.JellyWorldGenProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -19,6 +20,7 @@ public class JellyfishingData implements DataGeneratorEntrypoint {
         pack.addProvider(JellyWorldGenProvider::new);
         pack.addProvider(JellyBlockTagProvider::new);
         pack.addProvider(JellyPaintingTagProvider::new);
+        pack.addProvider(JellyPoiTypeProvider::new);
     }
 
     @Override

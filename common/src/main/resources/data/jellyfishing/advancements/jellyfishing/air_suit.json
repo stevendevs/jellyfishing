@@ -2,7 +2,7 @@
   "parent": "jellyfishing:jellyfishing/root",
 
   "criteria": {
-    "netherite_armor": {
+    "air_suit_armor": {
       "conditions": {
         "items": [
           {

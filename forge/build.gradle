@@ -39,6 +39,13 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
     modImplementation ('com.github.glitchfiend:TerraBlender-forge:' + minecraft_version + '-' + terrablender_version)
+    modImplementation ('com.github.LudoCrypt:Shapes-Api-Forge:1.1.4')
+
+}
+
+def includeMod(String dep) {
+    dependencies.modImplementation(dep)
+    dependencies.include(dep)
 }
 
 processResources {

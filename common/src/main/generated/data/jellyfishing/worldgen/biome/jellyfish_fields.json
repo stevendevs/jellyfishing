@@ -10,8 +10,8 @@
       "tick_delay": 6000
     },
     "music": {
-      "max_delay": 4000,
-      "min_delay": 200,
+      "max_delay": 24000,
+      "min_delay": 12000,
       "replace_current_music": false,
       "sound": "jellyfishing:music.general"
     },
@@ -19,7 +19,7 @@
       "options": {
         "type": "jellyfishing:cloud_particle"
       },
-      "probability": 5.0E-6
+      "probability": 3.5E-6
     },
     "sky_color": 7842047,
     "water_color": 4566523,

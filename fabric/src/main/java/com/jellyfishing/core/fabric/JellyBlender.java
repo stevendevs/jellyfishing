@@ -22,7 +22,7 @@ public class JellyBlender implements TerraBlenderApi {
     public void onTerraBlenderInitialized() {
         Regions.register(new JellyfishingBiomeRegion());
 
-        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, Jellyfishing.MOD_ID, JellyfishFieldsSurfaceRuleData.makeRules());
+//        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, Jellyfishing.MOD_ID, JellyfishFieldsSurfaceRuleData.makeRules());
     }
 
     public static class JellyfishingBiomeRegion extends Region {

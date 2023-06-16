@@ -16,12 +16,14 @@ import com.jellyfishing.core.registry.JellyfishingPaintings;
 import com.jellyfishing.core.registry.JellyfishingParticles;
 import com.jellyfishing.core.registry.JellyfishingSounds;
 import com.jellyfishing.core.registry.JellyfishingVillagers;
+import com.jellyfishing.core.util.PointOfInterestHelper;
 import dev.architectury.event.events.common.LifecycleEvent;
 import dev.architectury.event.events.common.LootEvent;
 import dev.architectury.registry.level.biome.BiomeModifications;
 import dev.architectury.registry.level.entity.EntityAttributeRegistry;
 import dev.architectury.registry.level.entity.trade.TradeRegistry;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.Musics;
 import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.item.Items;
@@ -35,6 +37,8 @@ import java.util.Set;
 public class Jellyfishing {
     public static final String MOD_ID = "jellyfishing";
 
+    //todo: jellyfishing machine  https://cdn.discordapp.com/attachments/735677544094760970/737278533533171733/unknown.png, king jellyfish, fix clouds
+    //todo: brittlestone https://media.discordapp.net/attachments/735677322405085184/743634633161179226/image0.png
     public static void init() {
 //        JellyfishingBiomes.BIOMES.register();
         JellyfishingBlocks.BLOCKS.register();
@@ -43,10 +47,10 @@ public class Jellyfishing {
         JellyfishingEntities.ENTITIES.register();
         JellyfishingSounds.SOUNDS.register();
         JellyfishingPaintings.PAINTINGS.register();
-        JellyfishingVillagers.POIS.register();
-        JellyfishingVillagers.VILLAGER_PROFESSIONS.register();
         JellyfishingEnchantments.ENCHANTMENTS.register();
         JellyfishingParticles.PARTICLES.register();
+
+        JellyfishingBlocks.GRILL.listen(block -> PointOfInterestHelper.register(Jellyfishing.id("frycook"), 1, 1, block));
 
 //        JellyfishingExtras.registerVillagerProducts();
         JellyfishingExtras.registerFlammables();
@@ -69,6 +73,7 @@ public class Jellyfishing {
         LifecycleEvent.SETUP.register(() -> {
             BiomeModifications.addProperties((ctx, mutable) -> {
                 if (ctx.getKey().get().equals(JellyfishingBiomes.JELLYFISH_FIELDS.registry())) {
+                    mutable.getEffectsProperties().setBackgroundMusic(Musics.createGameMusic(JellyfishingSounds.BACKGROUND_MUSIC));
                     mutable.getGenerationProperties().addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, JellyfishingBiome.PLACED_JELLY_FEATURES);
                 }
             });
@@ -124,67 +129,67 @@ public class Jellyfishing {
 
         public static void villagerTrades() {
             // FISHERMAN //
-            JellyfishingItems.JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 3, 5, 10, 0.05F)));
-            JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 3, item, 3, 5, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH_JELLY.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 3, 5, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 3, item, 3, 5, 10, 0.05F)));
 
-            JellyfishingItems.JELLYFISH_NET.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 2, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH_NET.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 2, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
 
-            JellyfishingItems.JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 7, item, 1, 3, 10, 0.05F)));
-            JellyfishingItems.BLUE_JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 9, item, 1, 3, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 7, item, 1, 3, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 9, item, 1, 3, 10, 0.05F)));
 
-            JellyfishingBlocks.CORAL_PLANT.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, block.asItem(), 3, 5, 10, 0.05F)));
-            JellyfishingBlocks.TUBE_PLANT.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, block.asItem(), 2, 5, 10, 0.05F)));
+            JellyfishingBlocks.CORAL_PLANT.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, block.asItem(), 3, 5, 10, 0.05F)));
+            JellyfishingBlocks.TUBE_PLANT.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FISHERMAN, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, block.asItem(), 2, 5, 10, 0.05F)));
 
             // MASON //
-            JellyfishingBlocks.POLISHED_CORALSTONE.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, block.asItem(), 4, 5, 10, 0.05F)));
-            JellyfishingBlocks.CORALSTONE.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, block.asItem(), 8, 5, 10, 0.05F)));
-            JellyfishingBlocks.CORALSTONE.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(block.asItem(), 16, Items.EMERALD, 1, 5, 10, 0.05F)));
-            JellyfishingBlocks.CORALSTONE.listen((block)-> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 4, new JellyfishingSellItemFactory.SellItemFactory(block.asItem(), 8, Items.EMERALD, 1, 5, 10, 0.05F)));
+            JellyfishingBlocks.POLISHED_CORALSTONE.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, block.asItem(), 4, 5, 10, 0.05F)));
+            JellyfishingBlocks.CORALSTONE.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, block.asItem(), 8, 5, 10, 0.05F)));
+            JellyfishingBlocks.CORALSTONE.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 3, new JellyfishingSellItemFactory.SellItemFactory(block.asItem(), 16, Items.EMERALD, 1, 5, 10, 0.05F)));
+            JellyfishingBlocks.CORALSTONE.listen((block) -> TradeRegistry.registerVillagerTrade(VillagerProfession.MASON, 4, new JellyfishingSellItemFactory.SellItemFactory(block.asItem(), 8, Items.EMERALD, 1, 5, 10, 0.05F)));
 
             // CLERIC //
-            JellyfishingItems.JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 4, Items.EMERALD, 1, 8, 10, 0.05F)));
-            JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 3, Items.EMERALD, 1, 8, 10, 0.05F)));
-            JellyfishingItems.SEANUT_BUTTER.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 3, new JellyfishingSellItemFactory.SellItemFactory(item, 3, Items.EMERALD, 1, 6, 10, 0.05F)));
-            JellyfishingItems.KELP_SHAKE.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 6, 10, 0.05F)));
-            JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 3, item, 1, 5, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH_JELLY.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 4, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 3, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.SEANUT_BUTTER.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 3, new JellyfishingSellItemFactory.SellItemFactory(item, 3, Items.EMERALD, 1, 6, 10, 0.05F)));
+            JellyfishingItems.KELP_SHAKE.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 6, 10, 0.05F)));
+            JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.CLERIC, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 3, item, 1, 5, 10, 0.05F)));
 
             // FARMER //
-            JellyfishingItems.SEANUT.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.FARMER, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 24, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.SEANUT.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.FARMER, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 24, Items.EMERALD, 1, 8, 10, 0.05F)));
 
             // TOOLSMITH //
-            JellyfishingItems.JELLYFISH_NET.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.TOOLSMITH, 2, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH_NET.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.TOOLSMITH, 2, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
 
             // WEAPONSMITH //
-            JellyfishingItems.SPATULA.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.WEAPONSMITH, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 16, item, 1, 3, 10, 0.05F)));
+            JellyfishingItems.SPATULA.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.WEAPONSMITH, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 16, item, 1, 3, 10, 0.05F)));
 
             // ARMORER //
-            JellyfishingItems.KELP_MUSTACHE.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.ARMORER, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 5, 10, 0.05F)));
+            JellyfishingItems.KELP_MUSTACHE.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.ARMORER, 1, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 5, 10, 0.05F)));
 
             // BUTCHER //
-            JellyfishingItems.KRABBY_PATTY.listen((item)-> TradeRegistry.registerVillagerTrade(VillagerProfession.BUTCHER, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
-
+            JellyfishingItems.KRABBY_PATTY.listen((item) -> TradeRegistry.registerVillagerTrade(VillagerProfession.BUTCHER, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 5, item, 1, 5, 10, 0.05F)));
+        
             // FRYCOOK //
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.JELLYFISH_JELLY.get(), 20, Items.EMERALD, 1, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.BLUE_JELLYFISH_JELLY.get(), 16, Items.EMERALD, 1, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.SEANUT_BUTTER.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.SEANUT_BUTTER.get(), 8, Items.EMERALD, 1, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.SEANUT.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.SEANUT.get(), 20, Items.EMERALD, 1, 8, 10, 0.05F))));
+            JellyfishingItems.JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.JELLYFISH_JELLY.get(), 20, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH_JELLY.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.BLUE_JELLYFISH_JELLY.get(), 16, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.SEANUT_BUTTER.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.SEANUT_BUTTER.get(), 8, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.SEANUT.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 1, new JellyfishingSellItemFactory.SellItemFactory(JellyfishingItems.SEANUT.get(), 20, Items.EMERALD, 1, 8, 10, 0.05F)));
 
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 5, Items.EMERALD, 1, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.BLUE_JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 2, Items.EMERALD, 1, 8, 10, 0.05F))));
+            JellyfishingItems.JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 5, Items.EMERALD, 1, 8, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 2, new JellyfishingSellItemFactory.SellItemFactory(item, 2, Items.EMERALD, 1, 8, 10, 0.05F)));
 
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.ROASTED_SEANUT.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 36, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 2, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.BLUE_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F))));
+            JellyfishingItems.ROASTED_SEANUT.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 36, 16, 10, 0.05F)));
+            JellyfishingItems.JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 2, 16, 10, 0.05F)));
+            JellyfishingItems.BLUE_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 3, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F)));
 
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 3, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.SEANUT_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.SEANUT_BRITTLE.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 8, 16, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.KELP_SHAKE.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F))));
+            JellyfishingItems.TRIPLE_GOOBERBERRY_SUNRISE.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 3, 16, 10, 0.05F)));
+            JellyfishingItems.SEANUT_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F)));
+            JellyfishingItems.SEANUT_BLUE_JELLYFISH_JELLY_SANDWICH.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 16, 10, 0.05F)));
+            JellyfishingItems.SEANUT_BRITTLE.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 8, 16, 10, 0.05F)));
+            JellyfishingItems.KELP_SHAKE.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 4, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 1, item, 1, 16, 10, 0.05F)));
 
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.GREASE_BALL.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 5, new JellyfishingSellItemFactory.SellItemFactory(item, 1, Items.EMERALD, 32, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.KRABBY_PATTY.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 8, 10, 0.05F))));
-            JellyfishingVillagers.FRYCOOK.listen((cook)-> JellyfishingItems.KARATE_GLOVE.listen((item)-> TradeRegistry.registerVillagerTrade(cook, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 8, item, 1, 3, 10, 0.05F))));
+            JellyfishingItems.GREASE_BALL.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 5, new JellyfishingSellItemFactory.SellItemFactory(item, 1, Items.EMERALD, 32, 8, 10, 0.05F)));
+            JellyfishingItems.KRABBY_PATTY.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 2, item, 1, 8, 10, 0.05F)));
+            JellyfishingItems.KARATE_GLOVE.listen((item)-> TradeRegistry.registerVillagerTrade(JellyfishingVillagers.FRYCOOK, 5, new JellyfishingSellItemFactory.SellItemFactory(Items.EMERALD, 8, item, 1, 3, 10, 0.05F)));
         }
 
         public static void traderTrades() {

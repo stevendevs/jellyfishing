@@ -1,5 +1,6 @@
 package com.jellyfishing.core.registry;
 
+import com.jellyfishing.common.features.ArchFeatureConfiguration;
 import com.jellyfishing.common.features.CoralPlantFeature;
 import com.jellyfishing.common.features.PineapplePlantFeature;
 import com.jellyfishing.common.features.SeanutBushFeature;
@@ -26,6 +27,7 @@ public class JellyfishingFeatures {
     public static final RegistrySupplier<Feature<NoneFeatureConfiguration>> TUBE_PLANT_FEATURE = create("tube_plant_feature", () -> new TubePlantFeature(NoneFeatureConfiguration.CODEC));
     public static final RegistrySupplier<Feature<NoneFeatureConfiguration>> SEANUT_BUSH_FEATURE = create("seanut_bush_feature", () -> new SeanutBushFeature(NoneFeatureConfiguration.CODEC));
     public static final RegistrySupplier<Feature<ProbabilityFeatureConfiguration>> PINEAPPLE_PLANT_FEATURE = create("pineapple_plant_feature", () -> new PineapplePlantFeature(ProbabilityFeatureConfiguration.CODEC));
+    public static final RegistrySupplier<Feature<NoneFeatureConfiguration>> ARCH_FEATURE = create("arch_feature", () -> new ArchFeatureConfiguration(NoneFeatureConfiguration.CODEC));
 
     private static <C extends FeatureConfiguration, F extends Feature<C>> RegistrySupplier<F> create(String key, Supplier<F> value) {
         return FEATURES.register(key, value);

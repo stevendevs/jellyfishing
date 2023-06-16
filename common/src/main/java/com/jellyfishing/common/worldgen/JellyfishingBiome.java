@@ -66,13 +66,12 @@ public class JellyfishingBiome {
             Jellyfishing.id("jelly_features")
     );
 
-    public static final Holder.Reference<SoundEvent> BACKGROUND_MUSIC_HOLDER = createForHolder(JellyfishingSounds.BACKGROUND_MUSIC);
-    public static AmbientParticleSettings PARTICLES = new AmbientParticleSettings(JellyfishingParticles.CLOUD_PARTICLE.get(), 0.000005F);
+    public static AmbientParticleSettings PARTICLES = new AmbientParticleSettings(JellyfishingParticles.CLOUD_PARTICLE.get(), 0.0000035F);
 
     private static Holder.Reference<SoundEvent> createForHolder(RegistrySupplier<SoundEvent> event) {
-        AtomicReference<Holder.Reference<SoundEvent>> soundEventReference = new AtomicReference<>();
-        event.listen((soundEvent -> soundEventReference.set(BuiltInRegistries.SOUND_EVENT.createIntrusiveHolder(event.get()))));
-        return soundEventReference.get();
+        AtomicReference<Holder.Reference<SoundEvent>> reference = new AtomicReference<>();
+        event.listen((soundEvent -> reference.set(BuiltInRegistries.SOUND_EVENT.createIntrusiveHolder(soundEvent))));
+        return reference.get();
     }
 
     public static void bootstrapBiomes(BootstapContext<Biome> biomeRegisterable) {
@@ -114,7 +113,8 @@ public class JellyfishingBiome {
                 new SimpleRandomFeatureConfiguration(HolderSet.direct(
                         PlacementUtils.inlinePlaced(JellyfishingFeatures.CORAL_PLANT_FEATURE.get(), FeatureConfiguration.NONE),
                         PlacementUtils.inlinePlaced(JellyfishingFeatures.SEANUT_BUSH_FEATURE.get(), FeatureConfiguration.NONE),
-                        PlacementUtils.inlinePlaced(JellyfishingFeatures.TUBE_PLANT_FEATURE.get(), FeatureConfiguration.NONE)
+                        PlacementUtils.inlinePlaced(JellyfishingFeatures.TUBE_PLANT_FEATURE.get(), FeatureConfiguration.NONE),
+                        PlacementUtils.inlinePlaced(JellyfishingFeatures.ARCH_FEATURE.get(), FeatureConfiguration.NONE)
                 )));
 
         FeatureUtils.register(
@@ -147,6 +147,6 @@ public class JellyfishingBiome {
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
         biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_JELLY_FEATURES);
 
-        return biome(Biome.Precipitation.RAIN, 0.8F, 0.4F, 4566523, 2587774, 7842047, spawnBuilder, biomeBuilder, Musics.createGameMusic(BACKGROUND_MUSIC_HOLDER), PARTICLES);
+        return biome(Biome.Precipitation.RAIN, 0.8F, 0.4F, 4566523, 2587774, 7842047, spawnBuilder, biomeBuilder, Musics.createGameMusic(JellyfishingSounds.BACKGROUND_MUSIC), PARTICLES);
     }
 }

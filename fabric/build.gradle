@@ -54,6 +54,14 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
+    includeMod "com.terraformersmc.terraform-api:terraform-shapes-api-v1:${project.terraform_shapes_api_version}"
+}
+
+
+def includeMod(String dep) {
+    dependencies.modImplementation(dep)
+    dependencies.include(dep)
 }
 
 processResources {

@@ -19,6 +19,6 @@ public class KelpMustacheItem extends ArmorItem implements ItemExtension {
         if (player.getLevel().getRandom().nextDouble() < 0.025) {
             stack.hurtAndBreak(1, player, (delete) -> delete.broadcastBreakEvent(EquipmentSlot.HEAD));
         }
-        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 10, 0));
+        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 0));
     }
 }

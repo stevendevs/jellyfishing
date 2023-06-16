@@ -11,8 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.material.PushReaction;
 
-public class GrillBlock
-        extends HorizontalDirectionalBlock {
+public class GrillBlock extends HorizontalDirectionalBlock {
     public GrillBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }
